@@ -1,0 +1,23 @@
+# Subject: Setting Up
+This assignment is about the Linux Operating System.  Using Linux is mostly done in the Command Line Interface(CLI),which means that it doesn't have a Graphical User Interface (GUI). This assignment is to introduce Linux 
+
+## Key-terms
+[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
+
+## Assignment
+Make an SSH-connection to your virtual machine. SSH requires the key file to have specific permissions, so you might need to change those.
+When the connection is successful, type whoami in the terminal. This command should show your username.
+
+
+### Resources
+[Plaats hier de bronnen die je hebt gebruikt.]
+
+### Difficulties
+[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+
+### Results
+[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+### Reflection/Learning
+
+
