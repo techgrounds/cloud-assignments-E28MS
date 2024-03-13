@@ -20,6 +20,8 @@ Move around your directory tree using both absolute and relative paths.
 ### Resources
 (https://linuxhandbook.com/linux-directory-structure/)
 
+https://linuxsimply.com/cheat-sheets/ubuntu-commands/
+
 ## Difficulties
 I didn't understand what 'make a listing'meant - just using the ls command?
 
