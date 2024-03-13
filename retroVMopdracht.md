@@ -5,14 +5,14 @@ I was provided with some credential information and then I had to log into my re
 
 ## Key-terms
 
-SSH - Secure Shell: This is a protocol for securely sending commands to a computer over an unprotected network.  It is used for controlling infrastructure, managing servers remotely and sending files.
+**SSH** - Secure Shell: This is a protocol for securely sending commands to a computer over an unprotected network.  It is used for controlling infrastructure, managing servers remotely and sending files.
 
 
-Linux VM - Linux Virtual Machine
+**Linux VM** - Linux Virtual Machine
 
-Pem Key - Privacy Enhanced Mail files are a type of Public Key Infrastructure file that is used for security and certificates.  They are an internet security standard.
+**Pem Key** - Privacy Enhanced Mail files are a type of Public Key Infrastructure file that is used for security and certificates.  They are an internet security standard.
 
-Web port - A port is a number uniquely identifiying a logical endpoint of a network and to direct data to a specific service.
+**Web port** - A port is a number uniquely identifiying a logical endpoint of a network and to direct data to a specific service.
 
 
 
