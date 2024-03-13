@@ -1,5 +1,7 @@
 # Subject: This is an introduction to the Linux folder structure and how to navigate it
-[Geef een korte beschrijving van het onderwerp]
+Linux has a directory structure where everything stems from /root directory.
+
+{https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png}
 
 ## Assignment
 
