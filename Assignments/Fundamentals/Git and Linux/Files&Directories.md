@@ -24,11 +24,14 @@ ls - lists
 
 
 ### Resources
-(https://linuxhandbook.com/linux-directory-structure/)
 
-https://linuxsimply.com/cheat-sheets/ubuntu-commands/
+[Google Images Search](https://www.google.com/search?sca_esv=fb15e9ca2cde264d&sxsrf=ACQVn08IXLqsL9Hy8MkuGlY0Po4ejx0SOw:1710416449024&q=directory+structure+picture+of+linux+structure&udm=2&uds=AMwkrPvFwQQy0EH0_6ou8JUrWCkDKI3g2v3czPmDu56ATivlGixlbEh2Op-0opuGX4-IpWfxrCpuJnOrYg8d6UX9Inx9k8LQU6WCHICGa7_Hu_U6M5LrGs-ZSHaAuh_lmmnT2BgbuOEmdGslY9TvkLyJcpNr1CpVjyHvr2weINsm6oJeiw0xleg&sa=X&ved=2ahUKEwi9sPLm1fOEAxX91AIHHRy4Bw8QgIoDKAd6BAg3EB4&biw=1535&bih=1558&dpr=1.25#vhid=ihLzCQoqvavPmM&vssid=mosaic&vwlns=WyIwQ0JRUWg2Y0dhaGNLRXdpWTMtQ0gxdk9FQXhVQUFBQUFIUUFBQUFBUUJBIl0=&lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKREJrTldaaU5qQTJMVEJoT1dRdE5HVXlaaTA1T1dRekxXTmhOR0ZrTmpRMk5tWXpaQklmVFhsTldGOXFOVXB6UXpSV1RVbG5SM0JuU1V4dVVETnZWemwyVXpSNFp3PT0iLG51bGwsbnVsbCxudWxsLDEsbnVsbCxbbnVsbCxudWxsLFs0ODA0MywwLDMxODM1LDI4MzY2XV1d)
 
-ChatGPT - I tried to only use this if I couldn't find my answer another way, as it's so tempting to use but I'm concerned it actually slows down my retention of information.  It is super useful and amazing as a tutor, though it also makes silly mistakes.  
+[Linux Handbook](https://linuxhandbook.com/linux-directory-structure/)
+
+[Linux Simply](https://linuxsimply.com/cheat-sheets/ubuntu-commands/)
+
+ChatGPT - I tried to only use this if I couldn't find my answer another way, as it's so tempting to use but I'm concerned it actually slows down my retention of information.  I find it super useful and amazing as a tutor and I continue to explore how this LLM can enhance my learning.  
 
 
 
