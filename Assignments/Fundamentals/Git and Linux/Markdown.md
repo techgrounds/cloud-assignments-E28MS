@@ -4,9 +4,6 @@
 
 This is some code:
 
-
-This is some code:
-
     import time
 
     for i in range(5, 0, -1):
