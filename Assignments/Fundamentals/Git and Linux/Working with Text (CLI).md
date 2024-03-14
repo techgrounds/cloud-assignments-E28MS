@@ -33,6 +33,8 @@ Read your text file with the command used in the second step, once again filteri
 
 [Linux Simply](https://linuxsimply.com/cheat-sheets/ubuntu-commands/)
 
+[Echo Command in Linux](https://linuxsimply.com/echo-command-in-linux/)
+
 ChatGPT
 
 
