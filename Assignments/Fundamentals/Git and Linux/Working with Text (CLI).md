@@ -40,10 +40,13 @@ ChatGPT
 
 
 ##  Difficulties
-
+I realised that during my first attempt at this assignment, I only added one sentence to the textfile.  So I added another sentence to textfile using input redirection in order to be able to complete the final parts of the assignment.
 
 
 ##  Results
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0cef6fac-3528-427d-98cc-053d87b86695)
+
 
 ##  Reflection/Learning
 
