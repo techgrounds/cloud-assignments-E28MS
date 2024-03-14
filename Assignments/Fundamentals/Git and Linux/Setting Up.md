@@ -20,26 +20,26 @@ When the connection is successful, type whoami in the terminal. This command sho
 
 
 ### Resources
-[Microsoft Learn]{https://learn.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows}
+*  [Microsoft Learn]{(https://learn.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows)
 
 
-ChatGPT
+*  ChatGPT
 
 
-My team mates and learning coach provided some useful tips about the correct order of the command and also suggested I re-check the Public IP address.
+*  My team mates and learning coach provided some useful tips about the correct order of the command and also suggested I re-check the Public IP address.
 
-{https://www.cloudflare.com/en-gb/learning/access-management/what-is-ssh/)
+*  [Cloud Flare]{https://www.cloudflare.com/en-gb/learning/access-management/what-is-ssh/)
 
-{https://docs.microfocus.com/SM/9.51/Hybrid/Content/security/concepts/what_are_pem_files.htm#:~:text=Privacy%20Enhanced%20Mail%20(PEM)%20files,now%20an%20Internet%20security%20standard.}
+*  [Micro Focus]{https://docs.microfocus.com/SM/9.51/Hybrid/Content/security/concepts/what_are_pem_files.htm#:~:text=Privacy%20Enhanced%20Mail%20(PEM)%20files,now%20an%20Internet%20security%20standard.}
 
-{https://en.wikipedia.org/wiki/Port_(computer_networking)}
+*  [Wikipedia]{https://en.wikipedia.org/wiki/Port_(computer_networking)}
 
 
 ### Difficulties
--Repeated error message 'publickey'
+-  Repeated error message 'publickey'
 
 
--Repeated 'connection timed out' error message
+-  Repeated 'connection timed out' error message
 
 ### Results
 I managed to log into my container in the VM after resolving the above errors by fixing the order of the credential information and by identifiying and fixing an error in the VM Public IP that I had mistyped.
