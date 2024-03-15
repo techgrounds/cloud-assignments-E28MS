@@ -103,6 +103,11 @@ Then I tried this :  cat secondtextfile.txt | grep techgrounds
 
 Which again just highlihgted the word techgrounds and produced both sentences on the screen. Mmmmmmhhhhhhh.....
 
+Using output redirection to write a list into a file:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c6dbcb4a-60a2-436e-9bc2-a7bca0f981cc)
+
+
 
 ##  Reflection/Learning
 
