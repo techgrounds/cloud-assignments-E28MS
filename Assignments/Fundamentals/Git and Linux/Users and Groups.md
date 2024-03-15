@@ -49,6 +49,11 @@ Next I located the file that stores passwords using the cat /etc/passwd command:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/aae561b3-7f11-43c2-a270-91b49f5442cf)
 
+Here I created a new group called 'admingroup' and added my new user Binky to it:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2bd9d26b-2582-4eea-a444-83b7c582e004)
+
+
 
 
 
