@@ -10,13 +10,21 @@ Locate the files that store users, passwords, and groups. Find your newly create
 
 ##  Key Terms
 
+Hashed password: This means that the password is encrypted
+
 ##  Resources
+
+I decided *not* to use ChatGPT for this assignment.
 
 [Digital Ocean Tutorials](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu)
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-check-the-groups-a-user-belongs-to-in-linux/)
 
 [Linux Simply](https://linuxsimply.com/ubuntu-create-group-and-add-user/)
+
+[Ubuntu Man Pages](https://manpages.ubuntu.com/manpages/focal/en/man5/shadow.5.html)
+
+[Cyberciti FAQ](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)
 
 
 ##  Difficulties
@@ -67,9 +75,14 @@ I used the getent group command again and noted that my two admin groups have be
 
 ## Part 2:
 
-Here I used the /etc/passwd command to see all the users, but I cut out all the unneccassary information using options:
-
+Here I used the /etc/passwd command to see all the users, but I cut out all the unneccassary information using 
+cut command to split on colon delimiters (-d :):
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d4c75e19-1f76-45bb-8edf-a5a4863fb7f7)
+
+This is the /etc/shadow file that contains passwords, including Binky's:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1feb3960-8221-4212-ab17-90efa1ead1bc)
+
 
 
 
