@@ -26,7 +26,7 @@ First try to add Binky to sudo group :
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/dead0c4c-f06f-4b58-ae4d-26864f724e26)
 
 
-##  Results
+##  Results : Part 1
 
 New user added, as I didn't have root permissions, I used the sudo command to create a new user with a password:
 
@@ -60,6 +60,17 @@ Next I located the file that stores passwords using the cat /etc/passwd command:
 Here I created a new group called 'admingroup' and added my new user Binky to it:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2bd9d26b-2582-4eea-a444-83b7c582e004)
+
+I used the getent group command again and noted that my two admin groups have been created and then used the groups (username) command to check if Binky was in an admin group:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a3a3f636-1fee-4730-aaef-7a1bb05adad3)
+
+## Part 2:
+
+Here I used the /etc/passwd command to see all the users, but I cut out all the unneccassary information using options:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d4c75e19-1f76-45bb-8edf-a5a4863fb7f7)
+
 
 
 
