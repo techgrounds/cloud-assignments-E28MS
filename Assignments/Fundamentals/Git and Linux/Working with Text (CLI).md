@@ -107,6 +107,11 @@ Using output redirection to write a list into a file:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c6dbcb4a-60a2-436e-9bc2-a7bca0f981cc)
 
+Here I used the grep command to filter the text in my textfile, only the sentences containing the word 'techgrounds' was displayed on the terminal.  
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c38ecfb2-baaa-42df-965b-5ac8e5e3aa25)
+
+
 
 
 ##  Reflection/Learning
