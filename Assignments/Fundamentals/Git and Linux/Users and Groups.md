@@ -1,6 +1,12 @@
 ##  Subject: Users and Groups
+This introduces how to create users and groups and to add users to groups, provide sudo priveliges to users etc.
 
 ##  Assignment
+Create a new user in your VM.
+The new user should be part of an admin group.
+The new user should have a password.
+The new user should be able to use ‘sudo’
+Locate the files that store users, passwords, and groups. Find your newly created user’s data in there.
 
 ##  Key Terms
 
@@ -9,6 +15,8 @@
 [Digital Ocean Tutorials](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu)
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-check-the-groups-a-user-belongs-to-in-linux/)
+
+[Linux Simply](https://linuxsimply.com/ubuntu-create-group-and-add-user/)
 
 
 ##  Difficulties
