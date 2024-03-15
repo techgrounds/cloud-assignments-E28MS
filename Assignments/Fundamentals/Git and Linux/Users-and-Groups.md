@@ -45,6 +45,13 @@ And then used the getent group command to see if my admin group was created:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/920f5eda-5038-4c26-8b0d-eb3c9e0222f4)
 
+Next I located the file that stores passwords using the cat /etc/passwd command:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/aae561b3-7f11-43c2-a270-91b49f5442cf)
+
+
+
+
 
 
 
