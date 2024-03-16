@@ -1,4 +1,6 @@
-##  Subject:
+##  Subject: File Permissions
+
+This introduces the concepts of file permissions and how to manipulate this in Linux.
 
 ##  Assignment
 Create a text file.
@@ -22,13 +24,15 @@ Change the group ownership of the file to a different group.
 
 [Linux Simply](https://linuxsimply.com/ubuntu-file-permissions-command/)
 
+[Geeks for Geeks](https://www.geeksforgeeks.org/how-to-check-the-groups-a-user-belongs-to-in-linux/)
+
 ChatGPT
 
 ##  Difficulties
-I couldn't easily located how to iterpret the information that I received from the long list of the file permissions on my favourite resource, Linux Simply.  The only information that was clear to me at first glance was that elmarie_ only had read/write permission.  I guessed that elmarie_ was also the owner and the group but I wasn't sure which instance of elmarie_ indicated which.  So I asked ChatGPT to break the information into the relevant bits to identify where I find the owner and the group and what the 1 meant.  It's explanation didn't make sense as it indicated that both the group and the owner was indicated by the first instance of elmarie_ in the string.  I challenged that and then it said that the first instance of elmarie_ indicates the owner of the file and the second instance of elmarie_indicates the group.  
+1.  I couldn't easily located how to iterpret the information that I received from the long list of the file permissions on my favourite resource, Linux Simply.  The only information that was clear to me at first glance was that elmarie_ only had read/write permission.  I guessed that elmarie_ was also the owner and the group but I wasn't sure which instance of elmarie_ indicated which.  So I asked ChatGPT to break the information into the relevant bits to identify where I find the owner and the group and what the 1 meant.  It's explanation didn't make sense as it indicated that both the group and the owner was indicated by the first instance of elmarie_ in the string.  I challenged that and then it said that the first instance of elmarie_ indicates the owner of the file and the second instance of elmarie_indicates the group.  
 **Learning**: This was an obvious and easy mistake to catch and confirmed again that information from ChatGPT should always be double checked, however, I find it useful to give me a starting point when I'm lost.
 
-When I tried to removew *rw* permissions for the group, it seemed to only remove the write permission.
+2.  When I tried to removew *rw* permissions for the group, it seemed to only remove the write permission.  I couldn't figure out how to remove *rw* permissions for the group and everyone else, but not the owner.  
 
 
 
@@ -55,3 +59,5 @@ Group changed to *binky*
 
 
 ##  Reflection/Learning
+
+This assignment took significantly less time than the previous assigments, partly because I made a decision to move on after getting stuck on one piece of the assigment.  I need to improve my planning of time per assigment in order to stay on top of the fast learning pace.
