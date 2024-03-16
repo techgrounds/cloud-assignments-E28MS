@@ -52,6 +52,7 @@ Owner changed to *binky*, checked if *elmarie_* could read it, unable to read fi
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9b8c1f67-8bf9-44d2-a257-3c29f8d90251)
 
 Group changed to *binky*
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/497b088c-8222-4553-b96a-bbef6d443b07)
 
 
