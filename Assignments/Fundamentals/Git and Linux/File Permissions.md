@@ -30,11 +30,14 @@ I couldn't easily located how to iterpret the information that I received from t
 
 ##  Results
 
-I created a textfile and used the ls -l command to make a long listing of file permissions, first for the current user, then for the textfile I created:
+I created a textfile and used the *ls -l* command to make a long listing of file permissions, first for the current user, then for the textfile I created.  From this information, I can see that the file's owner is elmarie_, and that I only have read/write permission
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4b97f84d-f664-4801-8751-3e293b380bb5)
 
-From this information, I can see that the file's owner is elmarie_, and that I only have read/write permission
+In the image below, I made the file executable by giving the owner permission using the *chmod u+x* command
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4b2bc6da-b844-41f5-9d1c-549e81aa7093)
+
 
 
 ##  Reflection/Learning
