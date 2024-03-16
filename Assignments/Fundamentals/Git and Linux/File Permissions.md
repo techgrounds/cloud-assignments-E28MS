@@ -9,9 +9,11 @@ Change the owner of the file to a different user. If everything went well, you s
 Change the group ownership of the file to a different group.
 
 ##  Key Terms
-Permissions: Different users have different permissions to read, write and execute files.  This is key to managing systems safely.
-Read: Allows users to read files that they have permissions for
-Write: Allows users to write files in 
+*Permissions*: Different users have different permissions to read, write and execute files.  This is key to managing systems safely.
+*Read* (r): Allows users to read files that they have permissions for
+*Write* (w): Allows users to write files in the directories they have permission for
+*Execute* (x): Allows authorised users to execture script files or in the case of directories, execute allows user to access subdirectores and files 
+
 
 
 ##  Resources
@@ -24,9 +26,11 @@ Write: Allows users to write files in
 
 ##  Results
 
-I created a textfile and used the ls -l command to make a long listing and view file permissions.
+I created a textfile and used the ls -l command to make a long listing of file permissions, first for the current user, then for the textfile I created:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5c77ff1f-19e4-426b-8fba-9efb09b9f0ee)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4b97f84d-f664-4801-8751-3e293b380bb5)
+
+From this information, I can see that the file's owner 
 
 
 ##  Reflection/Learning
