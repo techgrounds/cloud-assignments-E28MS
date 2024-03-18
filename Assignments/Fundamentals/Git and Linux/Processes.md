@@ -10,9 +10,11 @@ Stop or kill the telnet daemon process.
 
 ## Key Terms
 
-daemon:  this is a background process used to supervise the system or provide functionality to other processes (like the inetd provides to the telnetd?)
+*daemon*:  this is a background process used to supervise the system or provide functionality to other processes (like the inetd provides to the telnetd?)
 
-PID: Process ID is a unique identifyer assigned when the process is created
+*PID*: Process ID is a unique identifyer assigned when the process is created
+
+*inetd*: internet daemon, who as it turned out, manages the telnet daemon and was they key to doing this assignment
 
 
 
@@ -121,6 +123,11 @@ Then I asked ChatGPT a better question, and consequently got another clue to sol
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1ff3d4ed-3db7-4a05-95bc-82ba45a7ee3d)
+
+Here is the proof of starting and stopping telnet daemon,including the memory used and PID:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0476226f-c0bd-43d2-99de-07cf6cd7f320)
+
 
 ##  Reflection/Learning
 I didn't understand the information I received when I ran the first update, but it tweaked my curiosity.  I'm also interested as I noted in the apt list that Python is installed and I'm keen to learn more about this.
