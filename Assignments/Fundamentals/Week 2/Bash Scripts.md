@@ -21,7 +21,7 @@ httpd package
 
 ##  Resources
 
-[Techrepublic](https://www.techrepublic.com/article/linux-101-how-to-add-directories-to-your-linux-path/)
+
 
 [Stackoverflow](https://stackoverflow.com/questions/15813575/how-to-remove-a-line-bashrc-linux)
 
@@ -37,6 +37,11 @@ httpd package
 Created and checked that it is created:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2cb912b6-393f-497a-ab89-37683cdd0c99)
+
+2.  Add the scripts directory to the PATH variable:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c68adb49-54a4-4e7d-9982-53a23f07b02c)
+
 
 
 
