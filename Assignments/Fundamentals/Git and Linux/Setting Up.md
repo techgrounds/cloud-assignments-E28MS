@@ -20,7 +20,7 @@ When the connection is successful, type whoami in the terminal. This command sho
 
 
 ### Resources
-*  [Microsoft Learn]{(https://learn.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows)
+*  [Microsoft Learn](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/ssh-from-windows)
 
 
 *  ChatGPT
@@ -28,11 +28,11 @@ When the connection is successful, type whoami in the terminal. This command sho
 
 *  My team mates and learning coach provided some useful tips about the correct order of the command and also suggested I re-check the Public IP address.
 
-*  [Cloud Flare]{https://www.cloudflare.com/en-gb/learning/access-management/what-is-ssh/)
+*  [Cloud Flare](https://www.cloudflare.com/en-gb/learning/access-management/what-is-ssh/)
 
-*  [Micro Focus]{https://docs.microfocus.com/SM/9.51/Hybrid/Content/security/concepts/what_are_pem_files.htm#:~:text=Privacy%20Enhanced%20Mail%20(PEM)%20files,now%20an%20Internet%20security%20standard.}
+*  [Micro Focus](https://docs.microfocus.com/SM/9.51/Hybrid/Content/security/concepts/what_are_pem_files.htm#:~:text=Privacy%20Enhanced%20Mail%20(PEM)%20files,now%20an%20Internet%20security%20standard.)
 
-*  [Wikipedia]{https://en.wikipedia.org/wiki/Port_(computer_networking)}
+*  [Wikipedia](https://en.wikipedia.org/wiki/Port_(computer_networking))
 
 
 ### Difficulties
