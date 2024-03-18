@@ -119,26 +119,14 @@ Then I asked ChatGPT a better question, and consequently got another clue to sol
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/39215df9-c439-420f-a4f3-198ae432dd5a)
 
-#:STANDARD: These are standard services.
-telnet          stream  tcp     nowait  telnetd /usr/sbin/tcpd  /usr/sbin/in.telnetd
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1ff3d4ed-3db7-4a05-95bc-82ba45a7ee3d)
 
 ##  Reflection/Learning
-I didn't understand the information I received when I ran the update, but it tweaked my curiosity.  I'm also interested as I noted in the apt list that Python is installed and I'm keen to learn more about this.
+I didn't understand the information I received when I ran the first update, but it tweaked my curiosity.  I'm also interested as I noted in the apt list that Python is installed and I'm keen to learn more about this.
+
+The main thing that I learned from this excercise was that the telnet daemon is managed by the inetd.  I came accross this information early on in my search but didn't make the connection.  
+
+I have a lot more learning to do about processes and how they work, including  their *interconnectedness*
+
+Dirk Gently was right!
