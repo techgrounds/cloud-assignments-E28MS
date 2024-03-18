@@ -109,6 +109,13 @@ I then proceeded to move the telnetd file to a more appropriate location, tried 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0d9a6d9b-9e44-4d98-91b6-9074c053aa00)
 
+I tried to give myself permission to execute the telnet daemon but I got the same error message, No such file or directory:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/dcac5bad-183f-4335-abf3-7f21b989365c)
+
+I installed telnet and tried to start it but got the same message: Unit telnet.service not found
+
+
 
 
 
