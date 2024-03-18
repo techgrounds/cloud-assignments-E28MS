@@ -115,6 +115,13 @@ I tried to give myself permission to execute the telnet daemon but I got the sam
 
 I installed telnet and tried to start it but got the same message: Unit telnet.service not found
 
+Then I asked ChatGPT a better question, and consequently got another clue to solving this assignment:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/39215df9-c439-420f-a4f3-198ae432dd5a)
+
+#:STANDARD: These are standard services.
+telnet          stream  tcp     nowait  telnetd /usr/sbin/tcpd  /usr/sbin/in.telnetd
+
 
 
 
