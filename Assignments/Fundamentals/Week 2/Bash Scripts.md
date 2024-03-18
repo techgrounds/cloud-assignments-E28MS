@@ -11,7 +11,23 @@
 
 ##  Key Terms
 
+scripts
+
+bashrc file
+
+PATH variable
+
+httpd package
+
 ##  Resources
+
+[Techrepublic](https://www.techrepublic.com/article/linux-101-how-to-add-directories-to-your-linux-path/)
+
+[Stackoverflow](https://stackoverflow.com/questions/15813575/how-to-remove-a-line-bashrc-linux)
+
+[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable)
+
+
 
 ##  Difficulties
 
@@ -26,5 +42,9 @@ Created and checked that it is created:
 
 ## Learning/Reflection
 
+1.  I found this on my first search for how to complete this assignment and it highlighted the purpose and future use of this assignment: 
 
+*Your Linux PATH is how you define the directories for which commands can be run globally. In other words, if you have an executable file in a directory that is configured to be in your PATH, you can run that executable from anywhere in the Linux file structure. This is what makes it possible to run commands in /usr/bin from your home directory (or anywhere, for that matter).*
+
+2.  
 
