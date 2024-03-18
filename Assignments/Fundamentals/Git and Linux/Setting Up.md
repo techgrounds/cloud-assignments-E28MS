@@ -15,7 +15,11 @@ This assignment is about the Linux Operating System.  Using Linux is mostly done
 
 
 ## Assignment
-Make an SSH-connection to your virtual machine. SSH requires the key file to have specific permissions, so you might need to change those.
+Make an SSH-connection to your virtual machine. 
+
+SSH requires the key file to have specific permissions, so you might need to change those.
+
+
 When the connection is successful, type whoami in the terminal. This command should show your username.
 
 
@@ -43,6 +47,9 @@ When the connection is successful, type whoami in the terminal. This command sho
 
 ### Results
 I managed to log into my container in the VM after resolving the above errors by fixing the order of the credential information and by identifiying and fixing an error in the VM Public IP that I had mistyped.
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/57ab5924-330e-4e1f-9f98-fe61dd7090cb)
+
 See SettingUpShots for screenshots
 
 ### Reflection/Learning
