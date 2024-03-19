@@ -2,7 +2,7 @@
 
 
 
-##  Assignment
+##  Assignment 1
 
 1.  Create a directory called ‘scripts’. Place all the scripts you make in this directory.
 2.  Add the scripts directory to the PATH variable.
@@ -11,36 +11,43 @@
 
 ##  Key Terms
 
-scripts
+**scripts** :lines of codes that can be executed to automate processes, like appending text to a textfile so it doesn't have to be done manually in every instance
 
-bashrc file
+**bashrc file**
 
-PATH variable
+**PATH variable**
 
-httpd package
+**httpd package**
 
 ##  Resources
 
-
-
-[Stackoverflow](https://stackoverflow.com/questions/15813575/how-to-remove-a-line-bashrc-linux)
+[Tech Republic](https://www.techrepublic.com/article/linux-101-how-to-add-directories-to-your-linux-path/)
 
 [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable)
+
+ChatGPT - which explained that process of creating scripts step by step, this helped my understanding of this essential process
+
+
 
 
 
 ##  Difficulties
 
 ##  Results
-1.  Create a directory call 'scripts'
+1.1.  Create a directory called 'scripts'
 
 Created and checked that it is created:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2cb912b6-393f-497a-ab89-37683cdd0c99)
 
-2.  Add the scripts directory to the PATH variable:
+1.2.  Add the scripts directory to the PATH variable:
 
-   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c68adb49-54a4-4e7d-9982-53a23f07b02c)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c68adb49-54a4-4e7d-9982-53a23f07b02c)
+
+1.3.  Create a script that appends a line of text to a textfile whenever it is executed
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/845308d4-9428-4017-8e6f-ce551018f11f)
+
 
 
 
