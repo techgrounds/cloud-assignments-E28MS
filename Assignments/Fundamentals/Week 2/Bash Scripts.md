@@ -23,7 +23,9 @@
 
 [Tech Republic](https://www.techrepublic.com/article/linux-101-how-to-add-directories-to-your-linux-path/)
 
-[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable)
+[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable
+
+[IO Flood](https://ioflood.com/blog/bash-append-to-file/#Appending_Data_Within_a_Script)
 
 ChatGPT - which explained that process of creating scripts step by step, this helped my understanding of this essential process
 
@@ -47,6 +49,13 @@ Created and checked that it is created:
 1.3.  Create a script that appends a line of text to a textfile whenever it is executed
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/845308d4-9428-4017-8e6f-ce551018f11f)
+
+
+1.4 Created script that installs, activates and enables httpd, and then prints status to terminal:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/66336a93-aa62-4122-bb23-ba34c922e033)
+
+Unfortunately this didn't work and I got an error message.  So troubleshooting began.
 
 
 
