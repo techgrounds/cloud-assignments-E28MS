@@ -19,6 +19,8 @@
 
 **httpd package**
 
+**apt** : Advanced Package Tool is used to manage packages (like httpd) in Debian based Linux distrubutions like Ubuntu
+
 ##  Resources
 
 [Tech Republic](https://www.techrepublic.com/article/linux-101-how-to-add-directories-to-your-linux-path/)
@@ -30,10 +32,11 @@
 ChatGPT - which explained that process of creating scripts step by step, this helped my understanding of this essential process
 
 
-
-
-
 ##  Difficulties
+I had trouble running the script in 1.4 but it turned out the problem was a typo. 
+
+I needed to research the key terms before I could understand what was expected of me.
+
 
 ##  Results
 1.1.  Create a directory called 'scripts'
@@ -55,9 +58,9 @@ Created and checked that it is created:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/66336a93-aa62-4122-bb23-ba34c922e033)
 
-Unfortunately this didn't work and I got an error message.  So troubleshooting began.
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5215e25b-eacf-45ef-a717-680cea6cfdef)
 
-
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/545f127e-1efe-47d8-8b64-7287e191a84c)
 
 
 
@@ -67,5 +70,5 @@ Unfortunately this didn't work and I got an error message.  So troubleshooting b
 
 *Your Linux PATH is how you define the directories for which commands can be run globally. In other words, if you have an executable file in a directory that is configured to be in your PATH, you can run that executable from anywhere in the Linux file structure. This is what makes it possible to run commands in /usr/bin from your home directory (or anywhere, for that matter).*
 
-2.  
+2.  Check, check and check again for typos or other human errors if something doesn't work 
 
