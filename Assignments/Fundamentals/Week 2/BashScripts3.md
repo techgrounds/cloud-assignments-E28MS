@@ -5,7 +5,7 @@ If the number is 5 or smaller, it should append a line of text saying "the numbe
 
 ## Key Terms
 
-I didn't come accross any new key terms in this excercise as all the terms above was covered in BashScripts1 and 2.
+I didn't come accross any new key terms in this excercise as all the terms above were covered in BashScripts1 and 2.
 
 ##  Resources
 ChatGPT
