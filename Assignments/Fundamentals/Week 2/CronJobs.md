@@ -69,6 +69,17 @@ Here are the results of datetime script:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2a4fd006-efaa-4f30-8160-5534327a79b6)
 
 
+Here I registered the cronjob succesfully in the crontab, executed it succesfully (I thought!), created a new folder called 'logs', moved the current_datetime.txt folder into this and displayed the content of the current_datetime.txt folder, proving that my cronjob works by printing every minute:
+
+Here I checked all the above by and realised that my cronjob was not working correctly and appears to have only printed the date and time once as it kept repeating the same date and time.  So back to toubleshooting I went...
+
+
+
+
+
+
+
+
 
 ##  Reflection/Learning
 I've started noticing that the CLI is actually user friendly in pointing you in the right direction for instance when you open a crontab for a user for the first time, it clearly indicated which one is the easiest to use.  Also, once I then chose the nano, it had an introduction to cron with useful information.
