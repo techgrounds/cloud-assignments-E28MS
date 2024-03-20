@@ -73,4 +73,6 @@ Here are the results of datetime script:
 ##  Reflection/Learning
 I've started noticing that the CLI is actually user friendly in pointing you in the right direction for instance when you open a crontab for a user for the first time, it clearly indicated which one is the easiest to use.  Also, once I then chose the nano, it had an introduction to cron with useful information.
 
+I got a 'bad hour' error and then didn't change anything and tried running it again and then got a 'bad minute error'.  I'm not sure what this means but I'm curious as to why the error message changed while nothing else did.  Or did I do something without realising it?
+
 
