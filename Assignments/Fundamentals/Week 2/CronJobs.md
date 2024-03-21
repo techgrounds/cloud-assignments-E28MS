@@ -77,6 +77,12 @@ Here I registered the cronjob succesfully in the crontab, executed it succesfull
 Here I checked all the above by and realised that my cronjob was not working correctly and appears to have only printed the date and time once as it kept repeating the same date and time.  So back to toubleshooting I went...
 
 
+Here is the proof of my datetime cronjob working:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/57d83b6a-5cf7-468b-a00c-9ca17b89db30)
+
+
+
 
 
 
