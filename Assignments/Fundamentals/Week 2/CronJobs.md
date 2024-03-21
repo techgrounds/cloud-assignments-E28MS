@@ -19,6 +19,8 @@ c)  Create a script that writes available disk space to a log file in ‘/var/lo
 
 ##  Key Terms
 
+*Cronjobs* This is a background process (daemon) that is used to automate processes, see ##Subject## above
+
 **Basic Crontab syntax**:  MIN HOUR DOM MON DOW CMD
 Minute of the hour (0-59)
 
@@ -32,11 +34,18 @@ CMD (Command - usually a path to a script or system command)
 
 [*] in Cronjobs this operator means that it needs to be executed for all possible values of that field. 
 
+*/var/logs* : the /var directory refers to variable data, which means that the data contained in this directory changes constantly, for instance the logs file containing disk space information, emails inboxes, web app related files.
+
 ##  Resources
+
 
 [HostDime](https://www.hostdime.com/kb/hd/command-line/working-with-cron-jobs#:~:text=Cron%20jobs%20are%20a%20standard,configuration%20file%20called%20a%20crontab.)
 
 Phoenix ](https://phoenixnap.com/kb/set-up-cron-job-linux)
+
+Team mates - we had several discussion about the cronjobs assignment and also some talk-through sessions with screen sharing that was useful in order to see what the output of the finished cronjob would look like.
+
+Team mates also shared resources which was useful as it containted different information than the websites I located.
 
 
 ##  Difficulties
@@ -62,6 +71,8 @@ I realised that I had caused the cronjob to fail as I moved the script file with
 
 ##  Results
 
+###  DateTime Cronjob:
+
 Here is the code I used to write datetime script:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6a83cf73-3063-44ab-97dc-6779161d9feb)
@@ -80,6 +91,11 @@ Here I checked all the above by and realised that my cronjob was not working cor
 Here is the proof of my datetime cronjob working:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/57d83b6a-5cf7-468b-a00c-9ca17b89db30)
+
+
+
+
+### Disk Space Logger Cronjob:
 
 
 
