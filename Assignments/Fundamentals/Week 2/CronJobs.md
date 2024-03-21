@@ -3,7 +3,13 @@ Cron jobs are used to schedule and automate repetetive tasks like writing availa
 
 Cron is a background service(daemon) that will run commands as they are scheduled. 
 
-Cron jobs are set up in the Crontab for streamlining routine maintenance activities.
+Cron jobs are set up in the Crontab for streamlining routine maintenance activities.  
+
+Cron jobs are basically timers that start running a script according to the timing you set in the cronjob, which is written in the crontab, opened with the *crontab -e* command. 
+
+It's crucial to get the time set correctly and also to ensure that you write the output of the cron job in a file.  
+
+The syntax of your script and cronjob need to correspond with regards to file locations and names, obvious, but not for beginners at first.
 
 
 
@@ -41,7 +47,7 @@ CMD (Command - usually a path to a script or system command)
 
 [HostDime](https://www.hostdime.com/kb/hd/command-line/working-with-cron-jobs#:~:text=Cron%20jobs%20are%20a%20standard,configuration%20file%20called%20a%20crontab.)
 
-Phoenix ](https://phoenixnap.com/kb/set-up-cron-job-linux)
+[Phoenix ](https://phoenixnap.com/kb/set-up-cron-job-linux)
 
 Team mates - we had several discussion about the cronjobs assignment and also some talk-through sessions with screen sharing that was useful in order to see what the output of the finished cronjob would look like.
 
@@ -64,7 +70,7 @@ I then added spaces between the fields but the error persisted, although it was 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/edb8e3e4-8b3a-49d1-bd87-17355cdab62a)
 
 
-I realised that I had caused the cronjob to fail as I moved the script file without updating the script, so it was working all along but writing to a file in my home directory instead of to a file in my logs directory.  I moved it back and this solved the problem.  Job done!
+I realised that I had caused the cronjob to fail as I moved the script file without updating the script, so it was working all along but writing to a file in my home directory instead of to a file in my logs directory, where I now had a second copy of the current_datetime.txt file.  I removed the copy in /logs and this solved the problem.  Job done!
 
 
 
@@ -97,6 +103,20 @@ Here is the proof of my datetime cronjob working:
 
 ### Disk Space Logger Cronjob:
 
+Here is the disk_space_checker.sh script in my scripts file, including the code I used:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/168c76a8-c5c4-4d71-bdbb-2f38d93c56c0)
+
+I was unable to read the file I created in /var/log where the cronjob would write the available disk space to and after some troubleshooting, established that I didn't have read priveleges as the /var/log directory requires root priveleges.  Using sudo to manually run the cronjob and sudo to then read the file resulted in success:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b1d3f317-a523-45b8-bd51-2c514f11485c)
+
+
+Cronjobs:
+
+
+
 
 
 
@@ -111,6 +131,8 @@ I've started noticing that the CLI is actually user friendly in pointing you in 
 
 I got a 'bad hour' error and then didn't change anything and tried running it again and then got a 'bad minute error'.  I'm not sure what this means but I'm curious as to why the error message changed while nothing else did.  Or did I do something without realising it?
 
-I was utterly delighted when I found the problem with my datetime cronjob was (as usual)my error in moving the file without updating the script to reflect the new location that the datetime should be written to.  So it created a new file in my home directory and was updating there all along.
+I was utterly delighted when I found the problem with my datetime cronjob was (as usual)my error in moving the file without updating the script to reflect the new location that the datetime should be written to.  So it created a new file in my home directory and was updating there all along.  This was a really good learning opportunity for me as it clarified my understanding of the relationship between the scrip, cronjob, directories and files.
+
+It was also very satisfying to finally be able to run the disk space cronjob succesfully once I identified the permission issues.  I assumed if I could write to a file I could then read it but of course this is not correct.  This lesson will hopefully prevent similar time wasters in the future and gives me another tool in my (fledgling) Linux troubleshooting skills.
 
 
