@@ -55,6 +55,9 @@ I then added spaces between the fields but the error persisted, although it was 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/edb8e3e4-8b3a-49d1-bd87-17355cdab62a)
 
 
+I realised that I had caused the cronjob to fail as I moved the script file without updating the script, so it was working all along but writing to a file in my home directory instead of to a file in my logs directory.  I moved it back and this solved the problem.  Job done!
+
+
 
 
 ##  Results
@@ -85,5 +88,7 @@ Here I checked all the above by and realised that my cronjob was not working cor
 I've started noticing that the CLI is actually user friendly in pointing you in the right direction for instance when you open a crontab for a user for the first time, it clearly indicated which one is the easiest to use.  Also, once I then chose the nano, it had an introduction to cron with useful information.
 
 I got a 'bad hour' error and then didn't change anything and tried running it again and then got a 'bad minute error'.  I'm not sure what this means but I'm curious as to why the error message changed while nothing else did.  Or did I do something without realising it?
+
+I was utterly delighted when I found the problem with my datetime cronjob was (as usual)my error in moving the file without updating the script to reflect the new location that the datetime should be written to.  So it created a new file in my home directory and was updating there all along.
 
 
