@@ -14,16 +14,19 @@ Look into wireshark and install this program. Try and capture a bit of your own 
 
 ## Key Terms
 
-OSI 
+OSI - Open Systems Interconnection protocol
 
 Protocol
 
-Wireshark
+Wireshark - This is a network packet analyser.  It can be used to analyse what is happening inside a network.  It is free and open source and claims to be one of the best packet anaylysers on the market. 
 
 
 ## Resources
 
 [InfoSys Beckhoff](https://infosys.beckhoff.com/english.php?content=../content/1033/tf6310_tc3_tcpip/84246923.html&id=)
+
+
+[Wireshark Docs](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs)
 
 
 ## Difficulties
