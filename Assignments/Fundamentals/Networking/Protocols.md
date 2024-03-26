@@ -16,6 +16,16 @@ It enables different devices to communicate with each other despite differences 
 
 ## Key Terms
 
+TCP/IP model- The Transmission Control Protocol/Internet Protocol has 4 layers.  It is widely used to reliably deliver data from host to client.
+
+TCP - In laymens terms, it works as follows: The data is broken into smaller 'packets' by TCP.  Each packet is numbered to ensure that they arrive in good order.  A 'checksum' is added to each packet to ensure that they are not altered en route.  Lastly, each packet is given it's origin and destination addresses so it can be appropriately routed.  The destination addressed are where IP addresses come in, as each device on the internet has a unique IP address.  Once the packets arrive, they are re-assembled for viewing by TCP.
+
+UDP
+
+SSH
+
+HTTP
+
 OSI - Open Systems Interconnection model
 
 
