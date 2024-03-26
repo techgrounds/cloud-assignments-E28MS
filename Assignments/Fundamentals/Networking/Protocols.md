@@ -39,7 +39,7 @@ Wireshark - This is a network packet analyser.  It can be used to analyse what i
 
 ## Difficulties
 
-Understanding the wealth of information relayed by Wireshark proved a challenge.  
+Understanding the wealth of information relayed by Wireshark proved a challenge.  Over 3000 protocols can be analysed. 
 
 
 ## Results
@@ -64,7 +64,13 @@ The International Organization for Standardization (ISO)
 The International Telecommunications Union (ITU)
 
 
-The World Wide Web Consortium (W3C)
+The World Wide Web Consortium (W3C
+
+
+Information captures with Wireshark:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/58ff8aed-32d4-4880-aed8-1ea659bcf275)
+
 
 
 
