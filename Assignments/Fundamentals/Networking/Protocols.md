@@ -1,4 +1,4 @@
-## Subject
+## Subject : Networking Protocols
 
 Protocols are used to perform one of three main functions: communication, security and network management.  Essentially, network protocols are a set of established rules that determines how data is transmitted between different devices on a network.
 
@@ -6,13 +6,13 @@ It enables different devices to communicate with each other despite differences 
 
 
 ## Assignment
-Identify several other protocols and their associated OSI layer. Name at least one for each layer.
+1.  Identify several other protocols and their associated OSI layer. Name at least one for each layer.
 
 
-Figure out who determines what protocols we use and what is needed to introduce your own protocol.
+2.  Figure out who determines what protocols we use and what is needed to introduce your own protocol.
 
 
-Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
+3.  Look into wireshark and install this program. Try and capture a bit of your own network data. Search for a protocol you know and try to understand how it functions.
 
 ## Key Terms
 
@@ -31,6 +31,8 @@ Wireshark - This is a network packet analyser.  It can be used to analyse what i
 [Wireshark Docs](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs)
 
 [Comptia](https://www.comptia.org/content/guides/what-is-a-network-protocol#:~:text=Network%20protocols%20are%20typically%20created,Internet%20Engineering%20Task%20Force%20(IETF))
+
+[How do you create network protocols?](https://www.linkedin.com/advice/3/how-do-you-create-network-protocols-work-any)
 
 
 ## Difficulties
@@ -65,4 +67,8 @@ The World Wide Web Consortium (W3C)
 
 
 
+
+
 ## Learning/Reflection
+
+I enjoyed learning more about how the OSI stack and TCP/IP protocols work.  I also learnt about other protocols I haven't studied before like UDP.
