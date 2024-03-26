@@ -34,8 +34,12 @@ Wireshark - This is a network packet analyser.  It can be used to analyse what i
 
 [How do you create network protocols?](https://www.linkedin.com/advice/3/how-do-you-create-network-protocols-work-any)
 
+[Geeks for Geeks](https://www.geeksforgeeks.org/network-protocols-and-proxies-in-system-design/#commonly-used-network-protocols-in-system-design)
+
 
 ## Difficulties
+
+Understanding the wealth of information relayed by Wireshark proved a challenge.  
 
 
 ## Results
