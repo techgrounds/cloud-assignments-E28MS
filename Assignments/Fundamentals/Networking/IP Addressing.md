@@ -53,11 +53,19 @@ They are not as secure and are assignmed by the Internet Service Provider.
 NAT
 
 
-Static and dynamic adresses
+Static and dynamic adresses:
+
+*Static*
+
+*Dynamic*  
+Every time your device connects to the internet, your Internet Service Provider (ISP) provides an IP address to your device.  It will be a new IP address every time.  This is a dynamic IP address. 
+
 
 ## Resources
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/difference-between-private-and-public-ip-addresses/)
+
+ChatGPT
 
 ##  Difficulties
 
@@ -78,7 +86,9 @@ In order to find the public IP adress for my tablet, I just googled : What is my
 
 
 
-To get my phone's public
+To get my phone's public IP, i opened my browser and googled the same: What is My IP address?
+
+My phone and tablet's public IP addresses are different, most likely because of DHCP, which allocates 
 
 
 
