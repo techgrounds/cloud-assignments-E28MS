@@ -70,18 +70,10 @@ Static and dynamic adresses
 In order to find the public IP adress for my tablet, I just googled : What is my IP address? and found several websites that shows this information:
 
 
-00_includes/IP Adressing/PubIPTab.png
-
-
-https://github.com/techgrounds/cloud-assignments-E28MS/commit/15bd2226d1d1bb958f5423d5e422145b9ab38d44#diff-02b1531d25278c4b7cafc9df60da7045675dfe932f89cb20406550022910d5bf
-
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bcd6dab1-1559-42f3-be0b-336a18e8e21a)
 
 
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b0c8e5ac-9529-4293-a602-c1d3eec9697c)
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/37c3fc1c-39e4-4cb6-8b2e-0460a5ecfd73)
 
 
 
