@@ -69,6 +69,8 @@ Static and dynamic adresses
 
 In order to find the public IP adress for my tablet, I just googled : What is my IP address? and found several websites that shows this information:
 
+https://github.com/techgrounds/cloud-assignments-E28MS/commit/15bd2226d1d1bb958f5423d5e422145b9ab38d44#diff-02b1531d25278c4b7cafc9df60da7045675dfe932f89cb20406550022910d5bf
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bcd6dab1-1559-42f3-be0b-336a18e8e21a)
 
 
