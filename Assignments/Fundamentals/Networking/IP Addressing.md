@@ -63,22 +63,28 @@ Static and dynamic adresses
 
 ##  Results
 
-1.  I located my phone's private IP address by going to the Setting menu, selecting WiFi settings and then .
-  
-   My tablet has a dynamic public IP address, as can be seen below:
-
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/86012127-7a7f-4f7f-871b-55835cb2f03c)
+1.   
 
 
 
-In order to find my public IP adress for my tablet, I just googled : What is my IP address? and found several websites that shows this information:
-
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bcd6dab1-1559-42f3-be0b-336a18e8e21a)
+In order to find the public IP adress for my tablet, I just googled : What is my IP address? and found several websites that shows this information:
 
 
 
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/135ebfcc-bb3d-4b77-b701-381fab4b27df)
+
+
+
+
+
+
+To get my phone's public
+
+
+
+
+
+
 
 
 2.  The addresses
@@ -86,6 +92,8 @@ In order to find my public IP adress for my tablet, I just googled : What is my 
 3.  I located my phone's private IP address by opening the Settings menu, and from there opening the WiFi settings.  It displayed the IP adress with some other information like Security and Network Speed.
 
 In order to locate my tablet's private IP address, I used the terminal and the ipconfig command:  
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/135ebfcc-bb3d-4b77-b701-381fab4b27df)
 
 4.  
 
