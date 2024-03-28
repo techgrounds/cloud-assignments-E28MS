@@ -40,9 +40,11 @@ Network Topology - The physcial and logical way that devices are connected on a 
 
 Star Network Topology - Each node on the LAN is connected to a central hub
 
-Router with NAT functionality - This router has two interfaces, one connecting to the private network and one connecting to the public network (internet)
+Router with NAT functionality - This router has two interfaces, one connecting to the private network and one connecting to the public network.
 
 ## Diffulties
+
+It was not at first clear to me that the excercise depicted a single network with 3 subnets.  I found it difficult to understand how everything would fit together but once I got it, it all made sense.  
 
 
 ##  Resources
@@ -78,10 +80,16 @@ Here is the information for my third subnet with an internet gateway using CIDR 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/24e3dfbf-a38b-43a3-87f4-42a8b3964e3b)
 
 Representing these in a diagram below:
+My conclusion is that the subnets in the assignment are all part of one network.  This was not immediately obvious to me but as I puzzled over what the architecture would look like for each subnet, the pieces started fitting together.   The third subnet is the first line of defence with an internet gateway that leads to the second subnet where the NAT router has an interface with the public facing subnet.  The other interface of the NAT Router is with the most secure section of the network, the LAN subnet from the first subnet mentioned in the excercise.
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/282a06f6-b48b-4056-8c08-4ffa6dce2188)
 
 
 
 
 
-Learning/Reflection
+
+
+##  Learning/Reflection
 I found the concept of subnetting logical and elegant but the execution eluded me.  I struggled to understand how the division and allocation of the addresses worked.  I moved between this subject and the other assignments and on reflection, it worked to step away and let it rest for a bit.
