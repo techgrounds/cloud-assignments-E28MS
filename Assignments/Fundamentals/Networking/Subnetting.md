@@ -29,3 +29,6 @@ ChatGPT
 Using an online subnet calclutor, I got the following information about my first subnet:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/27c06bf7-7bec-4c8b-8ad9-66708f80fa74)
+
+Learning/Reflection
+I found the concept of subnetting logical and elegant but the execution eluded me.  I struggled to understand how the division and allocation of the addresses worked.  I moved between this subject and the other assignments and on reflection, it worked to step away and let it rest for a bit.
