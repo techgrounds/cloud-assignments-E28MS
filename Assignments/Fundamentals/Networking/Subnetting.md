@@ -1,8 +1,29 @@
 ##  Subject
-Subnetting helps to reduce network congestion by breaking a network into smaller networks or subnets.  It is a useful way to secure a network by dividing it into different parts. It also makes maintenance easier.
+Subnetting is when a bigger network is divided into smaller networks.
+
+Subnetting helps to reduce network congestion by breaking a network into smaller networks or subnets.  
+
+It is a useful way to secure a network by dividing it into different parts. 
+
+It also makes maintenance easier.
 
 
 ##  Assignment
+
+
+Create a network architecture that meets the following requirements:
+
+
+1.  1 subnet that is only accessible from within the LAN. This subnet must be able to accommodate at least 15 hosts.
+
+
+2.  1 subnet with internet access via a router with NAT functionality. This subnet must be able to accommodate at least 30 hosts (the 30 hosts are excluding the router).
+
+
+3.  1 subnet with a network gateway to the internet. This subnet must be able to accommodate at least 5 hosts (the 5 hosts are excluding the internet gateway).
+
+
+Place the architecture you have created, including a brief explanation, in the GitHub repository that you have shared with the learning coach.
 
 
 ##  Key Terms
