@@ -18,14 +18,16 @@ Translate the following decimal numbers into binary:
 
 # Translate the following decimal numbers into binary:
 
+For this excercise, I used the method where you divide the number by 2 and then keep dividing.  If the number divides evenly, the result is a 0, if the number does not divide equally, the result is a 1.  In order to read the result, you start from the last divided number and work backwards.
 
-| Decimal          | Binary         | Column 3 Header |
-|-----------------|-----------------|-----------------|
-| 16              |100000
-| 128             |
-| 228             | Row 2 Column 2  | Row 2 Column 3  |
-| 112             |
-| 73              | 1001001         |
+
+| Decimal          | Binary         |  
+|-----------------|-----------------|
+| 16              |00100000         |
+| 128             |10000000         |
+| 228             |11100100         | 
+| 112             |01110000         |
+| 73              |01001001         |
 
 
 
