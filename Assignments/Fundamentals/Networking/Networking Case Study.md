@@ -25,15 +25,19 @@ Web Server -  A server that uses HTTP and other protocols to provide content to 
 
 Database - A collection of organised and structured information, usually kept on a computer system.  Accessed and controlled by a database management system. 
 
-AD Server - 
+AD Server - Thhis is a technology system that acts as a centralised platform for managing adverstisements (ads)
 
-File server - 
+File server - This is a computer that stores and makes files available for shared use to all users on a LAN
+
+DMZ - A De-militarized Zone in networking is where a logical or physcical subnet seperates and protects a network's LAN from untrusted network traffic
 
 ##  Resources
 
 [SolarWinds](https://www.solarwinds.com/resources/it-glossary/web-server#:~:text=a%20web%20server-,Web%20Server%20Definition,internet%20via%20a%20web%20browser.)
 
 [Oracle](https://www.oracle.com/database/what-is-database/#:~:text=A%20database%20is%20an%20organized,database%20management%20system%20(DBMS).)
+
+[ADjust](https://www.adjust.com/glossary/ad-server-definition/)
 
 
 
