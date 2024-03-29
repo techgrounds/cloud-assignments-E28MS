@@ -31,6 +31,14 @@ File server - This is a computer that stores and makes files available for share
 
 DMZ - A De-militarized Zone in networking is where a logical or physcical subnet seperates and protects a network's LAN from untrusted network traffic
 
+ACL's - There are two types of Access Control Lists:  
+
+Network Access Control Lists (NACL's) are used to restrict access to a network by giving instructions to routers and switches about which type of traffic is allowed to interface with a network.  They also provide instruction on what each user or device is allowed to do once interfacing with the network.
+
+File Access Control lists are used to restrict access to files
+
+VLAN's - 
+
 ##  Resources
 
 [SolarWinds](https://www.solarwinds.com/resources/it-glossary/web-server#:~:text=a%20web%20server-,Web%20Server%20Definition,internet%20via%20a%20web%20browser.)
@@ -39,6 +47,7 @@ DMZ - A De-militarized Zone in networking is where a logical or physcical subnet
 
 [ADjust](https://www.adjust.com/glossary/ad-server-definition/)
 
+[Fortinet](https://www.fortinet.com/resources/cyberglossary/network-access-control-list#:~:text=A%20network%20access%20control%20list%20(ACL)%20is%20made%20up%20of,are%20allowed%20in%20the%20doors.)
 
 
 ##  Difficulties
