@@ -34,20 +34,23 @@ So I checked the status of appache, confirmed that it was running now and tried 
 
 ##  Results
 
-Here I found the open ports on my VM:
+##  *Here I found the open ports on my VM:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d0ccdc34-130b-4dc9-a145-9844dec7b0eb)
 
-# Here I viewed the default page that is installed with the web server via your browser on your PC/laptop.
+## *Here I viewed the default page that is installed with the web server via my browser:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f23e6508-d0de-4559-ba86-87f7d01d548d)
 
-# Install Firewall on VM that allows SSH traffic but blocks web traffic
+## *Install Firewall on VM that allows SSH traffic but blocks web traffic*
 
 Here are the commands I used to allow SSH traffic to standard SSH port 22 as well as my SSH Port 52200.  I then blocked web traffic by denying access to port 443 (https) and port 80 (http):
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/696f51ee-6103-4b2e-984e-2b1229697b71)
 
+I then checked to see if the rules were applied before trying to enable the firewall again:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b0ef7080-dcbe-4c5f-9e9a-d0713eb82f5d)
 
 
 
