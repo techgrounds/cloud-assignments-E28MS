@@ -64,6 +64,11 @@ Here I tested if I could connect to the webserver on my machine and I couldn't c
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f2e5ba94-88c7-42f2-9021-be0228623031)
 
+Here I checked the status of my firewall to see if my set up was succesful and it appears that web traffic is denied and SSH traffic on two ports only are allowed:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/abb3b454-242c-4864-b8c9-6fb85152a84e)
+
+
 
 
 
