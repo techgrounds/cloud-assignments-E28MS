@@ -40,7 +40,9 @@ The Nmap scan report indicates that the host (in this case, an EC2 instance on A
 
 Overall, the scan report suggests that the target host, my VM,  is up and responsive, but the scan results for the ports are inconclusive due to being in ignored or filtered states. This could be due to various factors such as firewall configurations, network settings, or Nmap timing options.
 
-# 
+# Analyze what happens when you open an internet browser
+
+At first I tried to filter for http but this didn't bring up any traffic, possibly as I'm using a VPN, which encrypts and decripts data.  In order to see the traffic when I open a web browser, I then focussed on analysing the TCP traffic.
 
 
 
