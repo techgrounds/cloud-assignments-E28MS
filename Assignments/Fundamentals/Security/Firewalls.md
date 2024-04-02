@@ -52,6 +52,17 @@ I then checked to see if the rules were applied before trying to enable the fire
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b0ef7080-dcbe-4c5f-9e9a-d0713eb82f5d)
 
+And finally enabled the firewall using ufw :
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d6c00883-d352-4d93-8d54-564c0dc4adff)
+
+
+
+Here I tested if I could connect to the webserver on my machine and I couldn't connect
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f2e5ba94-88c7-42f2-9021-be0228623031)
+
+
 
 
 ##  Learning/Reflection
