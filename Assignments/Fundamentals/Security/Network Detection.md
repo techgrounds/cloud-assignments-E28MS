@@ -44,6 +44,9 @@ Overall, the scan report suggests that the target host, my VM,  is up and respon
 
 At first I tried to filter for http but this didn't bring up any traffic, possibly as I'm using a VPN, which encrypts and decripts data.  In order to see the traffic when I open a web browser, I then focussed on analysing the TCP traffic.
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6fb6ec73-c9e8-4975-8112-4869570db932)
+
+
 
 
 ##  Learning/Reflection
