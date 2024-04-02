@@ -1,5 +1,7 @@
 ##  Subject
 
+This assignment is about firewalls and understanding the first concepts of how to prevent unwanted or unauthorised access from the web into your machine.  It draws on previously covered topics like SSH, ports and the Linux command line.
+
 ##  Assignment
 
 Install a web server on your VM.
@@ -12,7 +14,7 @@ Check whether the firewall is doing its job.
 
 ##  Key Terms
 
-iptables - 
+firewall - in this case, the firewall is a piece of software that is available on the Linux machine.  It allows you to set up rules for which ports are open to which type of traffic.
 
 ufw - 
 
