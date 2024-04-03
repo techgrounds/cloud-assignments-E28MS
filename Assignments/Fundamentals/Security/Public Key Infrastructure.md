@@ -3,19 +3,25 @@
 
 ##  Assignment
 
-Generate a key pair.
+Create a self-signed certificate on your VM.
 
-Send an asymmetrically encrypted message to one of your peers via the public Slack channel. They should be able to decrypt the message using a key. 
+Analyze some certification paths of known websites (ex. techgrounds.nl / google.com / ing.nl).
 
-The recipient should be able to read the message, but it should remain a secret to everyone else. You are not allowed to use any private messages or other communication channels besides the public Slack channel. Analyse the difference between this method and symmetric encryption.
+Find the list of trusted certificate roots on your pc/laptop (bonus points if you also find it in your VM).
 
 ##  Key Terms
 
-Key Pair
+Self-singed certificate - 
+
+Certification path - 
+
+Trusted certificate roots - 
 
 ##  Resources
 
-[Khan Academy](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:online-data-security/xcae6f4a7ff015e7d:data-encryption-techniques/a/public-key-encryption)
+
+
+ChatGPT
 
 
 
