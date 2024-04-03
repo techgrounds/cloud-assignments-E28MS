@@ -53,7 +53,7 @@ ChatGPT
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6be55b2d-64b6-47b5-aac6-9abc7ccc458c)
    
 
-   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3b8c0ebb-c0ed-4ec1-a09a-4838f2ab0217
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3b8c0ebb-c0ed-4ec1-a09a-4838f2ab0217)
    
 
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0b18f73e-a2c0-4ab5-b958-b3fea9910609)
