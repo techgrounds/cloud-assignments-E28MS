@@ -45,21 +45,17 @@ ChatGPT
 
 
 
-
-
-
-
-
-
-
 ##  Difficulties
 I found it challenging to work out how to complete a message that only one person could access as our team don't have such a long history together.  I modified the assignment so all the team members would be able to decrypt my message but not the learning coaches.  It was also difficult to know how much information to give them, so I ended up not spelling out the tools they would need to get the key hidden in the steganography image.  
 
-I also found it challenging to decrypt a team mates message that he hid in a Mega file.  
+I also found it challenging to decrypt a team mates message that he hid in a Mega file.  I managed to locate a clue by inspecting the file so I know which decryption method to try but I haven't been able to locate the information that I need to decrypt.  Unfortunately, due to time constraints, I may have to leave it at that.
 
 ##  Results
 
-A Vigenere Cipher uses a table based on multiple Caeaser Shifts, so it makes decryption using frequency analysis much more difficult.  Here is a step by step breakdown of how it works:
+1.  The Vigenere Cipher is another historic cipher:
+  
+  
+    A Vigenere Cipher uses a table based on multiple Caeaser Shifts, so it makes decryption using frequency analysis much more difficult.  Here is a step by step breakdown of how it works:
 
 [Khan Academy Encryption Techniques](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:online-data-security/xcae6f4a7ff015e7d:data-encryption-techniques/a/symmetric-encryption-techniques)
 
@@ -93,24 +89,22 @@ X	X	Y	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W
 Y	Y	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X
 Z	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y
 
-The three types of encryption are :
 
-Symmetric - 
 
-Assymetric - 
+2.  Two types of digital ciphers (also known as encryption algorythms) that are in use today are:
 
-Hashing - 
 
-Two types of digital ciphers that are in use today are:
+*RSA (Rivest-Shamir-Adleman): RSA is an asymmetric encryption algorithm used for secure data transmission. It relies on the difficulty of factoring large prime numbers to secure communications.
 
-RSA - (Rivest-Shamir-Adleman) Is a digital assymetric public key 
+*AES (Advanced Encryption Standard) : AES is a symmetric encryption algorithm widely used to encrypt sensitive data. It supports key lengths of 128, 192, or 256 bits and is considered highly secure.
 
-AES - 
+
 
 
 
 
 3.  In order to get a secret message to my team, I used AES encryption and steganography:
+   
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c2b16470-d5a8-49ed-985c-488396ecd9c1)
 
@@ -119,7 +113,9 @@ AES -
 
 Here is the message and key :
 
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/30a274aa-d906-45a1-bffb-b84e288ebeb0
+
 
 4.  Disadvantages of symmetrical encryption:
 
@@ -131,3 +127,5 @@ Here is the message and key :
 
 
 ##  Learning/Reflection
+
+I found this excercise unexpectedly fun but also frustrating as I have no experience with decrypting.  It was interesting to note the vast amount of tools out there to encrypt and decrypt information.
