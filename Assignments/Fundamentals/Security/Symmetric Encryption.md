@@ -21,11 +21,7 @@ Symmetric Cipher - this is where the same key is used to encrypt and decrypt inf
 
 Ceaser Cipher - AKA the Ceaser Shift - This is where a plain text message is encrypted by replacing each letter with a different letter of the alphabet , based on a fixed shift of the letters.  
 
-Public key - 
-
-Encryption - 
-
-Decryption 
+Steganography - Hiding a secret message inside or on top of something that is not secret
 
 
 
@@ -44,6 +40,8 @@ ChatGPT
 [AES Decryption Tool](https://the-x.cn/en-US/cryptography/Aes.aspx)
 
 [Steganography](https://stylesuxx.github.io/steganography/)
+
+[CompTIA](https://www.comptia.org/blog/what-is-steganography)
 
 
 
