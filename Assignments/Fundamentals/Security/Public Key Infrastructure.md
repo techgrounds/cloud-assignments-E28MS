@@ -26,6 +26,12 @@ SSL -  Secure Sockets Layer is a communication protocol, or set of rules, that c
 
 TLS -  Transport Layer Security is the upgraded version of SSL that fixes existing SSL vulnerabilities. TLS authenticates more efficiently and continues to support encrypted communication channels.
 
+Root Certificate Authority (Root CA): This is the top-level certificate in the chain. It is self-signed and is used to sign intermediate CAs.
+
+Intermediate Certificate Authority (Intermediate CA): This certificate is signed by the Root CA. It is used to sign server certificates.
+
+Server Certificate: This certificate is signed by the Intermediate CA and is presented by the server to the client during an SSL/TLS handshake.
+
 
 
 ##  Resources
@@ -33,6 +39,8 @@ TLS -  Transport Layer Security is the upgraded version of SSL that fixes existi
 [Key Factor](https://www.keyfactor.com/blog/self-signed-certificate-risks/)
 
 [Amazon Difference Between SSL and TLS](https://aws.amazon.com/compare/the-difference-between-ssl-and-tls/#:~:text=SSL%20is%20technology%20your%20applications,that%20fixes%20existing%20SSL%20vulnerabilities.)
+
+[Moon Point](https://support.moonpoint.com/os/windows/certificates/trusted_root.php)
 
 
 
@@ -60,6 +68,8 @@ ChatGPT
 
    
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3b5b60f2-1938-40a9-b4fe-63f4524873b7)
+
+3.  I found the trusted root certificates on my account by opening certificate manager (certmgr.msc) in the Run command line.  I have 64 certificates but I couldn't take a print screen.
 
 
   
