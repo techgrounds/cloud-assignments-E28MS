@@ -107,13 +107,28 @@ Two types of digital ciphers that are in use today are:
 
 RSA - (Rivest-Shamir-Adleman) Is a digital assymetric public key 
 
-In order to get a secret message to my team, I used AES encryption and steganography
+AES - 
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/63b3d99a-2e50-4174-befd-7c297df82227)
 
-Here is the message, key and the encoded message
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/30a274aa-d906-45a1-bffb-b84e288ebeb0)
+
+3.  In order to get a secret message to my team, I used AES encryption and steganography:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c2b16470-d5a8-49ed-985c-488396ecd9c1)
+
+
+
+
+Here is the message and key :
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/30a274aa-d906-45a1-bffb-b84e288ebeb0
+
+4.  Disadvantages of symmetrical encryption:
+
+   *  Getting the key to someone without others also getting it
+   *  Not good for large groups
+   *  For the purposes of this excercise, it felt like a multi step, cumbersome process that was not efficient to execute
+   *  If people lost their key, they won't be able to decrypt the message
 
 
 
