@@ -48,3 +48,5 @@ Using the same tool, I was able to decrypt his message making use of the public 
 
 
 ##  Reflection/Learning
+
+This was a great example of where the right tool for the job makes everything so much easier.  I wasted time trying to use the key pair generator provided in the excercise but it was only half of the solution.  Finding one tool that does everything was a much more efficient use of my time.
