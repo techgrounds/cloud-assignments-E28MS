@@ -20,7 +20,7 @@ Hex - this refers to the number system with 16 as it's base, so from 0 to 9 and 
 
 ## Difficulties
 
-At first if seemed complex and difficult, but once I found an explanation that was clear to me, with a bit of practice it turned out to be easy, if time consuming.  
+At first if seemed complex and difficult, but once I found an explanation that was clear to me, with a bit of practice it turned out to be easy, if time consuming to convert between decimal, binary and hex.  If I had to convert in future, I would use a converter to cut back on errors and save time.
 
 ## Results
 
