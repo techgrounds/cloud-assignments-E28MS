@@ -105,6 +105,8 @@ ChatGPT
 
 [What's My IP?](https://whatsmyip.com/)
 
+[Geeks for Geeks DHCP](https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/?ref=header_search)
+
 
 ##  Difficulties
 I had to consider the reasons the Public IP of my phone and laptop were not the same, despite being on the same home network. As I use a VPN at home, the devices seemed to be connected to different servers, so their IP addresses differed.
