@@ -7,19 +7,19 @@ This assignment is about IP Addressing and introduces concepts like public and p
 1.  Find out what your public IP address is for your laptop and mobile on WiFi.
 
 
-2.  Are the addresses the same or not? Explain why.
+   Are the addresses the same or not? Explain why.
 
 
-3.  Find out what your private IP address is for your laptop and mobile on WiFi.
+2.  Find out what your private IP address is for your laptop and mobile on WiFi.
 
 
-4.  Are the addresses the same or not? Explain why.
+   Are the addresses the same or not? Explain why.
 
 
-5.  Change the private IP address of your mobile to that of your laptop. What happens then?
+3.  Change the private IP address of your mobile to that of your laptop. What happens then?
 
 
-6.  Try changing the private IP address of your mobile to an address outside your network. What happens then?
+4.  Try changing the private IP address of your mobile to an address outside your network. What happens then?
 
 
 
