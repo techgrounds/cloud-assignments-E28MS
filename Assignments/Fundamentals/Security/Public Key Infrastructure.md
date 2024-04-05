@@ -73,9 +73,8 @@ ChatGPT
 
 I first tried this: /etc/ssl/certs/ca-certificates.crt:   But got a permission denied message.
 
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/072ac071-88f8-47d8-9b46-bc16e1009faf)
-
-
 
 
 
@@ -83,14 +82,18 @@ However, when I went to etc/ssl/certs and long listed the contents of the folder
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c31eb91f-a088-4f8b-86a0-b40472cd3a28)
 
+And when I tried to cat the contents of the trusted root folder, it worked:
 
-
-  
-
-
-
-
-
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/af4edcb3-e9ab-4f7d-8b0d-d536d00f40b5)
 
 
 ##  Reflection/Learning
+I found this assignment interesting as there was so much information available on websites I use regularly that I knew nothing about.  I feel like I'm getting pieces of the security puzzle but until I can put it into practice it's difficult to feel like I understand how it all fits together and what the interdependencies are.  I am keen to get more hands-on experience.
+
+
+##  Fun fact:
+
+The file ssl-cert-snakeoil.pem is a certificate file typically found on Debian-based Linux systems, such as Ubuntu. It's part of the default SSL/TLS configuration provided by the ssl-cert package.
+
+
+The term "snakeoil" in the filename is often used humorously in the context of security to refer to a self-signed certificate or a certificate used for testing purposes. The "ssl-cert" part of the filename indicates that it's related to SSL/TLS certificates.
