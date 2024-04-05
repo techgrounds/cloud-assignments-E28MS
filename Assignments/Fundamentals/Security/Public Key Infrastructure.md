@@ -20,11 +20,9 @@ Find the list of trusted certificate roots on your pc/laptop (bonus points if yo
 
 Self-signed certificate - These are public key certificates that are not signed by a Certificate Authority
 
+Root certificiate -  a root certificate is a public key certificate that identifies a root certificate authority (CA).
+
 Certification path - 
-
-Trusted certificate roots - 
-
-Certificate Revocation - 
 
 CRL - a list of digital certificates that have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should no longer be trusted". CRLs are no longer required by the CA/Browser forum as alternate certificate revocation technologies (such as OCSP) are increasingly used instead. Nevertheless, CRLs are still widely used by the CAs.
 
@@ -59,6 +57,10 @@ ChatGPT
 [Wikipedia Self Signed Certificate](https://en.wikipedia.org/wiki/Self-signed_certificate)
 
 [Wikipedia Certificate Revocation](https://en.wikipedia.org/wiki/Certificate_revocation)
+
+[Wikipedia Root Certificate](https://en.wikipedia.org/wiki/Root_certificate)
+
+
 
 
 
