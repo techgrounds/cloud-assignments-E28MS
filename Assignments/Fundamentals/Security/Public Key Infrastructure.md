@@ -1,6 +1,8 @@
 ##  Subject
 Self signed certificates ties together several concepts covered in our first week of Security Fundamentals.  Self signed certificates are in the SSL/TLS protocol and is about security and authentication. It allows for the encryption of data communications over open networks, safeguarding against tampering and interception.  In addition, the use of SSL certificates authenticates communicating parties.  
 
+Self-signed certificate transactions usually present a far smaller attack surface by eliminating both the complex certificate chain validation,[1] and certificate revocation checks like CRL and OCSP.
+
 Here are some advantages and risks of Self Signed Certificates:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ed8d280c-e1d5-4c2e-8f2b-1744b2bdd97f)
@@ -16,7 +18,7 @@ Find the list of trusted certificate roots on your pc/laptop (bonus points if yo
 
 ##  Key Terms
 
-Self-signed certificate - 
+Self-signed certificate - These are public key certificates that are not signed by a Certificate Authority
 
 Certification path - 
 
@@ -46,9 +48,15 @@ Server Certificate: This certificate is signed by the Intermediate CA and is pre
 
 ChatGPT
 
+[Wikipedia Self Signed Certificate](https://en.wikipedia.org/wiki/Self-signed_certificate)
+
+[Wikipedia Certificate Revocation](https://en.wikipedia.org/wiki/Certificate_revocation)
+
 
 
 ##  Difficulties
+
+No particular difficulties encountered during this assignment.
 
 ##  Results
 
