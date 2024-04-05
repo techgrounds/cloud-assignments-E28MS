@@ -22,8 +22,6 @@ Self-signed certificate - These are public key certificates that are not signed 
 
 Root certificiate -  a root certificate is a public key certificate that identifies a root certificate authority (CA).
 
-Certification path - 
-
 CRL - a list of digital certificates that have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should no longer be trusted". CRLs are no longer required by the CA/Browser forum as alternate certificate revocation technologies (such as OCSP) are increasingly used instead. Nevertheless, CRLs are still widely used by the CAs.
 
 OCSP- Online Certificate Status Protocol is an Internet protocol used for obtaining the revocation status of an X.509 digital certificate
