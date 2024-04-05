@@ -42,7 +42,7 @@ Server Certificate: This certificate is signed by the Intermediate CA and is pre
 
 [Moon Point](https://support.moonpoint.com/os/windows/certificates/trusted_root.php)
 
-
+[SSL Certificate Location](https://serverfault.com/questions/62496/ssl-certificate-location-on-unix-linux)
 
 ChatGPT
 
@@ -69,7 +69,20 @@ ChatGPT
    
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3b5b60f2-1938-40a9-b4fe-63f4524873b7)
 
-3.  I found the trusted root certificates on my account by opening certificate manager (certmgr.msc) in the Run command line.  I have 64 certificates but I couldn't take a print screen.
+3.  I found the trusted root certificates on my account by opening certificate manager (certmgr.msc) in the Run command line.  I have 64 certificates but I couldn't take a print screen. When I investigated this, it seems that this is to ensure the security of my system.
+
+I first tried this: /etc/ssl/certs/ca-certificates.crt:   But got a permission denied message.
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/072ac071-88f8-47d8-9b46-bc16e1009faf)
+
+
+
+
+
+However, when I went to etc/ssl/certs and long listed the contents of the folder, I got this:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c31eb91f-a088-4f8b-86a0-b40472cd3a28)
+
 
 
   
