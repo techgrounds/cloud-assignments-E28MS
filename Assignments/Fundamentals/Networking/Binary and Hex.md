@@ -1,4 +1,6 @@
-## Subject : Counting in Binary and Hex
+## Subject 
+
+Counting in Binary and Hex introduces how to convert between decimal, binary and hexadecimal.
 
 ## Assignment
 Study base 2(Binary) and base 16(hexadecimal)
