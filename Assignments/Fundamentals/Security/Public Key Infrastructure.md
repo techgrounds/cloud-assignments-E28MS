@@ -1,7 +1,7 @@
 ##  Subject
 Self signed certificates ties together several concepts covered in our first week of Security Fundamentals.  Self signed certificates are in the SSL/TLS protocol and is about security and authentication. It allows for the encryption of data communications over open networks, safeguarding against tampering and interception.  In addition, the use of SSL certificates authenticates communicating parties.  
 
-Self-signed certificate transactions usually present a far smaller attack surface by eliminating both the complex certificate chain validation,[1] and certificate revocation checks like CRL and OCSP.
+Self-signed certificate transactions usually present a far smaller attack surface by eliminating both the complex certificate chain validation,and certificate revocation checks like CRL and OCSP.
 
 Here are some advantages and risks of Self Signed Certificates:
 
@@ -23,6 +23,14 @@ Self-signed certificate - These are public key certificates that are not signed 
 Certification path - 
 
 Trusted certificate roots - 
+
+Certificate Revocation - 
+
+CRL - a list of digital certificates that have been revoked by the issuing certificate authority (CA) before their scheduled expiration date and should no longer be trusted". CRLs are no longer required by the CA/Browser forum as alternate certificate revocation technologies (such as OCSP) are increasingly used instead. Nevertheless, CRLs are still widely used by the CAs.
+
+OCSP- Online Certificate Status Protocol is an Internet protocol used for obtaining the revocation status of an X.509 digital certificate
+
+X.509 - In cryptography, X.509 is an International Telecommunication Union (ITU) standard defining the format of public key certificates. X.509 certificates are used in many Internet protocols, including TLS/SSL, which is the basis for HTTPS, the secure protocol for browsing the web. They are also used in offline applications, like electronic signatures.
 
 SSL -  Secure Sockets Layer is a communication protocol, or set of rules, that creates a secure connection between two devices or applications on a network. 
 
