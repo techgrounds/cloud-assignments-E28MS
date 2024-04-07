@@ -25,7 +25,7 @@ Web Server -  A server that uses HTTP and other protocols to provide content to 
 
 Database - A collection of organised and structured information, usually kept on a computer system.  Accessed and controlled by a database management system. 
 
-AD Server - Thhis is a technology system that acts as a centralised platform for managing adverstisements (ads)
+AD Server - Active Directory Server - can be used to manage devices, users, domains, and objects within a network. Organizations use Active Directory for its seamless identity and access management capabilities.
 
 File server - This is a computer that stores and makes files available for shared use to all users on a LAN
 
