@@ -2,17 +2,16 @@
 
 ##  Assignment
 
-Find out what hashing is and why it is preferred over symmetric encryption for storing passwords.
-Find out how a Rainbow Table can be used to crack hashed passwords.
-Below are two MD5 password hashes. One is a weak password, the other is a string of 16 randomly generated characters. Try to look up both hashes in a Rainbow Table.
-03F6D7D1D9AAE7160C05F71CE485AD31
+A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup.
 
-03D086C9B98F90D628F2D1BD84CFA6CA
+The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes.
+
+What is the RPO of the database?
 
 
-Create a new user in Linux with the password 12345. Look up the hash in a Rainbow Table.
-Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
+An automatic failover to a backup web server has been configured for a website. Because the backup has to be powered on first and has to pull the newest version of the website from GitHub, the process takes about 8 minutes. 
 
+What is the RTO of the website?
 ##  Key Terms
 
 ##  Resources
