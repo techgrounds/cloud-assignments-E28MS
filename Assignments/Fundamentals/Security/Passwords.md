@@ -57,4 +57,27 @@ ChatGPT
 
 It is preferred over encryption when storing passwords inside databases because in the event of a compromise attackers won’t get access to the plaintext passwords and there’s no reason for the website to ever know the user’s plaintext password. 
 
+3. 1.  Here I found the weak password: Welldone!
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b25be196-d0a4-48a1-9f44-17e2a1a14e99)
+
+3.2.  Here is the stronger, randomly generated password: (not cracked by the rainbow table)
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bdbf5e0e-4641-43dc-8601-0820f9c287fe)
+
+3.2  I also tried another tool with similar results:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/935c9840-455f-482b-ac20-9572287cee24)
+
+
+4.  Here I created a user in my VM with password 12345, and then I hashed the password using the sha256sum command:
+
+5.  ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ac45687a-35bc-447f-a0dc-c564e728e1c5)
+
+   This is the hash as generated for the password: 5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5
+
+
+
+
+
 ##  Learning/Reflection
