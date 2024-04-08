@@ -57,7 +57,7 @@ ChatGPT
 
 It is preferred over encryption when storing passwords inside databases because in the event of a compromise attackers won’t get access to the plaintext passwords and there’s no reason for the website to ever know the user’s plaintext password. 
 
-3. 1.  Here I found the weak password: Welldone!
+3. 1.  Here I found the weak password: welldone!
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b25be196-d0a4-48a1-9f44-17e2a1a14e99)
 
