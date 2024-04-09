@@ -27,17 +27,26 @@ Firewalls restrict access between networks to prevent intrusion and if an attack
 
 An IDS describes a suspected intrusion once it has happened and then signals an alarm.
 
-IPS
+*Difference between IPS and IDS*
+When IDS detects intrusion it only alerts network administration while Intrusion Prevention System(IPS) blocks the malicious packets before it reaches the destination.
 
-Types of IPS
+*IPS*
+Is a network security application that monitors network or system activities for malicious activity. Major functions of intrusion prevention systems are to identify malicious activity, collect information about this activity, report it and attempt to block or stop it. 
 
-There are two main types of IPS:
+Intrusion prevention systems are contemplated as augmentation of Intrusion Detection Systems (IDS) because both IPS and IDS operate network traffic and system activities for malicious activity. 
+
+IPS typically record information related to observed events, notify security administrators of important observed events and produce reports. 
+
+Many IPS can also respond to a detected threat by attempting to prevent it from succeeding. They use various response techniques, which involve the IPS stopping the attack itself, changing the security environment or changing the attack’s content. 
+
+*There are two main types of IPS:*
 
 Network-Based IPS: A Network-Based IPS is installed at the network perimeter and monitors all traffic that enters and exits the network.
 Host-Based IPS: A Host-Based IPS is installed on individual hosts and monitors the traffic that goes in and out of that host.
 
-*Difference between IPS and IDS*
-When IDS detects intrusion it only alerts network administration while Intrusion Prevention System(IPS) blocks the malicious packets before it reaches to destination.
+*Hack response strategies:*
+
+
 
 There are two main types of IPS:
 
@@ -45,13 +54,40 @@ Network-Based IPS: A Network-Based IPS is installed at the network perimeter and
 Host-Based IPS: A Host-Based IPS is installed on individual hosts and monitors the traffic that goes in and out of that host.
 
 *Hack response strategies*
+Preparation
+Identification
+Containment
+Eradication
+Recovery
+Lessons learned
+
+Also relevant to these steps are infomring the relevant parties (clients, regulatory bodies if relevant) and upgrading security measures to prevent similar attacks.
 
 
 
-The concept of systems hardening:
 
 
-Different types of disaster recovery options:
+*Systems hardening*
+Systems hardening is a collection of tools, techniques, and best practices to reduce vulnerability in technology applications, systems, infrastructure, firmware, and other areas. 
+
+The goal of systems hardening is to reduce security risk by eliminating potential attack vectors and condensing the system’s attack surface. 
+
+Common attack surface vulnerabilities include:
+
+Default passwords – Attackers can leverage automated password crackers to guess the defaults. The attack surface this presents could be large if the same defaults are used across many different endpoints--from desktops to IoT--or accounts.
+Hardcoded passwords and other credentials stored in plain text files can increase the attack surface in a couple important ways. If they are forgotten in deployed code or otherwise publicly exposed, the hardcoded credentials can provide a backdoor into the organization.
+
+Unpatched software and firmware vulnerabilities are historically one of the biggest contributors to attack surfaces. While patching will mitigate a vulnerability, patches are not always available as in the case of zero day threats. Moreover, some patches may be too disruptive to implement or not economically feasible.
+Lack, or deficiency, of privileged access controls. With the expansion of the cloud and all things digital transformation privileged accounts and access has exploded. The privileged account attack surface is not just humans and employees, but also increasingly involves machines and vendors. In cloud environments, privileged access and accounts may be dynamic and ephemeral, further complicating efforts to gain visibility and control over this massive risk.
+
+Poorly configured BIOS, firewalls, ports, servers, switches, routers, or other parts of the infrastructure. With the strong growth in cloud and hybrid infrastructure, IT environments are becoming increasingly complex. This complexity is fertile ground for misconfigurations not only can cause systems to crash or misfire, but also can create dangerous security holes. Misconfigurations like open ports have resulted in some of the worst cloud breaches in recent years, such as by inadvertently exposing data buckets or providing publicly accessible backdoors to critical infrastructure
+
+Unencrypted, or inadequately encrypted, network traffic or data at rest can make it easy for attackers to access data or eavesdrop on conversations and access and potentially gain important information (such as passwords) needed to advance an attack.
+
+*Different types of disaster recovery options*
+
+*Incident Response*
+Incident response (sometimes called cybersecurity incident response) refers to an organization’s processes and technologies for detecting and responding to cyberthreats, security breaches or cyberattacks. A formal incident response plan enables cybersecurity teams to limit or prevent damage.
 
 
           
@@ -62,12 +98,40 @@ Different types of disaster recovery options:
 
 [Geeks for Geeks IPS](https://www.geeksforgeeks.org/intrusion-prevention-system-ips/)
 
+[National Institute of Standards and Technology](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf)
+
+[Beyond Trust](https://www.beyondtrust.com/resources/glossary/systems-hardening#:~:text=Systems%20hardening%20is%20a%20collection,condensing%20the%20system's%20attack%20surface.)
+
+[Geeks for Geeks System Hardening](https://www.geeksforgeeks.org/what-is-system-hardening/)
+
+
+
+
+
 
 
 
 
 ##  Difficulties
+I found it difficult to restrict my reading on this topic as I found it fascinating and wanted to learn more.  However, setting a time limit helped me to stay on track.
 
 ##  Results
 
 ##  Learning/Reflection
+
+##  Additional Information
+I have an interest in the legislation governing cyber security and data protection in Europe, so also looked at the information below:
+
+In Europe, there are several best practice guidelines for disaster recovery post-cyber attack. These may include:
+
+GDPR Compliance: Ensure compliance with the General Data Protection Regulation (GDPR) requirements, which mandate data protection measures and incident response procedures.
+
+ISO 22301: Implement the ISO 22301 standard for business continuity management systems. This framework provides guidelines for establishing, implementing, maintaining, and continually improving a business continuity management system.
+
+ENISA Guidelines: Refer to guidelines provided by the European Union Agency for Cybersecurity (ENISA). ENISA offers resources and recommendations for enhancing cybersecurity resilience, including disaster recovery planning.
+
+NIS Directive: Comply with the requirements of the EU Network and Information Security (NIS) Directive, which aims to enhance the cybersecurity capabilities of critical infrastructure operators and digital service providers.
+
+Industry Standards: Adhere to industry-specific standards and regulations applicable to your sector, such as the financial services sector's regulations or healthcare industry guidelines.
+
+
