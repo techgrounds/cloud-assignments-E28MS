@@ -1,5 +1,7 @@
 ## Subject
 
+The subject of Detection, Response and Analysis introduces further concepts in cyber security and introduces additional key terms.
+
 ##  Assignment
 
 1.  A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup.
