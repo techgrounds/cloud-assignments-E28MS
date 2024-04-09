@@ -82,7 +82,9 @@ It is preferred over encryption when storing passwords inside databases because 
 
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f65019cd-9681-4998-91a9-a71f1cf6fee1)
 
+   Here is a colleague's hash:
 
+$6$M4ArJDmkUYKZd5zi$rCsls/VCM9dYCJSOathSO6Z5MkU4QFQURsA6gHe94FF9vz3U.QVVPT5l7M4R5Ol/OAn/3sYXgXTH/WyWTY5Q41:19821:0:99999:7:::
 
 
 
