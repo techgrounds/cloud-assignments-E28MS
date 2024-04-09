@@ -8,6 +8,7 @@ Create two variables x and y. Assign a numerical value to both variables.
 Print the values of x and y.
 Create a third variable named z. The value of z should be the sum of x and y.
 Print the value of z.
+
  Exercise 2:
 Create a new script.
 Create a variable called name. The value of name should be your name.
@@ -32,5 +33,17 @@ Example output:
 ##  Difficulties
 
 ##  Results
+'''
+x = 5
+y = 10
+print (x)
+print (y)
+
+addup = (x + y)
+print (addup)
+'''
+
+
+
 
 ##  Learning/Reflection
