@@ -2,16 +2,17 @@
 
 ##  Assignment
 
-A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup.
+1.  A Company makes daily backups of their database. The database is automatically recovered when a failure happens using the most recent available backup.
 
-The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes.
+    The recovery happens on a different physical machine than the original database, and the entire process takes about 15 minutes.
 
-What is the RPO of the database?
+    What is the RPO of the database?
 
 
-An automatic failover to a backup web server has been configured for a website. Because the backup has to be powered on first and has to pull the newest version of the website from GitHub, the process takes about 8 minutes. 
+2.  An automatic failover to a backup web server has been configured for a website. Because the backup has to be powered on first and has to pull the newest version of the website from GitHub, the process takes about 8 minutes. 
 
-What is the RTO of the website?
+    What is the RTO of the website?
+
 ##  Key Terms
 
 *IDS* -   * An IDS (Intrusion Detection System) monitors the traffic on a computer network to detect any suspicious activity.
@@ -44,15 +45,6 @@ Many IPS can also respond to a detected threat by attempting to prevent it from 
 Network-Based IPS: A Network-Based IPS is installed at the network perimeter and monitors all traffic that enters and exits the network.
 Host-Based IPS: A Host-Based IPS is installed on individual hosts and monitors the traffic that goes in and out of that host.
 
-*Hack response strategies:*
-
-
-
-There are two main types of IPS:
-
-Network-Based IPS: A Network-Based IPS is installed at the network perimeter and monitors all traffic that enters and exits the network.
-Host-Based IPS: A Host-Based IPS is installed on individual hosts and monitors the traffic that goes in and out of that host.
-
 *Hack response strategies*
 Preparation
 Identification
@@ -62,10 +54,6 @@ Recovery
 Lessons learned
 
 Also relevant to these steps are infomring the relevant parties (clients, regulatory bodies if relevant) and upgrading security measures to prevent similar attacks.
-
-
-
-
 
 *Systems hardening*
 Systems hardening is a collection of tools, techniques, and best practices to reduce vulnerability in technology applications, systems, infrastructure, firmware, and other areas. 
@@ -89,6 +77,11 @@ Unencrypted, or inadequately encrypted, network traffic or data at rest can make
 *Incident Response*
 Incident response (sometimes called cybersecurity incident response) refers to an organization’s processes and technologies for detecting and responding to cyberthreats, security breaches or cyberattacks. A formal incident response plan enables cybersecurity teams to limit or prevent damage.
 
+REcovery point objective (RPO) - How much data has been lost?
+
+Recovery time objective (RTO) - How long before you're back online?
+
+Automatic failover - the process of automatically switching your system over to another server in case the primary server(s) fail
 
           
 
@@ -104,6 +97,12 @@ Incident response (sometimes called cybersecurity incident response) refers to a
 
 [Geeks for Geeks System Hardening](https://www.geeksforgeeks.org/what-is-system-hardening/)
 
+[AWS Disaster Recovery](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html)
+
+[Azure Disaster Backup and Recovery](https://azure.microsoft.com/en-us/solutions/backup-and-disaster-recovery)
+
+
+
 
 
 
@@ -117,6 +116,10 @@ I found it difficult to restrict my reading on this topic as I found it fascinat
 
 ##  Results
 
+1.  In the case where a compamy does daily backups, the Recovery Point Objective (how much data has been lost) will depend on the time that has passed since the most recent backup was last done and the incident taking place.  At worst, it shouldn't be more than 24hrs. So the RPO is one day.
+
+2.  In the case where a company has an automatic failover where the latest information get's backed up from GitHub in about 8 minutes, the RTO of the company would be 8 minutes.
+   
 ##  Learning/Reflection
 
 ##  Additional Information
