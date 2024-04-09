@@ -47,6 +47,8 @@ ChatGPT
 
 [CSO](https://www.csoonline.com/article/570229/hashing-explained-why-its-your-best-bet-to-protect-stored-passwords.html)
 
+[Linux Config](https://linuxconfig.org/how-to-hash-passwords-on-linux)
+
 
 
 ##  Difficulties
