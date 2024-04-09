@@ -28,9 +28,19 @@ Example output:
 
 ##  Key Terms
 
+Python reserved words:
+These are words that has a meaning to Python and if you use them as variables, it will cause confusion and the code won't work:
+
+
+
 ##  Resources
 
 ##  Difficulties
+
+When I tried to print my name, I got an error:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/7285db2e-9a6b-4042-9334-a309b627f25d)
+
 
 ##  Results
 
