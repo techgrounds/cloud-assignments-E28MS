@@ -33,7 +33,7 @@ These are words that has a meaning to Python and if you use them as variables, i
 
 Operator - +, -, x and other mathematical signs that perform functions in the code
 
-Concatenation - 
+Concatenation - String concatenation is a common operation in programming. It involves joining two or more strings to create a single new string. 
 
 F-strings - An f-string is prefixed with the letter 'f' or 'F' before the opening quote of the string literal.
 
@@ -44,6 +44,12 @@ String literal -
 
 
 ##  Resources
+
+[Hacker Earth](https://www.hackerearth.com/practice/python/getting-started/string/tutorial/)
+
+[Real Python](https://realpython.com/python-string-concatenation/#:~:text=String%20concatenation%20is%20a%20common,its%20own%20pros%20and%20cons.)
+
+ChatGPT
 
 ##  Difficulties
 
@@ -76,7 +82,9 @@ print (y)
 addup = (x + y)
 print (addup)
 ```
+
 Output:
+
 ```
 PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
 5
@@ -87,6 +95,7 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 
 My code:
 A) Using Concatenation:
+
 ```
 name = 'Elmarie'
 print ('Hello,' + name +('!'))
@@ -103,12 +112,12 @@ Code:
 ```
 name = 'Elmarie'
 print(f'Hello, {name}!')
-
+```
 Output:
 ```
 PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
 Hello, Elmarie!
-
+```
 
 
 ##  Learning/Reflection
