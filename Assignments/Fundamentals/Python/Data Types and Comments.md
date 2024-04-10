@@ -60,7 +60,7 @@ Find out what data type the output of input() is. See if it is different for dif
 
 # Excercise 1
 
-My code:
+1.1   My code:
 
 ```
 a = 'int'
@@ -87,19 +87,57 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 <class 'str'>
 ```
 
+1.2.  Here is the error when trying to add an integer to a string:
 
+```
+a = 'int'
 
+b = 7
+
+c = False
+
+d = "18.5"
+
+print (type (a))
+print (type (b))
+print (type (c))
+print (type (d))
+
+x = (b + d)
+print (x)
+```
+1.3  Here is the code fixed, by removing the double quotes that indicates a string so that variable d is now a floating point number instead of a string:
+
+```
+a = 'int'
+
+b = 7
+
+c = False
+
+d = 18.5
+
+print (type (a))
+print (type (b))
+print (type (c))
+print (type (d))
+
+x = (b + d)
+print (x)
+```
+
+Here is the output for the above code, indicating the new data class for d:
+
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/datatypesEx1.py
+<class 'str'>
+<class 'int'>
+<class 'bool'>
+<class 'float'>
+25.5
+```
 Excercise 2
 
-Here is the error when trying to add an integer to a string:
 
-```
-Traceback (most recent call last):
-  File "c:\Users\elmar\Python.py\datatypesEx1.py", line 14, in <module>
-    apples_and_pears = (b + d)
-                        ~~^~~
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
-PS C:\Users\elmar>
-```
 
 ##  Learning/Reflection
