@@ -1,28 +1,50 @@
 ##  Subject
+Python is a high level programming language used for web and internet development, data management, education, sicentific and numeric computing and more.
 
 ##  Assignment
 
 Exercise 1:
 Create a new script.
-Create two variables x and y. Assign a numerical value to both variables.
+
+Create two variables x and y. 
+
+Assign a numerical value to both variables.
+
 Print the values of x and y.
-Create a third variable named addup. The value of addup should be the sum of x and y.
+
+Create a third variable named addup.
+
+The value of addup should be the sum of x and y.
+
 Print the value of addup.
 
  Exercise 2:
 Create a new script.
-Create a variable called name. The value of name should be your name.
-Print the text “Hello, YOURNAME!”. Use the variable name in the print statement. 
+
+Create a variable called name. 
+
+The value of name should be your name.
+
+Print the text “Hello, YOURNAME!”. 
+
+Use the variable name in the print statement. 
 
 
  Exercise 3:
 Create a new script.
+
 Create a variable and assign a value to it.
+
 Print the text “Value 1: VALUE1”.
+
 Change the value of that same variable.
+
 Print the text “Value 2: VALUE2”.
+
 Change the value of that same variable.
+
 Print the text “Value 3: VALUE3”.
+
 Example output:
 
 
@@ -43,6 +65,8 @@ Inside an f-string, you can embed Python expressions and variables by placing th
 [Hacker Earth](https://www.hackerearth.com/practice/python/getting-started/string/tutorial/)
 
 [Real Python](https://realpython.com/python-string-concatenation/#:~:text=String%20concatenation%20is%20a%20common,its%20own%20pros%20and%20cons.)
+
+[Python.org](https://www.python.org/doc/essays/blurb/)
 
 ChatGPT
 
@@ -116,6 +140,29 @@ Output:
 PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
 Hello, Elmarie!
 ```
+
+# Excercise 3
+
+My code:
+
+```
+first_value = 'Good'
+print ('Value 1:', first_value)
+first_value = 'day'
+print ('Value 2:', first_value)
+first_value = 'to you all'
+print ('Value 3:', first_value)
+```
+
+Output:
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/value1 = Good.py"
+Value 1: Good
+Value 2: day
+Value 3: to you all
+```
+
+
 
 
 ##  Learning/Reflection
