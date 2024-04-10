@@ -106,7 +106,7 @@ print (type (d))
 x = (b + d)
 print (x)
 ```
-1.3  Here is the code fixed, by removing the double quotes that indicates a string so that variable d is now a floating point number instead of a string:
+1.3  Here is the above code fixed, by removing the double quotes that indicates a string so that variable d is now a floating point number instead of a string:
 
 ```
 a = 'int'
@@ -127,6 +127,44 @@ print (x)
 ```
 
 Here is the output for the above code, indicating the new data class for d:
+
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/datatypesEx1.py
+<class 'str'>
+<class 'int'>
+<class 'bool'>
+<class 'float'>
+25.5
+```
+
+1.4. My code with lines of text describing the code:
+
+```
+#  Four data types listed below in variables named a,b,c,d:
+
+a = 'int'
+
+b = 7
+
+c = False
+
+d = 18.5
+
+# built in function 'type' used to express types of data for each variable and to print this:
+
+print (type (a))
+print (type (b))
+print (type (c))
+print (type (d))
+
+# adding b and d to produce x
+x = (b + d)
+
+#output
+print (x)
+```
+
+Here is the output of the above code:
 
 ```
 PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/datatypesEx1.py
