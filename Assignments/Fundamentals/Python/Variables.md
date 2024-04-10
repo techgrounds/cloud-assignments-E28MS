@@ -31,16 +31,11 @@ Example output:
 Python reserved words:
 These are words that has a meaning to Python and if you use them as variables, it will cause confusion and the code won't work
 
-Operator - +, -, x and other mathematical signs that perform functions in the code
-
 Concatenation - String concatenation is a common operation in programming. It involves joining two or more strings to create a single new string. 
 
 F-strings - An f-string is prefixed with the letter 'f' or 'F' before the opening quote of the string literal.
 
 Inside an f-string, you can embed Python expressions and variables by placing them within curly braces {}.They are very flexible and can handle various expressions and formatting options. You can even call functions and methods inside f-strings. They offer a concise and readable way to compose strings with dynamic content in Python.
-
-String literal - 
-
 
 
 ##  Resources
@@ -90,6 +85,7 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 5
 10
 15
+```
 
 #  Excercise 2:
 
@@ -101,6 +97,7 @@ name = 'Elmarie'
 print ('Hello,' + name +('!'))
 ```
 Output:
+
 ```
 PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
 Hello,Elmarie!
@@ -114,6 +111,7 @@ name = 'Elmarie'
 print(f'Hello, {name}!')
 ```
 Output:
+
 ```
 PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
 Hello, Elmarie!
