@@ -166,4 +166,4 @@ Value 3: to you all
 
 
 ##  Learning/Reflection
-The many different ways to do things makes it difficult to retain the information.  With practice I will improve, so I need to ensure that I spend time every day coding with Python.  I will use ChatGPT to give me assignments but solve them without using ChatGPT. 
+The many different ways to do things makes it difficult to retain the information.  With practice I will improve, so I need to ensure that I spend time every day coding with Python.  I will use ChatGPT to give me assignments but solve them without using ChatGPT or find some online resources with beginner projects for Python.
