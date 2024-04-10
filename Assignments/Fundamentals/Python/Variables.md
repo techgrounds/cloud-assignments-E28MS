@@ -35,6 +35,12 @@ Operator - +, -, x and other mathematical signs that perform functions in the co
 
 Concatenation - 
 
+F-strings - An f-string is prefixed with the letter 'f' or 'F' before the opening quote of the string literal.
+
+Inside an f-string, you can embed Python expressions and variables by placing them within curly braces {}.They are very flexible and can handle various expressions and formatting options. You can even call functions and methods inside f-strings. They offer a concise and readable way to compose strings with dynamic content in Python.
+
+String literal - 
+
 
 
 ##  Resources
@@ -50,6 +56,8 @@ When I tried to print my name, I got an error:
 I had to research the different ways to get the correct output and learned about formatting strings. 
 
 I chose the simplest way to do this by concatenating the string with the name variable.
+
+I added different code blocks to demonstrate the different ways to do this excercise for my own learning.
 
 
 
@@ -78,6 +86,7 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 #  Excercise 2:
 
 My code:
+A) Using Concatenation:
 ```
 name = 'Elmarie'
 print ('Hello,' + name +('!'))
@@ -88,7 +97,17 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 Hello,Elmarie!
 ```
 
+B) f strings method:
 
+Code:
+```
+name = 'Elmarie'
+print(f'Hello, {name}!')
+
+Output:
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
+Hello, Elmarie!
 
 
 
