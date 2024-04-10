@@ -56,7 +56,9 @@ I chose the simplest way to do this by concatenating the string with the name va
 
 ##  Results
 
-Excercise 1:
+#  Excercise 1:
+
+My code:
 ```
 x = 5
 y = 10
@@ -66,20 +68,27 @@ print (y)
 addup = (x + y)
 print (addup)
 ```
-Excercise 2:
+Output:
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
+5
+10
+15
 
+#  Excercise 2:
+
+My code:
 ```
 name = 'Elmarie'
 print ('Hello,' + name +('!'))
 ```
+Output:
 ```
 PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
 Hello,Elmarie!
 ```
 
 
-
-```
 
 
 
