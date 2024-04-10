@@ -52,6 +52,10 @@ Find out what data type the output of input() is. See if it is different for dif
 
 [Software Carpentry](python.exe c:/Users/elmar/Python.py/datatypesEx1.py <class 'str'> <class 'int'> <class 'bool'> <class 'str'>)
 
+[Quora](https://www.quora.com/Why-does-input-always-return-a-string-in-Python#:~:text=There%20are%20a%20few%20reasons,using%20the%20appropriate%20conversion%20function.)
+
+
+
 
 
 ##  Difficulties
@@ -215,6 +219,8 @@ Please enter a random 3 digit number486
 <class 'str'>
 PS C:\Users\elmar>
 ```
+
+The output of the user input is always classified as a string, regardless of whether it is an integer or a string.  Looking this up online indicates that this allows the programmer flexibility in handling this data.
 
 
 
