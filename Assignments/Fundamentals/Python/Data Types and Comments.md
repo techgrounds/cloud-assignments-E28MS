@@ -174,7 +174,47 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 <class 'float'>
 25.5
 ```
-Excercise 2
+#  Excercise 2
+
+2.1.  My code:
+
+```
+# ask for user's name 
+whats_your_name = input ('What is your name?')
+
+# ask user for current year
+
+current_year = input ('Which year is it?')
+
+# ask user to insert a random 3 digit number
+
+random_number = input ('Please enter a random 3 digit number')
+
+# print data types of user input
+
+print (type (whats_your_name))
+
+print (type (current_year))
+
+print (type (random_number))
+```
+
+Here is the output of my code:
+
+```
+What is your name?Elmarie
+Which year is it?2024
+<class 'str'>
+<class 'str'>
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/datatypesEx2.py
+What is your name?Elmarie
+Which year is it?2024
+Please enter a random 3 digit number486
+<class 'str'>
+<class 'str'>
+<class 'str'>
+PS C:\Users\elmar>
+```
 
 
 
