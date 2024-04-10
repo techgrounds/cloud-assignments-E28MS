@@ -12,9 +12,9 @@ Print the value of addup.
  Exercise 2:
 Create a new script.
 Create a variable called name. The value of name should be your name.
-Print the text “Hello, YOURNAME!”. Use the variable name in the print statement. Example output:
+Print the text “Hello, YOURNAME!”. Use the variable name in the print statement. 
 
-Image label
+
  Exercise 3:
 Create a new script.
 Create a variable and assign a value to it.
@@ -29,7 +29,11 @@ Example output:
 ##  Key Terms
 
 Python reserved words:
-These are words that has a meaning to Python and if you use them as variables, it will cause confusion and the code won't work:
+These are words that has a meaning to Python and if you use them as variables, it will cause confusion and the code won't work
+
+Operator - +, -, x and other mathematical signs that perform functions in the code
+
+Concatenation - 
 
 
 
@@ -37,9 +41,17 @@ These are words that has a meaning to Python and if you use them as variables, i
 
 ##  Difficulties
 
+Excercise 2:
+
 When I tried to print my name, I got an error:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/7285db2e-9a6b-4042-9334-a309b627f25d)
+
+I had to research the different ways to get the correct output and learned about formatting strings. 
+
+I chose the simplest way to do this by concatenating the string with the name variable.
+
+
 
 
 ##  Results
@@ -54,8 +66,22 @@ print (y)
 addup = (x + y)
 print (addup)
 ```
+Excercise 2:
 
+```
+name = 'Elmarie'
+print ('Hello,' + name +('!'))
+```
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/elmar/Python.py/name = Elmarie.py"
+Hello,Elmarie!
+```
+
+
+
+```
 
 
 
 ##  Learning/Reflection
+The many different ways to do things makes it difficult to retain the information.  With practice I will improve, so I need to ensure that I spend time every day coding with Python.  I will use ChatGPT to give me assignments but solve them without using ChatGPT. 
