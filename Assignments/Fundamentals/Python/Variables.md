@@ -3,7 +3,8 @@ Python is a high level programming language used for web and internet developmen
 
 ##  Assignment
 
-Exercise 1:
+# Exercise 1:
+
 Create a new script.
 
 Create two variables x and y. 
@@ -18,7 +19,9 @@ The value of addup should be the sum of x and y.
 
 Print the value of addup.
 
- Exercise 2:
+
+# Exercise 2:
+
 Create a new script.
 
 Create a variable called name. 
@@ -30,7 +33,8 @@ Print the text “Hello, YOURNAME!”.
 Use the variable name in the print statement. 
 
 
- Exercise 3:
+# Exercise 3:
+
 Create a new script.
 
 Create a variable and assign a value to it.
@@ -162,8 +166,5 @@ Value 2: day
 Value 3: to you all
 ```
 
-
-
-
 ##  Learning/Reflection
-The many different ways to do things makes it difficult to retain the information.  With practice I will improve, so I need to ensure that I spend time every day coding with Python.  I will use ChatGPT to give me assignments but solve them without using ChatGPT or find some online resources with beginner projects for Python.
+The many different ways to do things makes it difficult to retain the information.  With practice I will improve, so I need to ensure that I spend time regularly coding with Python.  
