@@ -52,7 +52,7 @@ I also found it challenging to decrypt a team mates message that he hid in a Meg
 
 ##  Results
 
-1.  The Vigenere Cipher is another historic cipher:
+# 1.  The Vigenere Cipher is another historic cipher:
   
   
     A Vigenere Cipher uses a table based on multiple Caeaser Shifts, so it makes decryption using frequency analysis much more difficult.  Here is a step by step breakdown of how it works:
@@ -91,7 +91,7 @@ Z	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y
 
 
 
-2.  Two types of digital ciphers (also known as encryption algorythms) that are in use today are:
+# 2.  Two types of digital ciphers (also known as encryption algorythms) that are in use today are:
 
 
 *RSA (Rivest-Shamir-Adleman): RSA is an asymmetric encryption algorithm used for secure data transmission. It relies on the difficulty of factoring large prime numbers to secure communications.
@@ -103,7 +103,7 @@ Z	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y
 
 
 
-3.  In order to get a secret message to my team, I used AES encryption and steganography:
+# 3.  In order to get a secret message to my team, I used AES encryption and steganography:
    
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c2b16470-d5a8-49ed-985c-488396ecd9c1)
@@ -117,7 +117,7 @@ Here is the message and key :
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/30a274aa-d906-45a1-bffb-b84e288ebeb0
 
 
-4.  Disadvantages of symmetrical encryption:
+# 4.  Disadvantages of symmetrical encryption:
 
    *  Getting the key to someone without others also getting it
    *  Not good for large groups
@@ -128,4 +128,4 @@ Here is the message and key :
 
 ##  Learning/Reflection
 
-I found this excercise unexpectedly fun but also frustrating as I have no experience with decrypting.  It was interesting to note the vast amount of tools out there to encrypt and decrypt information.
+I found this excercise unexpectedly fun but also frustrating as I have no experience with decrypting.  It was interesting to note the vast amount of tools out there to encrypt and decrypt information.  It was challenging to think through the whole assignment and difficult to complete it with people you don't know well, and certainly not on individual level.
