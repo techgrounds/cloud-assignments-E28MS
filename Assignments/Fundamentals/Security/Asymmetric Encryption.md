@@ -51,16 +51,19 @@ If the *recipient* wants to respond, the process moves in reverse.
 
 Here I generated a key pair:
 
-
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/87478ed9-4a35-4c4c-8f99-315e291e5243)
-
-
-Here I shared the public key with my team member:
-
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/48cc305c-d96b-4056-aed4-45cb251bdc6f)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a7b0f665-d540-4cdf-9223-c5408efba620)
 
 
-Using the same tool, I was able to decrypt his message making use of the public key.
+
+My private key:
+
+MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBALlLXeelOobx7NE/ZQtiFjAhq83YB2LXePteGnMV1YqQNhX+QXAmr1CzGsSPTjj2yYzjMsEm4TBJk0V19+kY3DkVOtJMg5QiXMAz9vYBUKPdC7xKCM64EGGzksKNqzhNKVoxrTIBBrRvK0T0K8CcU0Cli/Rd7L1Xwv+oqpHmoFMXAgMBAAECgYADdTOYag3wjL01nnA9SSRO26IAImLo5kp8rmHh+etVPaG0wVzpQd+Nqvn55w63o2tZdLfywM38/7J+3le1AuDBK89JckIG0A0aeRjduUp/qGCLvHNumC+TH/EGTUz0B4+K/YY9tDar/bSqELtDYEgi2Sdmq8ak3hqo74oic4VIoQJBAM5wV3S2/Hz6PeONaN1nTBN/PshF+gAOx1YgtWnOiYdWB1jlwMyByA5j8K+L6TsYAcWiu++k8dfHI5lhPiPC9KcCQQDlx37qVG1Yym6YjqOBOOVQhLi+2QJuSiwnaMpMar4nqwTBfvgfTJK1oDvnaFlBGRlYbYxU4voFoTcSnvEIn8wRAkABOn3qveQGwl536jGDj8fOHeW7v17bfTsGci9iL851tbdZehSJowQTwdh+0vBSX7Qy/uLrbCncRN0bXo7GG7TlAkAc29Rly9q75xjC0k9YwHOUjEbDuW+juG8ZOAEIXfOp+cGsJ600CSL36rr7UlC7a1KSl5ejZapvIJNRJGMzaRZxAkBzrm9yP/f4amaNpYzTxFY49qcxJ4LtUDIFxSKMfzD9brXlXzf1GL4RNArWn/UUKnKC7nZssD+w8pH2huecxRz/
+
+My public key:
+
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5S13npTqG8ezRP2ULYhYwIavN2Adi13j7XhpzFdWKkDYV/kFwJq9QsxrEj0449smM4zLBJuEwSZNFdffpGNw5FTrSTIOUIlzAM/b2AVCj3Qu8SgjOuBBhs5LCjas4TSlaMa0yAQa0bytE9CvAnFNApYv0Xey9V8L/qKqR5qBTFwIDAQAB
+
+
 
 
 ##  Reflection/Learning
