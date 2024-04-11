@@ -26,17 +26,33 @@ RSA Key Pair -  involves a public key and a private key. The public key can be k
 [CloudFlare](https://www.cloudflare.com/en-gb/learning/ssl/what-is-asymmetric-encryption/)
 
 
+[Simplilearn Cryptography](https://www.simplilearn.com/tutorials/cryptography-tutorial/asymmetric-encryption)
+
+
 ##  Difficulties
 
-Understanding how the public and private keys relate to each other and enables the encryption wasn't obvious to me at first.  After a few attempts to get it to work, the practical steps were clear.  I realised that the first tool I tried wasn't sufficient as it was only for generating key pairs and not for 
+Understanding how the public and private keys relate to each other and enables the encryption wasn't obvious to me at first.  After a few attempts to get it to work, the practical steps were clear.  After a few tries with my team mates, we realised that we were getting muddled up with which key to use when. See below for results.
 
 ##  Results
+
+After multiple tries and discussion, I understand the process as follows:
+
+The *recipient* generates a key pair, containing a private and public key.
+
+The public key gets sent to the *sender*.
+
+The *sender* creates a message, encrypts it with the *recipient's* public key, and sends it. 
+
+The *recipient* uses the private key to unscramble the message. 
+
+If the *recipient* wants to respond, the process moves in reverse. 
+
+
 
 Here I generated a key pair:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/87478ed9-4a35-4c4c-8f99-315e291e5243)
-
 
 
 Here I shared the public key with my team member:
