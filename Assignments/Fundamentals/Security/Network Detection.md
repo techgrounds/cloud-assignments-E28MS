@@ -23,7 +23,10 @@ Open Wireshark in Windows/MacOS Machine. Analyse what happens when you open an i
 
 ##  Resources
 
-[Cisco NDR](https://www.cisco.com/c/en/us/products/security/what-is-network-detection-response.html#:~:text=Network%20detection%20and%20response%20(NDR,that%20other%20security%20tools%20miss)
+
+[Sentinel One](https://www.sentinelone.com/cybersecurity-101/what-is-network-detection-and-response-ndr/)
+
+
 
 ChatGPT
 
