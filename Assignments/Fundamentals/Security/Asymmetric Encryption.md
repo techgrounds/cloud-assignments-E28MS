@@ -64,6 +64,17 @@ My public key:
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5S13npTqG8ezRP2ULYhYwIavN2Adi13j7XhpzFdWKkDYV/kFwJq9QsxrEj0449smM4zLBJuEwSZNFdffpGNw5FTrSTIOUIlzAM/b2AVCj3Qu8SgjOuBBhs5LCjas4TSlaMa0yAQa0bytE9CvAnFNApYv0Xey9V8L/qKqR5qBTFwIDAQAB
 
 
+Here I decrypted a message with my private key that my team mate sent me, using the public key I sent him:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3e639db0-4778-4b45-aafc-c550e83cb9f6)
+
+
+Here I encrypted a message to my team mate, using the public key he sent me:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f5eb7c29-9614-4042-a528-80bbda618e4a)
+
+
 
 
 ##  Reflection/Learning
