@@ -1,5 +1,6 @@
 ##  Subject
 
+
 ##  Key Terms
 Nmap - 
 
@@ -12,7 +13,14 @@ Open Wireshark in Windows/MacOS Machine. Analyse what happens when you open an i
 
 ##  Resources
 
+[Cisco NDR](https://www.cisco.com/c/en/us/products/security/what-is-network-detection-response.html#:~:text=Network%20detection%20and%20response%20(NDR,that%20other%20security%20tools%20miss.)
+
+ChatGPT
+
+
+
 ##  Difficulties
+
 The first time I tried scanning my VM, I got an error message saying the host may be down.  I resolved this by using the *-Pn* command, see screenshots in *Results*
 
 ##  Results
@@ -68,6 +76,8 @@ I take it that this could be because of the work I've done between the first VM 
 At first I tried to filter for http but this didn't bring up any traffic, possibly as I'm using a VPN, which encrypts and decripts data.  In order to see the traffic when I open a web browser, I then focussed on analysing the TCP traffic.
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6fb6ec73-c9e8-4975-8112-4869570db932)
+
+I coulnd't discern any differences between opening a browser and not having a browser open.
 
 
 
