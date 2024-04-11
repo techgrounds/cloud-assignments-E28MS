@@ -14,7 +14,7 @@ Study the following:
 
 MFA - Multi-factor identification uses multiple ways to identify for instance a password AND a cryptographic device.
 
-# 1.  Authentication - very shortly, authentication is the process by which it is established who a user is, for example, having to enter your password for accessing your work email
+### 1.  Authentication - very shortly, authentication is the process by which it is established who a user is, for example, having to enter your password for accessing your work email
 
 Here are some examples of popular authentication techniques:
 
@@ -24,7 +24,7 @@ Here are some examples of popular authentication techniques:
 *  Single sign-on (SSO)
 *  Social authentication
 
-# Authorization - very shortly, authorization is more about what levels of access the user should have to information, it's about having the right permissions to access things.
+### Authorization - very shortly, authorization is more about what levels of access the user should have to information, it's about having the right permissions to access things.
 
 Here are some popular  authorization techniques:
 
@@ -34,7 +34,7 @@ Here are some popular  authorization techniques:
 *  OpenID Authorization
 *  OAuth 2.0 Authorization
 
-# 2.   The 3 factors for authentication are:
+### 2.   The 3 factors for authentication are:
     
   * Something you know (like a password)
   * Something you have (like a cryptographic device)
@@ -42,7 +42,7 @@ Here are some popular  authorization techniques:
 
 MFA is crucial for security in business and private life as people store sensitive information online.  A password alone is not anywhere near secure enough as it can be stolen.  MFA provides additional layers of security.  Businesses use MFA to provide secure and quick access to authorised users.
 
-# 3.The Principle of Least Privelege (PoLP) is the practice of giving users the least possible priveleges required for them to do their jobs.  This is a cyber security best practice and a safety measure to ensure the safety of assets in the following ways:
+### 3.The Principle of Least Privelege (PoLP) is the practice of giving users the least possible priveleges required for them to do their jobs.  This is a cyber security best practice and a safety measure to ensure the safety of assets in the following ways:
 
 *  It reduces the surface for cyber attacks
 *  Stops malware spreading
