@@ -49,7 +49,7 @@ Using the *-Pn* command enabled the VM to be scanned:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/16fa4bbd-3018-464c-b249-d6dc61e95c85)
 
-I interpreted this information as follows:
+### I interpreted this information as follows:
 
 The Nmap scan report indicates that the host (in this case, an EC2 instance on AWS) is up, but all 1000 scanned ports are in ignored states, and 1000 filtered TCP ports are not shown due to no response.
 
@@ -62,7 +62,7 @@ The Nmap scan report indicates that the host (in this case, an EC2 instance on A
 
 Overall, the scan report suggests that the target host, my VM,  is up and responsive, but the scan results for the ports are inconclusive due to being in ignored or filtered states. This could be due to various factors such as firewall configurations, network settings, or Nmap timing options.
 
-I repeated the scan of my VM a week later and got different results:
+### I repeated the scan of my VM a week later and got different results:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0ab9b627-239f-4950-a80f-d9caa240d8e4)
 
@@ -74,7 +74,7 @@ In the previous scan, all 1000 scanned ports were reported to be in ignored stat
 
 In the current scan, all 1000 scanned ports are reported as filtered, indicating that Nmap did not receive any response from these ports during the scan.
 
-Analysis:
+### Analysis:
 
 The difference between the previous and current scan results lies in how Nmap categorized the ports. In the previous scan, the ports were categorized as "ignored," while in the current scan, they are categorized as "filtered."
 
@@ -85,7 +85,7 @@ It's also possible that the previous scan encountered different network conditio
 I take it that this could be because of the work I've done between the first VM scan and this scan around setting up a firewall on my VM.
 
 
-# Analyze what happens when you open an internet browser
+### Analyze what happens when you open an internet browser
 
 At first I tried to filter for http but this didn't bring up any traffic, possibly as I'm using a VPN, which encrypts and decripts data.  In order to see the traffic when I open a web browser, I then focussed on analysing the TCP traffic.
 
