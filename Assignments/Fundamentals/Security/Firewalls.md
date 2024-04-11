@@ -14,13 +14,51 @@ Check whether the firewall is doing its job.
 
 ##  Key Terms
 
-firewall - in this case, the firewall is a piece of software that is available on the Linux machine.  It allows you to set up rules for which ports are open to which type of traffic.
+*firewall* - in this case, the firewall is a piece of software that is available on the Linux machine.  It allows you to set up rules for which ports are open to which type of traffic.
 
-ufw - 
+*ufw* - standard firewall for Ubuntu
+
+*Stateful firewalls :* 
+This firewall is situated at Layers 3 and 4 of the Open Systems Interconnection (OSI) model. As the name suggests, a stateful firewall always keeps track of the state of network connections. Once a particular kind of traffic has been approved by a stateful firewall, it is added to a state table. The state table entries are created for TCP (Transmission Control Protocol) streams or UDP (User Datagram Protocol) datagrams that are allowed to communicate through the firewall in accordance with the configured security policy.  If no traffic is seen for a specified time (implementation dependent), the connection is removed from the state table.
+
+Pros- 
+
+Stateful firewalls are highly skilled to detect forged messaging or unauthorized access.
+These firewalls have a powerful memory to retain key aspects of network connections.
+They are intelligent systems. They make future filtering decisions based on the past and present results. It means that it can automatically stop a specific cyber attack in the future once it encountered it, without the need for updates.
+These firewalls do not need many ports open for proper communication.
+Stateful firewalls offer extensive logging capabilities and stronger attack mitigation.
+
+
+Cons-
+
+-  Stateful firewalls can be vulnerable to distributed denial-of-service (DDoS) attacks.
+-  These firewalls have to be updated with the latest software releases, otherwise, vulnerabilities may allow hackers to take control over the firewall.
+-  They can be fooled into allowing a harmful connection to the network and it can happen with a simple action like viewing a webpage.
+-  These firewalls may be more sensitive to man-in-the-middle (MITM) attacks, which involve an attacker intercepting communication between two people to either spy on the traffic or make changes to it.
+
+
+*Stateless firewalls :*
+It is also known as an access control list (ACL), does not store information on the connection state. Stateless ACLs are applicable to the network and physical layers, and sometimes the transport layer to find out the source and destination port numbers. When the sender sends a packet and gets filtered through a firewall, the device checks for matches to any of the ACL rules that are configured in the firewall and then drops or rejects the packet accordingly.
+
+Pros-
+
+Stateless firewalls do not take as much into account as stateful firewalls, they’re generally considered to be less rigorous. That is why they are fast.
+As it doesn’t get into that many details, it performs quite well in heavy traffic.
+They are generally cheaper than stateful firewalls.
+
+Cons-
+
+A stateless firewall cannot analyze all network traffic (or packets), making it unable to identify traffic type. This results in making it less secure compared to stateful firewalls.
+These firewalls, in many instances, may need to be carefully configured by someone familiar with the kinds of traffic and attacks that impact the network. This may require extra time and energy to perform.
 
 ##  Resources
 
 [Amazon Tutorials](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html)
+
+[Geeks for Geeks Stateless vs Stateful Firewalls]9https://www.geeksforgeeks.org/stateless-vs-stateful-packet-filtering-firewalls/)
+
+
 
 ##  Difficulties
 
