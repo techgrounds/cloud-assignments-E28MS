@@ -99,16 +99,14 @@ Here I tried to crack the password retrieved from etc/shadow file with Crackstat
 
 Here is a colleagues hashed, salted password:
 
-
+$6$M4ArJDmkUYKZd5zi$rCsls/VCM9dYCJSOathSO6Z5MkU4QFQURsA6gHe94FF9vz3U.QVVPT5l7M4R5Ol/OAn/3sYXgXTH/WyWTY5Q41:19821:0:99999:7:::
 
 Here is my users identical password, also hashed and salted  for comparison:
 
+$6$YjzF1BnV.XVCND77$Prbln1r4cnUxfMSPj.wtWN7.GFB7/3S0o2xAS5r3.qc9HsJYipLbTx/qBf6Fqs374HbH8EQAEwmrVV0LNocNn1:19821:0:99999:7:::
 
 
-So in summary, 
+With the salting, the hashed passwords don't match.
 
 
 
-
-
-##  Learning/Reflection
