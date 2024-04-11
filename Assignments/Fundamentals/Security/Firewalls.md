@@ -23,11 +23,11 @@ This firewall is situated at Layers 3 and 4 of the Open Systems Interconnection 
 
 Pros- 
 
-Stateful firewalls are highly skilled to detect forged messaging or unauthorized access.
-These firewalls have a powerful memory to retain key aspects of network connections.
-They are intelligent systems. They make future filtering decisions based on the past and present results. It means that it can automatically stop a specific cyber attack in the future once it encountered it, without the need for updates.
-These firewalls do not need many ports open for proper communication.
-Stateful firewalls offer extensive logging capabilities and stronger attack mitigation.
+- Stateful firewalls are highly skilled to detect forged messaging or unauthorized access.
+- These firewalls have a powerful memory to retain key aspects of network connections.
+- They are intelligent systems. They make future filtering decisions based on the past and present results. It means that it can automatically stop a specific cyber attack in the future once it encountered it, without the need for updates.
+- These firewalls do not need many ports open for proper communication.
+- Stateful firewalls offer extensive logging capabilities and stronger attack mitigation.
 
 
 Cons-
@@ -39,38 +39,43 @@ Cons-
 
 
 *Stateless firewalls :*
-It is also known as an access control list (ACL), does not store information on the connection state. Stateless ACLs are applicable to the network and physical layers, and sometimes the transport layer to find out the source and destination port numbers. When the sender sends a packet and gets filtered through a firewall, the device checks for matches to any of the ACL rules that are configured in the firewall and then drops or rejects the packet accordingly.
+* It is also known as an *access control list (ACL)*, does not store information on the connection state. Stateless ACLs are applicable to the network and physical layers, and sometimes the transport layer to find out the source and destination port numbers. When the sender sends a packet and gets filtered through a firewall, the device checks for matches to any of the ACL rules that are configured in the firewall and then drops or rejects the packet accordingly.
 
 Pros-
 
-Stateless firewalls do not take as much into account as stateful firewalls, they’re generally considered to be less rigorous. That is why they are fast.
-As it doesn’t get into that many details, it performs quite well in heavy traffic.
-They are generally cheaper than stateful firewalls.
+* Stateless firewalls do not take as much into account as stateful firewalls, they’re generally considered to be less rigorous. That is why they are fast.
+* As it doesn’t get into that many details, it performs quite well in heavy traffic.
+* They are generally cheaper than stateful firewalls.
 
 Cons-
 
-A stateless firewall cannot analyze all network traffic (or packets), making it unable to identify traffic type. This results in making it less secure compared to stateful firewalls.
-These firewalls, in many instances, may need to be carefully configured by someone familiar with the kinds of traffic and attacks that impact the network. This may require extra time and energy to perform.
+* A stateless firewall cannot analyze all network traffic (or packets), making it unable to identify traffic type. This results in making it less secure compared to stateful firewalls.
+* These firewalls, in many instances, may need to be carefully configured by someone familiar with the kinds of traffic and attacks that impact the network. This may require extra time and energy to perform.
 
 ##  Resources
 
 [Amazon Tutorials](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html)
 
-[Geeks for Geeks Stateless vs Stateful Firewalls]9https://www.geeksforgeeks.org/stateless-vs-stateful-packet-filtering-firewalls/)
+[Geeks for Geeks Stateless vs Stateful Firewalls](https://www.geeksforgeeks.org/stateless-vs-stateful-packet-filtering-firewalls/)
 
 
 
 ##  Difficulties
 
+
 I couldn't connect with with my VM on the first try:
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/78a6be34-df6a-410d-a964-6f06b062b76a)
 
+
 So I checked the status of appache, confirmed that it was running now and tried again, with the same result.  Next , I troubleshooted the port access.
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/efc1a89b-34e2-4c0c-8ae1-7c4df0699b5d)
 
 
+I eventually discovered that I needed to use the web port to establish a conne
 
 ##  Results
 
