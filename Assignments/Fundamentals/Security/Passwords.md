@@ -90,6 +90,13 @@ Here I opened the etc/shadow file and at the bottom is my new users password:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e8e3dbbb-4c6e-40e4-98bf-d6daa76e80e0)
 
+Here I tried to crack the password retrieved from etc/shadow file with Crackstation.net, although the instructions clearly says unsalted hashes only:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/78d2ae98-13e9-444e-815a-f4d6eeb0e840)
+
+
+
+
 
 
 
