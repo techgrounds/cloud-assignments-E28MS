@@ -1,8 +1,18 @@
 ##  Subject
 
+The subject of this assigment is network detection.  
+
+Network detection refers to the process of identifying and understanding the devices, connections, and traffic on a computer network. It's like mapping out the roads, intersections, and vehicles in a city to understand how everything is connected and where it's going.  For the purposes of this excercise, it relates mainly to understanding the network traffic.
+
+Interestingly, I found it difficult to find a defintion that didn't include NDR (see below):
+
+Network detection and response (NDR) solutions use a combination of non-signature-based advanced analytical techniques such as machine learning to detect suspicious network activity. This enables teams to respond to anomalous or malicious traffic and threats that other security tools miss
 
 ##  Key Terms
-Nmap - 
+
+Nmap -Short for Network Mapper. It is an open-source Linux command-line tool that is used to scan IP addresses and ports in a network and to detect installed applications.
+
+
 
 ##  Assignment
 
@@ -13,15 +23,19 @@ Open Wireshark in Windows/MacOS Machine. Analyse what happens when you open an i
 
 ##  Resources
 
-[Cisco NDR](https://www.cisco.com/c/en/us/products/security/what-is-network-detection-response.html#:~:text=Network%20detection%20and%20response%20(NDR,that%20other%20security%20tools%20miss.)
+[Cisco NDR](https://www.cisco.com/c/en/us/products/security/what-is-network-detection-response.html#:~:text=Network%20detection%20and%20response%20(NDR,that%20other%20security%20tools%20miss)
 
 ChatGPT
+
+[Free Code Camp The Greatest Scanning Tool of All Time](https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/)
 
 
 
 ##  Difficulties
 
 The first time I tried scanning my VM, I got an error message saying the host may be down.  I resolved this by using the *-Pn* command, see screenshots in *Results*
+
+I don't feel like I've been succesful at understanding the information displayed by Wireshark.
 
 ##  Results
 
