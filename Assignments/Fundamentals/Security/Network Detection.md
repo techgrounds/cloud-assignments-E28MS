@@ -40,6 +40,29 @@ The Nmap scan report indicates that the host (in this case, an EC2 instance on A
 
 Overall, the scan report suggests that the target host, my VM,  is up and responsive, but the scan results for the ports are inconclusive due to being in ignored or filtered states. This could be due to various factors such as firewall configurations, network settings, or Nmap timing options.
 
+I repeated the scan of my VM a week later and got different results:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0ab9b627-239f-4950-a80f-d9caa240d8e4)
+
+Both scans indicate that the host is up, meaning the target EC2 instance is online and responsive.
+
+
+In the previous scan, all 1000 scanned ports were reported to be in ignored states, which means Nmap couldn't determine their status due to various reasons such as firewalls, network configurations, or Nmap timing settings.
+
+
+In the current scan, all 1000 scanned ports are reported as filtered, indicating that Nmap did not receive any response from these ports during the scan.
+
+Analysis:
+
+The difference between the previous and current scan results lies in how Nmap categorized the ports. In the previous scan, the ports were categorized as "ignored," while in the current scan, they are categorized as "filtered."
+
+The change in categorization could be attributed to changes in the network configuration, firewall rules, or Nmap timing settings between the two scans.
+
+It's also possible that the previous scan encountered different network conditions or configurations that resulted in Nmap being unable to determine the status of the ports, whereas in the current scan, the ports were definitively reported as filtered due to lack of response.
+
+I take it that this could be because of the work I've done between the first VM scan and this scan around setting up a firewall on my VM.
+
+
 # Analyze what happens when you open an internet browser
 
 At first I tried to filter for http but this didn't bring up any traffic, possibly as I'm using a VPN, which encrypts and decripts data.  In order to see the traffic when I open a web browser, I then focussed on analysing the TCP traffic.
@@ -50,6 +73,6 @@ At first I tried to filter for http but this didn't bring up any traffic, possib
 
 
 ##  Learning/Reflection
-On my research to complete this assignment, I came accross from ChatGPT which stated that it's illegal to scan networks without proper authorisation, which made me wonder about all the legislation that governs data security in Europe.  This is an area that I have to develop and explore further.
+On my research to complete this assignment, I came accross information from ChatGPT which stated that it's illegal to scan networks without proper authorisation, which made me wonder about all the legislation that governs data security in Europe.  This is an area that I have to develop and explore further as I find it very interesting and it gives structure to how businesses will structure their documentation, communication and procedures in case of cyber security breaches.  I anticipate that learning more about the legislation around European Data Protection and Cyber security will provide a good framework to understand this side of the tech industry.
 
 
