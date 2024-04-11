@@ -86,6 +86,11 @@ It is preferred over encryption when storing passwords inside databases because 
 
 $6$M4ArJDmkUYKZd5zi$rCsls/VCM9dYCJSOathSO6Z5MkU4QFQURsA6gHe94FF9vz3U.QVVPT5l7M4R5Ol/OAn/3sYXgXTH/WyWTY5Q41:19821:0:99999:7:::
 
+Here I opened the etc/shadow file and at the bottom is my new users password:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e8e3dbbb-4c6e-40e4-98bf-d6daa76e80e0)
+
+
 
 
 
