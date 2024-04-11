@@ -1,5 +1,7 @@
 ## Subject
 
+The subject of passwords introduces concepts like hashing, salting, rainbow tables and also some previously encountered encryption tools.
+
 ##  Assignment
 
 1.  Find out what hashing is and why it is preferred over symmetric encryption for storing passwords.
