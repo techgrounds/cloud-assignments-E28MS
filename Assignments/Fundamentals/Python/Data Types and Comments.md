@@ -1,4 +1,6 @@
 ##  Subject
+This assignment introduces the concepts of different types of data in Python and how to establish what type of data you are working with.
+
 
 ##  Assignment
 
@@ -35,14 +37,23 @@ Find out what data type the output of input() is. See if it is different for dif
 
 ##  Key Terms
 
-*Data types in Python*
+*Data types in Python*  There are different types of built in data in Python.  Here are some examples:
 
-*int (integer)*
+* Numeric data types: int, float, complex
+* String data types: str
+* Sequence types: list, tuple, range
+* Binary types: bytes, bytearray, memoryview
+* Mapping data type: dict
+* Boolean type: bool
+* Set data types: set, frozenset
 
-*str (string)*
+*int (integer)* an integer is a whole number
 
-*bool (boolean expression)*
+*str (string)* The string is a sequence of characters. Python supports Unicode characters. Generally, strings are represented by either single or double-quotes.
 
+*bool (boolean expression)* boolean expressions are either True or False
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/173ecb04-c998-4dc5-80b4-f95769790633)
 
 
 
@@ -54,11 +65,15 @@ Find out what data type the output of input() is. See if it is different for dif
 
 [Quora](https://www.quora.com/Why-does-input-always-return-a-string-in-Python#:~:text=There%20are%20a%20few%20reasons,using%20the%20appropriate%20conversion%20function.)
 
+[Digital Ocean Python Data Types](https://www.digitalocean.com/community/tutorials/python-data-types)
 
+[Geeks for Geeks Data Types in Python](https://www.geeksforgeeks.org/python-data-types/)
 
 
 
 ##  Difficulties
+
+I encountered some syntax errors as I'm still learning the correct syntax.
 
 ##  Results
 
