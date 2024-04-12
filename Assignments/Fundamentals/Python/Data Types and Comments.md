@@ -238,5 +238,3 @@ PS C:\Users\elmar>
 The output of the user input is always classified as a string, regardless of whether it is an integer or a string.  Looking this up online indicates that this allows the programmer flexibility in handling this data.
 
 
-
-##  Learning/Reflection
