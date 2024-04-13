@@ -1,8 +1,10 @@
 ##  Subject
 
+These excercises are about using conditional statements (if, else and elif).  This will be crucial to ensure scripts are run appropriately.
+
 ##  Assignment
 
-# Exercise 1:
+### Exercise 1:
 
 Create a new script.
 
@@ -14,7 +16,7 @@ If not, print a different personalized message.
 
 
 
-#  Exercise 2:
+###  Exercise 2:
 
 Create a new script.
 
@@ -31,10 +33,14 @@ Make the game repeat until the user inputs 100.
 
 [Stack Overflow](https://stackoverflow.com/questions/26695649/creating-if-else-statements-dependent-on-user-input)
 
+[Tutorials Teacher](https://www.tutorialsteacher.com/articles/convert-input-to-number-in-python)
+
 
 
 ##  Difficulties
-Using if/else and elif with numbers seemed straightforward but I had to research how to get the strings into an else/if statement without syntax errors.  Once I figured out to use == to ensure the correct statements, everything else fell into place.
+Excerxise 1:  Using if/else and elif with numbers seemed straightforward but I had to research how to get the strings into an else/if statement without syntax errors.  Once I figured out to use == to ensure the correct statements, everything else fell into place.
+
+Excercise 2:  The key bit here was to remember that all user input are read as strings and to convert the strings to integers. 
 
 ##  Results
 
