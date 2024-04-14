@@ -29,18 +29,24 @@ Make the game repeat until the user inputs 100.
 
 ##  Resources
 
+Python for Everybody by Charles Severance
+
 [Python Org](https://discuss.python.org/t/input-in-if-else-statements/41197)
 
 [Stack Overflow](https://stackoverflow.com/questions/26695649/creating-if-else-statements-dependent-on-user-input)
 
 [Tutorials Teacher](https://www.tutorialsteacher.com/articles/convert-input-to-number-in-python)
 
+[Python Engineer](https://www.python-engineer.com/posts/ask-user-for-input/)
+
+[Geeks for Geeks](https://www.geeksforgeeks.org/taking-multiple-inputs-from-user-in-python/)
+
 
 
 ##  Difficulties
 Excerxise 1:  Using if/else and elif with numbers seemed straightforward but I had to research how to get the strings into an else/if statement without syntax errors.  Once I figured out to use == to ensure the correct statements, everything else fell into place.
 
-Excercise 2:  The key bit here was to remember that all user input are read as strings and to convert the strings to integers. 
+Excercise 2:  The key bit here was to remember that all user input are read as strings and to convert the strings to integers. I had several ideas about how I could write this code but I had difficulty remembering how to write it so it keeps prompting for input after a number was entered.
 
 ##  Results
 
