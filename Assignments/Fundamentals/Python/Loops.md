@@ -40,7 +40,7 @@ Copy the array below into your script.
 arr = ["Shikha", "Casper", "Bart", "Ruben", "Ulviye"]
 
 Use a for loop to loop over the array. Print every name individually.
-Example output:
+
 
 
 
@@ -190,6 +190,25 @@ for i in range(50):
 235
 240
 245
+PS C:\Users\elmar>
+```
+Excercise 3:
+
+My code:
+
+```
+for learning_coach in ["Shikha", "Casper", "Bart", "Ruben", "Ulviye"]:
+    print (learning_coach)
+```
+
+Ouput:
+
+```
+Shikha
+Casper
+Bart
+Ruben
+Ulviye
 PS C:\Users\elmar>
 ```
 
