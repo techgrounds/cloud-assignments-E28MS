@@ -15,9 +15,9 @@ Print 5 random integers with a value between 0 and 100.
 ### Exercise 2:
 Create a new script.
 
-Write a custom function myfunction() that prints “Hello, world!” to the terminal. Call myfunction.
+2.1  Write a custom function myfunction() that prints “Hello, world!” to the terminal. Call myfunction.
 
-Rewrite your function so that it takes a string as an argument. Then, it should print “Hello, NAME!”.
+2.2  Rewrite your function so that it takes a string as an argument. Then, it should print “Hello, NAME!”.
 
 ### Exercise 3:
 Create a new script.
@@ -76,4 +76,22 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 46
 71
 PS C:\Users\elmar> 
+```
+
+### Excercise 2
+
+2.1 My code:
+```
+def myfunction():
+        print ('Hello World!')
+
+myfunction()
+```
+
+2.1.  Ouput:
+
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/functionsEx2.py
+Hello World!
+PS C:\Users\elmar>
 ```
