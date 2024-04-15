@@ -51,8 +51,10 @@ This was an excellent way to move forward without getting the answer given to me
 
 
 ### Excercise 1:
-```
+
 My code:
+
+```
 x = 0
 while x < 10:
       x = x + 1
