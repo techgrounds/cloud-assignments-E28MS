@@ -64,6 +64,8 @@ I had muliple difficulties trying to write this code.  I first tried to look at 
 
 This was an excellent way to move forward without getting the answer given to me.  A great learning experience and I managed to figure it out by myself without resorting to getting the code from ChatGPT.
 
+Excercise 2 and 3 proved remarkably easy as I've done similar excercises before.
+
 
 ##  Results
 
