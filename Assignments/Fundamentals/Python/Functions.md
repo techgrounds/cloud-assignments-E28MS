@@ -50,11 +50,16 @@ This module can be used to perform random actions such as generating random numb
 
 [Geeks for Geeks Python Random Module](https://www.geeksforgeeks.org/python-random-module/)
 
+Pyhon for Everybody by Charles Severance
 
+Team members
 
+[Geeks for Geeks Generat Random Number within Range](https://www.geeksforgeeks.org/python-generate-random-numbers-within-a-given-range-and-store-in-a-list/)
+
+[Digital Ocean 5 Ways to find the mean in Python](https://www.digitalocean.com/community/tutorials/average-of-list-in-python)
 
 ##  Difficulties
-
+ I didn't encountern any major difficulties with these excercises and managed to complete them wihtout generating any code with ChatGPT.  I also discsussed some issues with my team mates.
 
 ##  Results
 My code:
@@ -95,3 +100,29 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 Hello World!
 PS C:\Users\elmar>
 ```
+### Excercise 3
+
+```
+My code:
+from statistics import mean
+def avg(x,y):
+    return mean([x, y])
+
+# you are not allowed to edit any code below here
+
+x = 128
+y = 255
+z = avg(x,y)
+
+print("The average of",x,"and",y,"is",z)
+```
+
+Output:
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/functionsEx3.py
+The average of 128 and 255 is 191.5
+PS C:\Users\elmar> 
+```
+
+
+
