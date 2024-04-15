@@ -44,9 +44,37 @@ Example output:
 
 I had muliple difficulties trying to write this code.  I first tried to look at Stack Overflow for some help but this wasn't useful.  Then I consulted my textbook but the I only found the bits that I was already able to code.  I then drafted a question to ChatGPT, stating expliclitly that I did not want any sample code in the answer as I was trying to figure out the problem myself.  It gave me a great answer with some suggestions of what I should consider without giving me the solution.
 
-This was an excellent way to move forward without getting the answer given to me.  A great learning experience.
-
-
+This was an excellent way to move forward without getting the answer given to me.  A great learning experience and I managed to figure it out by myself without resorting to getting the code from ChatGPT.
 
 
 ##  Results
+
+
+### Excercise 1:
+```
+My code:
+x = 0
+while x < 10:
+      x = x + 1
+      print (x)
+if x == 10:
+    print ('All Done!')
+
+```
+
+The output:
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+All Done!
+PS C:\Users\elmar>
+```
