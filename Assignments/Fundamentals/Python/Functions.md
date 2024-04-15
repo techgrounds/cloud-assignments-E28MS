@@ -57,4 +57,23 @@ This module can be used to perform random actions such as generating random numb
 
 
 ##  Results
-x
+My code:
+```
+import random
+for i in range (5):
+
+     rando_numb = random.randint(0, 100)
+     print (rando_numb)
+```
+
+Output:
+
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/functionsEx1.py
+54
+13
+94
+46
+71
+PS C:\Users\elmar> 
+```
