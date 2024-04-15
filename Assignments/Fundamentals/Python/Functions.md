@@ -46,6 +46,8 @@ There are several different random functions in the Random Module of Python, inc
 
 This module can be used to perform random actions such as generating random numbers, printing random a value for a list or string, etc. It is an in-built function in Python.
 
+function definition - this is where you create a new function by first 
+
 ## Resources
 
 [Geeks for Geeks Python Random Module](https://www.geeksforgeeks.org/python-random-module/)
@@ -95,3 +97,22 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 Hello World!
 PS C:\Users\elmar>
 ```
+
+2.2 My code:
+
+```
+def myfunction(NAME):
+        print ('Hello,', NAME + '!')
+NAME = input('What is your name?')
+
+myfunction(NAME)
+```
+
+2.2 Ouput:
+
+```
+What is your name?Elmarie
+Hello, Elmarie!
+PS C:\Users\elmar>
+```
+
