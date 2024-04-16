@@ -1,5 +1,8 @@
 ## Subject
 
+Lists are one of the six fundamental data types in the Python programming language. 
+
+To work effectively with Python, you need to know the functions and methods that work with lists.  In this assignment we do some excercises with lists.
 
 ## Assignment
 
@@ -25,7 +28,11 @@ If it is the last item, add it to the value of the first item instead (since the
 
 ## Resources
 
-[W3 Schools Lists in Python](https://www.w3schools.com/python/python_lists.asp)
+[W3 Schools Lists in Python](https://www.w3schools.com/python/python_lists.asp
+
+[Codecademy Python Fundamentals](https://www.codecademy.com/learn/dacp-python-fundamentals/modules/dscp-python-lists/cheatsheet)
+
+Python for Everybody by Charles Severance
 
 
 ##  Difficulties
@@ -58,5 +65,6 @@ PS C:\Users\elmar>
 
 Excercise 2:
 
+```
 
 
