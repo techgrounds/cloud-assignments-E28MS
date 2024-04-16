@@ -56,3 +56,45 @@ Loop over the dictionary and print every key-value pair in the terminal.
 
 [Geeks for Geeks Python Dictionaries](https://www.geeksforgeeks.org/python-dictionary/)
 
+## Results
+
+Excercise 1:
+
+My code:
+```
+#keyvalueEx1.py
+# Python program to add a key:value pair to dictionary
+# create new dictionary (empty)
+
+first_dict = dict()
+print(first_dict) 
+#add key:value pairs to dictionary
+first_dict['First Name:'] = 'Casper'
+first_dict['Last Name:'] = 'Velzen'
+first_dict['Job Title:']= 'Learning Coach'
+first_dict['Company:']= 'Techgrounds'
+#print dictionary
+print (first_dict)
+# print key: value pairs
+for key in first_dict:
+    print (key, first_dict[key])
+```
+
+Output:
+```
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/#keyvalueEx1.py
+{}
+{'First Name': 'Casper', 'Last Name': 'Velzen', 'Job Title': 'Learning Coach', 'Company': 'Techgrounds'}
+First Name Casper
+Last Name Velzen
+Job Title Learning Coach
+Company Techgrounds
+PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/#keyvalueEx1.py
+{}
+{'First Name:': 'Casper', 'Last Name:': 'Velzen', 'Job Title:': 'Learning Coach', 'Company:': 'Techgrounds'}
+First Name: Casper
+Last Name: Velzen
+Job Title: Learning Coach
+Company: Techgrounds
+```
+
