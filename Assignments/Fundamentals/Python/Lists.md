@@ -32,3 +32,31 @@ If it is the last item, add it to the value of the first item instead (since the
 
 
 ##  Results
+
+Excercise 1:
+
+My code:
+
+```
+nameslist = ['Annabel', 'Emma', 'Ben', 'Liam', 'Clara']
+for names in nameslist:
+    print (names)
+print ('Done')
+```
+
+Output:
+
+```
+Annabel
+Emma
+Ben
+Liam
+Clara
+Done
+PS C:\Users\elmar>
+```
+
+Excercise 2:
+
+
+
