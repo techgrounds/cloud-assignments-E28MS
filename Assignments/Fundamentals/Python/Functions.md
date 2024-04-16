@@ -46,6 +46,8 @@ There are several different random functions in the Random Module of Python, inc
 
 This module can be used to perform random actions such as generating random numbers, printing random a value for a list or string, etc. It is an in-built function in Python.
 
+function definition - this is where you create a new function by first 
+
 ## Resources
 
 [Geeks for Geeks Python Random Module](https://www.geeksforgeeks.org/python-random-module/)
@@ -100,29 +102,3 @@ PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/pyth
 Hello World!
 PS C:\Users\elmar>
 ```
-### Excercise 3
-
-```
-My code:
-from statistics import mean
-def avg(x,y):
-    return mean([x, y])
-
-# you are not allowed to edit any code below here
-
-x = 128
-y = 255
-z = avg(x,y)
-
-print("The average of",x,"and",y,"is",z)
-```
-
-Output:
-```
-PS C:\Users\elmar> & C:/Users/elmar/AppData/Local/Programs/Python/Python312/python.exe c:/Users/elmar/Python.py/functionsEx3.py
-The average of 128 and 255 is 191.5
-PS C:\Users\elmar> 
-```
-
-
-
