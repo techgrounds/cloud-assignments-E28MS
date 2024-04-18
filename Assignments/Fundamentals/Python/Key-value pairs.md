@@ -55,6 +55,10 @@ Write the information to a csv file (comma-separated values). The data should no
 
 *immutable* - In Python, an object is considered immutable if its value cannot be changed after it has been created. This means that any operation that modifies an immutable object returns a new object with the modified value.
 
+*CSV* - is an acronym for comma-separated values. It's a file format that you can use to store tabular data, such as in a spreadsheet. You can also use it to store data from a tabular database. You can refer to each row in a CSV file as a data record. Each data record consists of one or more fields, separated by commas.
+
+CSV files are one of the easiest ways to transfer data in form of string especially to any spreadsheet program like Microsoft Excel or Google spreadsheet
+
 ##  Resources
 
 [Free Code Camp Python Dictionaries](https://www.freecodecamp.org/news/create-a-dictionary-in-python-python-dict-methods/)
@@ -62,6 +66,8 @@ Write the information to a csv file (comma-separated values). The data should no
 [Data Science Dojo Mutable and Immutable Objects in Python](https://datasciencedojo.com/blog/mutable-and-immutable-objects-in-python/)
 
 [Geeks for Geeks Python Dictionaries](https://www.geeksforgeeks.org/python-dictionary/)
+
+[Geeks for Geeks CSV File](https://www.geeksforgeeks.org/how-to-save-a-python-dictionary-to-a-csv-file/)
 
 ## Results
 
