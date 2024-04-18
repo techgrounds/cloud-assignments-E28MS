@@ -42,6 +42,13 @@ Techgrounds
 
 Loop over the dictionary and print every key-value pair in the terminal.
 
+### Exercise 2:
+Create a new script.
+
+Use user input to ask for their information (first name, last name, job title, company). Store the information in a dictionary.
+
+Write the information to a csv file (comma-separated values). The data should not be overwritten when you run the script multiple times.
+
 ##  Key Terms
 
 *Dictionaries in Python* - Dictionaries in Python is a data structure, used to store values in key:value format. This makes it different from lists, tuples, and arrays as in a dictionary each key has an associated value.
