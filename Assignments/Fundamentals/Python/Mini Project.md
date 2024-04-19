@@ -1,4 +1,5 @@
 ## Subject
+The mini project incorporates several of the concepts we have worked at over this week to put some of them together.
 
 ## Assignment
 
@@ -12,13 +13,13 @@ When the player guesses the right number, display a score.
 
 ##  Key Terms
 
-Initializing variables: 
+Initializing variables: This is when you assign a value to a variable before it get's used in a  program in order to ensure that they have a valid starting point.
+
+Global and local variables: Global variables exist outside of functions. Local variables exist within functions.
 
 ##  Resources
 
 [Digital Ocean - Using Variables in Python](https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-python-3)
-
-##  Difficulties
 
 ##  Results
 
@@ -39,4 +40,44 @@ while guess != number:
     else:
         print('Tadaaaa! We have a winner')
         print ('Number of tries:',tries)
+```
+Output Game 1:
+```
+What number would you like to guess?50
+Guess lower!
+What number would you like to guess?25
+Guess lower!
+What number would you like to guess?20
+Guess higher!
+What number would you like to guess?24
+Guess lower!
+What number would you like to guess?23
+Guess lower!
+What number would you like to guess?22
+Guess lower!
+What number would you like to guess?21
+Tadaaaa! We have a winner
+Number of tries: 7
+```
+
+Output Game 2:
+
+```
+What number would you like to guess?75
+Guess lower!
+What number would you like to guess?50
+Guess lower!
+What number would you like to guess?25
+Guess lower!
+What number would you like to guess?20
+Guess lower!
+What number would you like to guess?15
+Guess higher!
+What number would you like to guess?17
+Guess higher!
+What number would you like to guess?18
+Guess higher!
+What number would you like to guess?19
+Tadaaaa! We have a winner
+Number of tries: 8
 ```
