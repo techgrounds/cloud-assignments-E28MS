@@ -36,7 +36,7 @@ Python for Everybody by Charles Severance
 
 
 ##  Difficulties
-
+I had to spend some time understanding how the position of an item in the list is indicated and learn about the len function and how this can be used to loop through a list.
 
 ##  Results
 
@@ -65,6 +65,24 @@ PS C:\Users\elmar>
 
 Excercise 2:
 
+My code:
+```
+for i in range(len(x)):
+    # If it's the last item in the list
+    if i == len(x) - 1:
+        result = x[i] + x[0]  # Add it to the first item
+    else:
+        result = x[i] + x[i + 1]  # Add it to the next item
+    print(result)
 ```
 
+Output:
+
+```
+48
+48
+31
+26
+51
+```
 
