@@ -54,4 +54,67 @@ hello Floris
 hello Esther
 ```
 
+Excercise 2:
+
+Faulty code provided:
+```
+'''
+The output should be:
+100
+'''
+foo = 20
+bar = '80'
+print(foo + bar)
+```
+
+My corrected code:
+```
+'''
+The output should be:
+100
+'''
+foo = 20
+bar = int('80')
+print(foo + bar)
+```
+
+Output:
+```
+100
+PS C:\Users\elmar>
+```
+
+Excercise 3:
+
+Faulty code provided:
+```
+The output should be:
+30
+'''
+foo = 20
+for i in range(10):
+	foo -= 1
+
+print(foo)
+```
+
+My code:
+
+'''
+The output should be:
+30
+'''
+foo = 20
+for i in range(10):
+	foo += 1
+
+print(foo)
+```
+
+Output:
+```
+30
+PS C:\Users\elmar> 
+```
+
 
