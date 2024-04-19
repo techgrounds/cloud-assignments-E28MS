@@ -69,6 +69,10 @@ CSV files are one of the easiest ways to transfer data in form of string especia
 
 [Geeks for Geeks CSV File](https://www.geeksforgeeks.org/how-to-save-a-python-dictionary-to-a-csv-file/)
 
+## Difficulties
+
+With excercise 2 I had to spend some time figuring out which mode to write the file in so it doesn't get overwritten if run multiple times.
+
 ## Results
 
 Excercise 1:
