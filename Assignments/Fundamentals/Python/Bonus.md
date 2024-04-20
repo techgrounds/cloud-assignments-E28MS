@@ -15,7 +15,7 @@ The exercises are approximately ordered based on difficulty level, but you might
 
 ##  Results
 
-Excercise 1:
+### Excercise 1:
 
 Code provided:
 ```
@@ -49,7 +49,7 @@ hello Floris
 hello Esther
 ```
 
-Excercise 2:
+### Excercise 2:
 
 Faulty code provided:
 ```
@@ -79,7 +79,7 @@ Output:
 PS C:\Users\elmar>
 ```
 
-Excercise 3:
+### Excercise 3:
 
 Faulty code provided:
 ```
@@ -109,6 +109,157 @@ print(foo)
 Output:
 ```
 30
+PS C:\Users\elmar> 
+```
+
+### Excercise 4:
+
+Faulty code:
+
+```
+'''
+The output should be:
+there are 0 kids on the street
+there are 1 kids on the street
+there are 2 kids on the street
+there are 3 kids on the street
+there are 4 kids on the street
+'''
+foo = 0
+while foo <= 5:
+	print('there are', foo, 'kids on the street')
+	foo += 1
+ ```
+
+My code:
+
+```
+foo = 0
+while foo <= 4:
+	print('there are', foo, 'kids on the street')
+	foo += 1
+ ```
+
+Output:
+
+```
+there are 0 kids on the street
+there are 1 kids on the street
+there are 2 kids on the street
+there are 3 kids on the street
+there are 4 kids on the street
+```
+
+### Excercise 5:
+
+Faulty code provided:
+
+```
+'''
+The output should be:
+Star Wars
+'''
+ls = ['Lord of the rings', 'Star Trek', 'Iron Man', 'Star Wars']
+print(ls[4])
+```
+
+My code:
+```
+'''
+The output should be:
+Star Wars
+'''
+ls = ['Lord of the rings', 'Star Trek', 'Iron Man', 'Star Wars']
+print(ls[3])
+```
+
+Output:
+
+```
+Star Wars
+PS C:\Users\elmar> 
+```
+
+### Excercise 6:
+
+Faulty code provided:
+
+```
+The output should be:
+80
+'''
+foo = 80
+if foo < 30:
+	print(foo)
+else:
+	print('big number wow')
+elif foo < 100:
+	print(foo)
+ ```
+
+My code:
+
+```
+foo = 80
+if foo < 30:
+	print(foo)
+elif foo > 100:
+	print('big number wow')
+else:	
+	print(foo)
+ ```
+
+### Excercise 7:
+
+```
+'''
+The output should be:
+['Dog', 'Cat', 'Fly']
+'''
+ln = ['Dog', 'Cat', 'Elephant', 'Fly', 'Horse']
+short_names = []
+
+for animal in ln:
+	if len(animal) == 3:
+		short_names.append(animal)
+	short_names = []
+
+print(short_names)
+```
+
+### Excercise 8:
+
+```
+The output should be:
+['Dog', 'Cat', 'Fly']
+'''
+ln = ['Dog', 'Cat', 'Elephant', 'Fly', 'Horse']
+short_names = []
+
+for animal in ln:
+	if len(animal) == 3:
+		short_names.append(animal)
+	short_names = []
+
+print(short_names)
+```
+
+My code:
+```
+ln = ['Dog', 'Cat', 'Elephant', 'Fly', 'Horse']
+short_names = []
+
+for animal in ln:
+	if len(animal) == 3:
+		short_names.append(animal)
+	
+print(short_names)
+```
+
+Output:
+
+```
+['Dog', 'Cat', 'Fly']
 PS C:\Users\elmar> 
 ```
 
