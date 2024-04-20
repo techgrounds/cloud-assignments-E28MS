@@ -95,7 +95,7 @@ print(foo)
 
 My code:
 
-'''
+```
 The output should be:
 30
 '''
@@ -107,6 +107,7 @@ print(foo)
 ```
 
 Output:
+
 ```
 30
 PS C:\Users\elmar> 
@@ -208,6 +209,12 @@ elif foo > 100:
 else:	
 	print(foo)
  ```
+
+Output:
+
+```
+80
+```
 
 ### Excercise 7:
 
