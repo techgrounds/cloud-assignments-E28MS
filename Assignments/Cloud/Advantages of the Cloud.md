@@ -37,6 +37,10 @@ SLA - Service Level Agreement : This is the agreement between your business and 
 
 [AWS White Paper 6 Advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
 
+ChatGPT
+
+[Microsoft Azure Financial Considerations](https://azure.microsoft.com/en-us/solutions/cloud-economics/#financial-considerations)
+
 ##  Difficulties
 
 I couldn't locate a neat list of the advantages for Azure, but easily found one for AWS.  I resorted to asking for a summary from ChatGPT and specifying that I wanted it expressed in laymens terms, which removed some of the sales jargon and clearly explained the concepts.
