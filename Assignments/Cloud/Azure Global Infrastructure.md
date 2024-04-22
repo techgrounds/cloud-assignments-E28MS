@@ -38,9 +38,15 @@ A region is a geographical area that contains one or more data centers. Each reg
 
 Azure offers two types of regions:
 
-Recommended regions are suitable for most workloads.
+-  Recommended regions are suitable for most workloads.
 
-Alternate regions aren't optimized for primary workloads. Instead, alternate regions are available only for backup or failover, or only for customers with a company presence within a defined country/region.
+-  Alternate regions aren't optimized for primary workloads. Instead, alternate regions are available only for backup or failover, or only for customers with a company presence within a defined country/region.
+
+Each region has more than one data center, which is a physical location.
+
+A group of data centers deployed in a latency-defined perimeter and connected through a dedicated regional low latency network.
+
+
 
 
 
@@ -69,3 +75,21 @@ Recommended regions typically have higher capacity. Because of the larger capaci
 Lower costs. Many recommended regions provide lower costs for a range of Azure services. By using recommended regions, you might reduce your overall Azure bill.
 
 Gain early access to the latest offerings. For example, AI capabilities and GPU resources are typically available in recommended regions sooner than in other regions. 
+
+###  Criteria in choosing a Region:
+Location – a region closest to your users minimizes the latency
+
+Features – some features are not available in all regions
+
+Price – the price of services vary from region to region
+
+Each Region is paired within the same geographic area
+
+If the primary region has an outage, you can failover to the secondary region
+
+You can use paired regions for replication
+
+Regions that are unique when it comes to compliance:
+
+*  Azure Government Cloud – only US federal, state, local, and tribal governments and their partners have access to this dedicated instance
+*  China Region – data center is physically located within China and has no connection outside of China, including other Azure regions
