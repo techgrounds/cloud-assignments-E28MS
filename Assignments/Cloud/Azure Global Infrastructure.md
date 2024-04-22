@@ -13,11 +13,8 @@ Why would you choose one region over another?
 
 ## Key Terms
 
-Study:
-What is an Azure Region?
-What is an Azure Availability Zone?
-What is an Azure Region Pair?
-Why would you choose one region over another?
+*Azure global infrastructure* is made up of two key components—physical infrastructure and connective network components. The physical component is comprised of 300+ physical datacenters, arranged into regions, and linked by one of the largest interconnected networks on the planet.
+
 
 ##  Resources
 
