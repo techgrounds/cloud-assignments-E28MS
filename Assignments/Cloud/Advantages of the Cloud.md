@@ -31,11 +31,7 @@ The consumption-based model
 
 ##  Key Terms
 
-SLA
-
-OPEX
-
-CAPEX
+SLA - Service Level Agreement : This is the agreement between your business and Azure, so entails what they commit to provide.
 
 ##  Resources
 
