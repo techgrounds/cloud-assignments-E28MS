@@ -65,3 +65,34 @@ CAPEX
 
 7. **Disaster recovery**:
    - Disaster recovery is like having a backup plan for your data and services in case something goes wrong. Azure offers tools and services to help you recover quickly from disasters like server failures, data breaches, or natural disasters. This ensures your business can keep running smoothly even in the face of unexpected events.
+  
+### Consumption Based Model
+
+Capex and Opex refer to different types of expenditures a business incurs:
+
+1. **Capex (Capital Expenditure)**:
+   - Capex refers to investments in physical assets like buildings, machinery, or equipment that are expected to provide benefits to the business over multiple years.
+   - These investments are typically recorded on the balance sheet and depreciated over time, meaning their costs are spread out over their useful life.
+
+2. **Opex (Operational Expenditure)**:
+   - Opex refers to day-to-day expenses necessary to keep a business running, such as rent, utilities, wages, and maintenance costs.
+   - These expenses are recorded on the income statement and are incurred regularly to maintain business operations.
+
+Now, regarding why moving from Capex to Opex is often seen as advantageous when transitioning to the cloud:
+
+1. **Flexibility and Scalability**:
+   - Opex-based models, such as cloud services, offer flexibility as they allow businesses to scale their resources up or down based on demand. This agility is particularly valuable in dynamic environments where demand fluctuates.
+
+2. **Cost Predictability**:
+   - Opex models often provide more predictable costs since businesses pay for what they use on a recurring basis. This contrasts with Capex, where the upfront investment might be substantial and the ongoing costs less predictable.
+
+3. **Reduced Financial Risk**:
+   - By shifting from Capex to Opex, businesses can reduce financial risk by avoiding large upfront investments. This is particularly relevant for startups and small to medium-sized enterprises (SMEs) with limited capital.
+
+4. **Access to Latest Technology**:
+   - Cloud service providers continually update and improve their offerings without additional cost to users. By utilizing Opex-based cloud services, businesses can access the latest technology without the need for expensive upgrades or replacements.
+
+5. **Opportunity Cost**:
+   - Investing in Capex ties up capital that could potentially be used for other investments or operational needs. Shifting to Opex allows businesses to allocate resources more efficiently, potentially increasing overall returns.
+
+Overall, while both Capex and Opex have their advantages, the move to Opex, especially in the cloud computing realm, offers greater flexibility, scalability, and cost predictability, which are highly valued in today's dynamic business landscape.
