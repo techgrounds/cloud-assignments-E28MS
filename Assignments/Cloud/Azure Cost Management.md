@@ -47,7 +47,12 @@ With the TCO calculator you can compare the costs of a traditional infrastructur
 
 In order to set my cost alerts, I first investigated the set up of my account by navigating to the Cost Analysis under Cost Management:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d4e13506-4631-45e0-bad5-9c3e0492237a)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d4e13506-4631-45e0-bad5-9c3e0492237a
+
+I then had a look at Budgets under Cost Management and noted that my budget was 50 euro, and that it expires on 28-06-2024:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/663ac06d-554d-43d1-ab24-d30e7ab6b1ef)
+
 
 
 ## Bonus Learning
