@@ -26,8 +26,11 @@ With the TCO calculator you can compare the costs of a traditional infrastructur
 1.  Study:
    
 1.1  The Azure principles for cost management
+
 1.2  The conditions of the 'Free subscription'
+
 1.3  The difference between CAPEX and OPEX.
+
 1.4. The TCO calculator
 
 2.  Create an alert with which you can monitor your own costs.
