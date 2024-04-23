@@ -1,4 +1,4 @@
-i## Subject
+## Subject
 
 A frequently mentioned advantage of the cloud is that you only pay for what you use. This concerns OPEX instead of CAPEX expenses. The “Cost Management + Billing” tool provides insight into your expenses in Azure and allows you to manage your subscriptions.
 
@@ -44,6 +44,11 @@ With the TCO calculator you can compare the costs of a traditional infrastructur
 ##  Difficulties
 
 ##  Results
+
+In order to set my cost alerts, I first investigated the set up of my account by navigating to the Cost Analysis under Cost Management:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d4e13506-4631-45e0-bad5-9c3e0492237a)
+
 
 ## Bonus Learning
 
