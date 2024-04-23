@@ -41,6 +41,10 @@ With the TCO calculator you can compare the costs of a traditional infrastructur
 
 ##  Resources
 
+[Microsoft Learn Cost Management in Azure : Alerts](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
+
+Chat GPT
+
 ##  Difficulties
 
 ##  Results
