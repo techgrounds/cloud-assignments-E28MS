@@ -61,10 +61,16 @@ Chat GPT
 
 [Learn Microsoft Check Free Service Usage](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/check-free-service-usage)
 
+[Azure Free Services](https://azure.microsoft.com/en-gb/pricing/free-services/)
+
 
 
 
 ##  Difficulties
+
+I found it challenging to find the details of the questions.  I think this is partly because I'm unfamiliar still with navigating the Azure menu's and parsing the relevant details from the large amounts of information.
+
+I overcame this by focussing carefully on one questions until I felt I had a good understanding before moving to the next and by time blocking each section so I kept moving forward and didn't get stuck too long on one section.
 
 ##  Results
 
@@ -100,6 +106,14 @@ Optimization involves continuously optimizing your Azure environment to maximize
 Iteration emphasizes the iterative nature of cost management in Azure. It highlights the need for continuous improvement and adaptation to changing business needs, technology advancements, and cost dynamics. By iterating on your cost management strategies, you can adapt to evolving requirements, incorporate lessons learned, and stay proactive in identifying and implementing new opportunities for cost reduction and optimization.
 
 In summary, these principles provide a framework for successfully reducing costs in Azure by emphasizing proactive planning, visibility, accountability, ongoing optimization, and iterative improvement. By embracing these principles, organizations can effectively manage their Azure spending while maximizing the value of their cloud investments.
+
+
+1.2. Understand the Conditions of the 'Free Service:
+
+I located the details of the free service:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/eba9be84-95c2-4f6d-8dff-2e444fc3575e)
+
 
 1.3  *Capex (Capital Expenditure):*
 Capex refers to investments in physical assets like buildings, machinery, or equipment that are expected to provide benefits to the business over multiple years.
