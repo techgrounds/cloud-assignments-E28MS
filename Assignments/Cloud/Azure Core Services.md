@@ -49,6 +49,8 @@ The Exam Guide for Microsoft Azure Fundamentals (AZ-900)
 
 ##  Resources
 
+[Azure Mentor AZ-900 Study Guide](https://github.com/AzureMentor/Azure-AZ-900-Study-Guide/blob/master/1-Describe%20cloud%20concepts%20(25%E2%80%9330%25).md)
+
 ##  Difficulties
 
 ##  Results
