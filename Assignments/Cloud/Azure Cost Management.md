@@ -110,9 +110,40 @@ In summary, these principles provide a framework for successfully reducing costs
 
 1.2. Understand the Conditions of the 'Free Service:
 
-I located the details of the free service:
+I located the details of the free service by going into Billing Properties and clicking on the Plan:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/eba9be84-95c2-4f6d-8dff-2e444fc3575e)
+
+###  Usage Limits: 
+
+Azure offers a set amount of resources and services for free each month. These resources include virtual machines, storage, databases, and more. Once you exceed these limits, you may be charged for additional usage.
+
+###  Time Limit:
+
+Free Azure services are often available for a limited time, such as 12 months from the date of sign-up. After this initial period, you may be charged at standard rates for any continued usage.
+
+###  Service Availability: 
+
+Not all Azure services are available for free. Some premium or specialized services may require payment even during the free trial or subscription period.
+
+
+###  Geographic Restrictions: 
+
+Free Azure services may not be available in all regions. Make sure to check if the services you need are available in your region before signing up.
+
+
+###  Credit Card Requirement: 
+
+While Azure offers free services, you may still need to provide a credit card during sign-up. This is often used for identity verification purposes and to prevent abuse of the free tier.
+
+###  Renewal and Cancellation: 
+
+Your free Azure subscription may automatically renew after the initial free period unless you cancel it. Make sure to review the renewal and cancellation terms to avoid unexpected charges.
+
+
+###  Fair Usage Policy: 
+
+Azure may have a fair usage policy in place to prevent abuse of the free services. This policy ensures that resources are allocated fairly among all users and may impose restrictions on excessive usage.
 
 
 1.3  *Capex (Capital Expenditure):*
