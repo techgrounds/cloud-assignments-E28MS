@@ -41,6 +41,9 @@ ChatGPT
 
 [Microsoft Azure Financial Considerations](https://azure.microsoft.com/en-us/solutions/cloud-economics/#financial-considerations)
 
+[GitHub Azure Mentor](https://github.com/AzureMentor/Azure-AZ-900-Study-Guide/blob/master/1-Describe%20cloud%20concepts%20(25%E2%80%9330%25).md)
+
+
 ##  Difficulties
 
 I couldn't locate a neat list of the advantages for Azure, but easily found one for AWS.  I resorted to asking for a summary from ChatGPT and specifying that I wanted it expressed in laymens terms, which removed some of the sales jargon and clearly explained the concepts.
