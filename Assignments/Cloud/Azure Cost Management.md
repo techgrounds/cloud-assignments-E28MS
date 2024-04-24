@@ -39,11 +39,21 @@ With the TCO calculator you can compare the costs of a traditional infrastructur
    
 ##  Key Terms
 
+*Evaluated Spend* This is a  value in the Budgets table and is the cost to date within the budget period for that entity.
+
 ##  Resources
 
 [Microsoft Learn Cost Management in Azure : Alerts](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
 
 Chat GPT
+
+[Microsoft Learn Analyze Uncexpected Charges](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/analyze-unexpected-charges#create-an-anomaly-alert)
+
+[Learn Microsoft Tutorial Create and Manage Budgets](https://learn.microsoft.com/en-gb/azure/cost-management-billing/costs/tutorial-acm-create-budgets?tabs=psbudget)
+
+[Comparitech Azure Cost Management](https://www.comparitech.com/net-admin/azure-cost-management/)
+
+
 
 ##  Difficulties
 
@@ -56,6 +66,7 @@ In order to set my cost alerts, I first investigated the set up of my account by
 I then had a look at Budgets under Cost Management and noted that my budget was 50 euro, and that it expires on 28-06-2024:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/663ac06d-554d-43d1-ab24-d30e7ab6b1ef)
+
 
 
 
