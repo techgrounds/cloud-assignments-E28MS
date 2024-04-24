@@ -59,6 +59,13 @@ Chat GPT
 
 ##  Results
 
+###   Excercise 1
+
+1.1.  Azure Cost Management Principles
+
+
+###  Exceercise 2:
+
 In order to set my cost alerts, I first investigated the set up of my account by navigating to the Cost Analysis under Cost Management:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d4e13506-4631-45e0-bad5-9c3e0492237a
