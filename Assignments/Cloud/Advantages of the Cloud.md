@@ -55,6 +55,14 @@ I couldn't locate a neat list of the advantages for Azure, but easily found one 
 
 3. **Scalability (Both vertically and horizontally)**:
    - Imagine your website suddenly becomes really popular, and lots of people are trying to use it at once. Scalability means your website can handle this increased demand without crashing. In Azure, you can scale your resources both vertically (by making your existing servers more powerful) and horizontally (by adding more servers). This ensures your website or app can handle more traffic as needed.
+  
+   - Vertical scaling
+     
+With vertical scaling, if you were developing an app and you needed more processing power, you could vertically scale up to add more CPUs or RAM to the virtual machine. Conversely, if you realized you had over-specified the needs, you could vertically scale down by lowering the CPU or RAM specifications.
+
+  - Horizontal scaling
+    
+With horizontal scaling, if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out (either automatically or manually). For example, you could add additional virtual machines or containers, scaling out. In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually), scaling in.
 
 4. **Elasticity**:
    - Elasticity is like scalability but on autopilot. It means your resources automatically adjust based on demand. So, if your website suddenly gets a huge spike in visitors, Azure will automatically add more servers to handle the load. And when the traffic decreases, it will scale back down to save you money.
