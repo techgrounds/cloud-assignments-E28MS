@@ -169,6 +169,9 @@ I then had a look at Budgets under Cost Management and noted that my budget was 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/663ac06d-554d-43d1-ab24-d30e7ab6b1ef)
 
 
+I also found that there was an existing alert on my budget that seemed to alert my learning coach when I've used 80% of a 40 euro budget:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2a967ab9-9123-43c8-83a6-79ee9f3451a3)
 
 
 ## Bonus Learning
