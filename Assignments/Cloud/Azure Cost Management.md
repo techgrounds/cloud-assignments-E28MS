@@ -158,7 +158,7 @@ Opex refers to day-to-day expenses necessary to keep a business running, such as
 These expenses are recorded on the income statement and are incurred regularly to maintain business operations.
 
 
-###  Exceercise 2:
+###  Excercise 2:
 
 In order to set my cost alerts, I first investigated the set up of my account by navigating to the Cost Analysis under Cost Management:
 
