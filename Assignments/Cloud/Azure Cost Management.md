@@ -55,7 +55,12 @@ Chat GPT
 
 [Azure Well-architected Cost Optimization Principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles)
 
-[Cloud4C Azure Cost Optimization Best Practices](https://www.cloud4c.com/blogs/azure-cloud-cost-optimization-10-best-practices)
+[Cloud4C Azure Cost Optimization Best Practices](https://www.cloud4c.com/blogs/azure-cloud-cost-optimization-10-best-practices
+
+[Learn Microsoft Plan to Manage Azure Costs](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/plan-manage-costs)
+
+[Learn Microsoft Check Free Service Usage](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/check-free-service-usage)
+
 
 
 
@@ -66,6 +71,46 @@ Chat GPT
 ###   Excercise 1
 
 1.1.  Azure Cost Management Principles
+
+1.  **Planning:**
+There are Azure tools that you can use to estimate the cost before adding services.  
+
+They are:
+
+*  Azure pricing calculator
+*  Azure price sheet
+*  Azure portal
+
+This principle emphasizes the importance of planning and forecasting your usage of Azure resources. 
+
+By understanding your requirements upfront, you can make informed decisions about which services to use, how much capacity you need, and how to design your infrastructure efficiently.
+
+Planning also involves considering factors such as workload patterns, growth projections, and potential cost-saving opportunities.
+
+2. **Visibility:**
+Visibility refers to the ability to monitor and track your Azure usage and spending effectively. It involves leveraging Azure's monitoring and reporting tools to gain insights into resource utilization, performance metrics, and cost trends. With greater visibility, you can identify areas of inefficiency, pinpoint cost drivers, and make data-driven decisions to optimize your spending.
+
+3. **Accountability:**
+Accountability entails assigning responsibility for cost management within your organization. It involves establishing clear roles and processes for budgeting, monitoring, and controlling Azure expenses. By fostering a culture of accountability, teams are empowered to take ownership of their resource usage, identify cost-saving opportunities, and collaborate effectively to achieve cost reduction goals.
+
+4. **Optimization:**
+Optimization involves continuously optimizing your Azure environment to maximize value and minimize costs. This includes rightsizing resources, implementing cost-effective architectures, leveraging reserved instances or Azure Hybrid Benefit, and adopting best practices for performance and efficiency. Optimization efforts should be ongoing and iterative, driven by regular reviews, analysis, and adjustments to ensure optimal resource utilization and cost-effectiveness.
+
+6. **Iteration:**
+Iteration emphasizes the iterative nature of cost management in Azure. It highlights the need for continuous improvement and adaptation to changing business needs, technology advancements, and cost dynamics. By iterating on your cost management strategies, you can adapt to evolving requirements, incorporate lessons learned, and stay proactive in identifying and implementing new opportunities for cost reduction and optimization.
+
+In summary, these principles provide a framework for successfully reducing costs in Azure by emphasizing proactive planning, visibility, accountability, ongoing optimization, and iterative improvement. By embracing these principles, organizations can effectively manage their Azure spending while maximizing the value of their cloud investments.
+
+1.3  *Capex (Capital Expenditure):*
+Capex refers to investments in physical assets like buildings, machinery, or equipment that are expected to provide benefits to the business over multiple years.
+
+These investments are typically recorded on the balance sheet and depreciated over time, meaning their costs are spread out over their useful life.
+
+*Opex (Operational Expenditure):*
+
+Opex refers to day-to-day expenses necessary to keep a business running, such as rent, utilities, wages, and maintenance costs.
+
+These expenses are recorded on the income statement and are incurred regularly to maintain business operations.
 
 
 ###  Exceercise 2:
