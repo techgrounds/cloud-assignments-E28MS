@@ -53,6 +53,10 @@ Chat GPT
 
 [Comparitech Azure Cost Management](https://www.comparitech.com/net-admin/azure-cost-management/)
 
+[Azure Well-architected Cost Optimization Principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles)
+
+[Cloud4C Azure Cost Optimization Best Practices](https://www.cloud4c.com/blogs/azure-cloud-cost-optimization-10-best-practices)
+
 
 
 ##  Difficulties
