@@ -74,6 +74,9 @@ A storage account is an **Azure resource** and is part of a **resource group**.
 
 *The following illustration shows an Azure subscription containing multiple resource groups, where each group contains one or more storage accounts.*
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bb5d29e3-d98a-416c-acc9-8407e08ac2ae)
+
+
 
 
 
