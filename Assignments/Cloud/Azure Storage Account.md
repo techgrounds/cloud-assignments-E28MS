@@ -85,6 +85,9 @@ Other Azure data services, such as Azure SQL and Azure Cosmos DB, are managed as
 
 Illustration of an Azure subscription showing some data services that cannot be placed in a storage account.
 
+![Uploading image.png…]()
+
+
 ##  Resources
 
 [Learn Microsoft Create an Azure Storage Account](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/)
