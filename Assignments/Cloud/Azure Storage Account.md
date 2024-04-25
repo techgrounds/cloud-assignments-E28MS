@@ -85,7 +85,7 @@ Other Azure data services, such as Azure SQL and Azure Cosmos DB, are managed as
 
 Illustration of an Azure subscription showing some data services that cannot be placed in a storage account.
 
-![Uploading image.png…]()
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ee9f3426-a9b7-40ef-8da6-a0524180569a)
 
 
 ##  Resources
@@ -93,5 +93,12 @@ Illustration of an Azure subscription showing some data services that cannot be 
 [Learn Microsoft Create an Azure Storage Account](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/)
 
 ##  Difficulties
+
+When first I tried to create a Storage Account, I got an error message stating: ' Validation could not be completed due to an error. If this issue persists, please contact support.'
+
+Screen shot of error message:
+
+![Uploading image.png…]()
+
 
 ##  Results
