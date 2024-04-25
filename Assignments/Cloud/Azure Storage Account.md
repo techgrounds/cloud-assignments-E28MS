@@ -58,6 +58,30 @@ Illustration identifying the Azure data services that are part of Azure Storage.
 
 These four data services are all primitive, cloud-based storage services, and are often used together in the same application.
 
+*Azure Storage Account*
+
+A storage account is a container that groups a set of Azure Storage services together. 
+
+Only data services from Azure Storage can be included in a storage account (Azure Blobs, Azure Files, Azure Queues, and Azure Tables). 
+
+Combining data services into a single storage account enables you to manage them as a group. 
+
+The settings you specify when you create the account, or any changes that you make after creation, apply to all services in the storage account. 
+
+Deleting a storage account deletes all of the data stored inside it.
+
+A storage account is an **Azure resource** and is part of a **resource group**. 
+
+*The following illustration shows an Azure subscription containing multiple resource groups, where each group contains one or more storage accounts.*
+
+
+
+
+
+Other Azure data services, such as Azure SQL and Azure Cosmos DB, are managed as independent Azure resources and can't be included in a storage account. The following illustration shows a typical arrangement: Blobs, Files, Queues, and Tables are contained within storage accounts, while other services aren't.
+
+Illustration of an Azure subscription showing some data services that cannot be placed in a storage account.
+
 ##  Resources
 
 [Learn Microsoft Create an Azure Storage Account](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/)
