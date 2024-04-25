@@ -49,36 +49,59 @@ The Exam Guide for Microsoft Azure Fundamentals (AZ-900)
 
 *Architectural components* in Azure refer to the foundational elements that provide the structure and management capabilities for organizing, controlling, and securing resources within the Azure cloud environment. These components include:
 
-** Regions and Region Pairs: **
+**Regions and Region Pairs:**
 
 Geographic locations where Azure data centers are located. Regions are often paired for redundancy and disaster recovery purposes.
 
-** Availability Zones: **
+**Availability Zones:**
 
 Isolated locations within an Azure region with their own independent power, cooling, and networking. They provide high availability and fault tolerance for applications and services.
 
-** Resource Groups: **
+**Resource Groups:**
 
 Containers that hold related Azure resources such as virtual machines, databases, and storage accounts. They help organize and manage resources as a single unit.
 Subscriptions: Logical containers that represent billing units in Azure. They define the billing scope and access control boundaries for resources.
 
-** Management Groups: **
+**Management Groups:**
 
 Containers that help organize and manage multiple Azure subscriptions. They provide a level of hierarchy above subscriptions for applying governance and policies.
 
-Services - 
+*Services -* Services in Azure refer to the various products and features offered by Microsoft within the Azure cloud platform to enable specific functionalities and capabilities. These services cater to different use cases and requirements of users and applications.
 
-Core Services - 
+*Core Services -*
 
-Physical Infrastructure - 
+Core services in Azure typically refer to the fundamental and essential services that form the backbone of the Azure platform. 
 
-Resources  - 
+These services provide basic infrastructure and functionalities necessary for building and running applications in the cloud. 
+
+Examples include:
+
+*  Compute services (Virtual Machines, App Services)
+*  Storage services (Blob Storage, File Storage)
+*  Networking services (Virtual Network, VPN Gateway)
+*  Identity and Access Management (Azure Active Directory)
+*  Database services (Azure SQL Database, Cosmos DB)
+
+*Physical Infrastructure -*
+
+Physical infrastructure in Azure encompasses the underlying hardware components such as servers, storage devices, networking equipment, and data centers that comprise the Azure cloud platform. 
+
+This infrastructure is owned, operated, and maintained by Microsoft and forms the backbone of the Azure services
+
+*Resources*  - 
+
+In Azure, resources refer to the individual components or entities that are provisioned and managed within the Azure environment to perform specific tasks or provide specific functionalities. 
+
+Resources can include virtual machines, databases, storage accounts, networking components, and more. 
+
+Each resource is represented by a unique resource ID and is managed through Azure Resource Manager.
+
 
 ##  Resources
 
 [Azure Mentor AZ-900 Study Guide](https://github.com/AzureMentor/Azure-AZ-900-Study-Guide/blob/master/1-Describe%20cloud%20concepts%20(25%E2%80%9330%25).md)
 
-[Splunk Azure Core Services](https://www.splunk.com/en_us/blog/learn/microsoft-azure-services.html#:~:text=The%20core%20services%20of%20Azure,security%2C%20development%2C%20and%20integration
+[Splunk Azure Core Services](https://www.splunk.com/en_us/blog/learn/microsoft-azure-services.html#:~:text=The%20core%20services%20of%20Azure,security%2C%20development%2C%20and%20integration)
 
 [Learn Microsoft Describe Core Architectural Components ](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure)
 
