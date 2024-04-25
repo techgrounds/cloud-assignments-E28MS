@@ -98,7 +98,12 @@ When first I tried to create a Storage Account, I got an error message stating: 
 
 Screen shot of error message:
 
-![Uploading image.png…]()
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/227593ac-0cbf-47d1-8fc1-9dd9d0042b0f)
 
 
 ##  Results
+
+1.1  Screenshot of Create Storage Account :
+
+![Uploading image.png…]()
+
