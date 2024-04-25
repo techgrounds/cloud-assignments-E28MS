@@ -5,4 +5,9 @@
 2.  Illustration of an Azure subscription containing multiple resource groups, each with one or more storage accounts.
 
   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4ea2b8d5-ff4e-4fbd-9d0d-1ec134b86e40)
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3421c3a2-335d-425e-9468-51475d392636)
+
  
