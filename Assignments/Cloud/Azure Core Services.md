@@ -61,7 +61,9 @@ Resources  -
 
 [Azure Mentor AZ-900 Study Guide](https://github.com/AzureMentor/Azure-AZ-900-Study-Guide/blob/master/1-Describe%20cloud%20concepts%20(25%E2%80%9330%25).md)
 
-[Splunk Azure Core Services](https://www.splunk.com/en_us/blog/learn/microsoft-azure-services.html#:~:text=The%20core%20services%20of%20Azure,security%2C%20development%2C%20and%20integration.)
+[Splunk Azure Core Services](https://www.splunk.com/en_us/blog/learn/microsoft-azure-services.html#:~:text=The%20core%20services%20of%20Azure,security%2C%20development%2C%20and%20integration
+
+[Learn Microsoft Describe Core Architectural Components ](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure)
 
 
 
