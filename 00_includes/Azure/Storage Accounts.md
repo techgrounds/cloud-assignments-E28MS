@@ -21,4 +21,12 @@
     ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/757ba399-d1ec-423b-968d-9954b03ee586)
 
 
+
+5.  Create Storage Account screen shot
+
+ 
+ ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6e63e666-0f43-4788-ae24-db5fe707f9a3)
+
+
+
  
