@@ -47,7 +47,24 @@ The Exam Guide for Microsoft Azure Fundamentals (AZ-900)
 
 ##  Key Terms
 
-Architectural components - 
+*Architectural components* in Azure refer to the foundational elements that provide the structure and management capabilities for organizing, controlling, and securing resources within the Azure cloud environment. These components include:
+
+** Regions and Region Pairs: **
+
+Geographic locations where Azure data centers are located. Regions are often paired for redundancy and disaster recovery purposes.
+
+** Availability Zones: **
+
+Isolated locations within an Azure region with their own independent power, cooling, and networking. They provide high availability and fault tolerance for applications and services.
+
+** Resource Groups: **
+
+Containers that hold related Azure resources such as virtual machines, databases, and storage accounts. They help organize and manage resources as a single unit.
+Subscriptions: Logical containers that represent billing units in Azure. They define the billing scope and access control boundaries for resources.
+
+** Management Groups: **
+
+Containers that help organize and manage multiple Azure subscriptions. They provide a level of hierarchy above subscriptions for applying governance and policies.
 
 Services - 
 
@@ -64,6 +81,9 @@ Resources  -
 [Splunk Azure Core Services](https://www.splunk.com/en_us/blog/learn/microsoft-azure-services.html#:~:text=The%20core%20services%20of%20Azure,security%2C%20development%2C%20and%20integration
 
 [Learn Microsoft Describe Core Architectural Components ](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure)
+
+[K12 Academy Azure Core Services for Beginners](https://k21academy.com/microsoft-azure/microsoft-azure-core-services-for-beginners/)
+
 
 
 
@@ -141,3 +161,16 @@ Azure Networking Services provide networking solutions for organizations to buil
 *  Azure DNS - Provide DNS hosting capabilities.
 *  ExpressRoute - Allows private connections between Azure data centers and on-premises or colocation infrastructure. 
 *  Private Link - Helps establish secure and private connections between virtual networks and Azure PaaS, customer-owned or Microsoft partner services, enhancing network security and simplifying architecture.
+
+###  Summary
+Microsoft Azure provides an extensive range of over 200 cloud services, encompassing PaaS, SaaS, and IaaS solutions. 
+
+Azure PaaS services support the entire software development lifecycle.  
+
+Azure SaaS solutions allow access to cloud-based software applications. 
+
+IaaS services provide on-demand computing resources. 
+
+The core services of Azure include computing, storage, databases, and networking. 
+
+It also offers some additional services such as AI and ML, analytics, IoT, migration, data management, governance, security, development, and integration.
