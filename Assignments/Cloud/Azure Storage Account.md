@@ -98,12 +98,24 @@ When first I tried to create a Storage Account, I got an error message stating: 
 
 Screen shot of error message:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/227593ac-0cbf-47d1-8fc1-9dd9d0042b0f)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/227593ac-0cbf-47d1-8fc1-9dd9d0042b0f
+
+I tried again and then it worked.
+
+The second problem I encountered was that I wasnt' able to change my role in order to ensure that only I had access to the resource, so I ended up deleting my first attempt and starting again:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3611c473-5074-4694-8a4c-7914c4636d92)
+
 
 
 ##  Results
 
 1.1  Screenshot of Create Storage Account :
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1e59ce72-048b-4f48-bae8-ac28e667ab20)
+
+Here my deployment of my Storage Account is complete:
+
 ![Uploading image.png…]()
+
 
