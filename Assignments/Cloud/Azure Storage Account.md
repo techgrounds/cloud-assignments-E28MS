@@ -107,6 +107,9 @@ The second problem I encountered was that I wasnt' able to change my role in ord
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3611c473-5074-4694-8a4c-7914c4636d92)
 
 
+[Learn Microsoft Azure Blobs Assign Role Data Access ](https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access?tabs=portal)
+
+
 
 ##  Results
 
