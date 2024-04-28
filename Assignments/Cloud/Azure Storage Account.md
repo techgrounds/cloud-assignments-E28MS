@@ -113,6 +113,8 @@ I tried many different ways to give only myself access to the data in my Storage
 
 
 
+
+
 ##  Results
 
 1.1  Screenshot of Create Storage Account :
@@ -125,7 +127,23 @@ Here my deployment of my Storage Account is complete:
 
 I was still unable to get access for only me to the data in the account until I changed the network setting as below:
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/758b107b-e383-4f1b-b46f-18f1786854f6)
+
+Here are the details of the Storage Account Set up:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e97f124f-5420-4c10-a6c7-425c6ef8e175)
+
+Here I added my IP address to the Firewall settings in my Storage Account:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b8c9317c-527f-4b7d-9fd0-cf8991a8f007)
+
+
+
+
+Here is a screenshot of another setting, where I created private access only in order to prevent my Learning Coach and team mates to access the data in my Storage Account, as they all had access to the Cloud 13 virtual network:
+
 ![Uploading image.png…]()
+
 
 
 
