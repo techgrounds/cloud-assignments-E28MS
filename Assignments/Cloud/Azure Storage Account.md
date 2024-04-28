@@ -92,6 +92,8 @@ Illustration of an Azure subscription showing some data services that cannot be 
 
 [Learn Microsoft Create an Azure Storage Account](https://learn.microsoft.com/en-us/training/modules/create-azure-storage-account/)
 
+[Learn Microsoft Storage Explorer Blobs](https://learn.microsoft.com/en-us/azure/storage/storage-explorer/vs-azure-tools-storage-explorer-blobs?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&bc=%2Fazure%2Fstorage%2Fblobs%2Fbreadcrumb%2Ftoc.json)
+
 ##  Difficulties
 
 When first I tried to create a Storage Account, I got an error message stating: ' Validation could not be completed due to an error. If this issue persists, please contact support.'
@@ -150,6 +152,16 @@ Here I accessed the data in my Storage Account to my computer from the Azure Sto
 Here I created another container called awsdemowebsite:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/66d00caf-0b32-45e4-97cb-2312e6ac69de)
+
+Here I turned the Static Web Hosting on:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1d239f9b-52d5-44b8-a42b-39a826bda6e9)
+
+
+This is the url:
+
+https://elmariesstorageaccount3.z33.web.core.windows.net/
+
 
 
 
