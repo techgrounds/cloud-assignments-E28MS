@@ -109,6 +109,8 @@ The second problem I encountered was that I wasnt' able to change my role in ord
 
 [Learn Microsoft Azure Blobs Assign Role Data Access ](https://learn.microsoft.com/en-us/azure/storage/blobs/assign-azure-role-data-access?tabs=portal)
 
+I tried many different ways to give only myself access to the data in my Storage Account.  Eventually I changed the networking settings to give access only to specific IP addresses and this worked.  See 'Results' for details.
+
 
 
 ##  Results
@@ -119,6 +121,11 @@ The second problem I encountered was that I wasnt' able to change my role in ord
 
 Here my deployment of my Storage Account is complete:
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a6bbe76e-40fe-456a-8528-5d3512121ee8)
+
+I was still unable to get access for only me to the data in the account until I changed the network setting as below:
+
 ![Uploading image.png…]()
+
 
 
