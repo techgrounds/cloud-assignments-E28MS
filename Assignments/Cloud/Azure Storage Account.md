@@ -117,6 +117,8 @@ I tried many different ways to give only myself access to the data in my Storage
 
 ##  Results
 
+###  Excercise 1
+
 1.1  Screenshot of Create Storage Account :
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1e59ce72-048b-4f48-bae8-ac28e667ab20)
@@ -141,6 +143,14 @@ Here I added my IP address to the Firewall settings in my Storage Account:
 Here I accessed the data in my Storage Account to my computer from the Azure Storage Explorer app:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e7e6ed4b-c0ad-4e3c-b883-25c04ecf4399)
+
+
+### Excercise 2
+
+Here I created another container called awsdemowebsite:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/66d00caf-0b32-45e4-97cb-2312e6ac69de)
+
 
 
 
