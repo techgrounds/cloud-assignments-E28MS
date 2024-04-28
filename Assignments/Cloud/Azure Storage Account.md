@@ -138,6 +138,12 @@ Here I added my IP address to the Firewall settings in my Storage Account:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b8c9317c-527f-4b7d-9fd0-cf8991a8f007)
 
 
+Here I accessed the data in my Storage Account to my computer from the Azure Storage Explorer app:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e7e6ed4b-c0ad-4e3c-b883-25c04ecf4399)
+
+
+
 
 
 Here is a screenshot of another setting, where I created private access only in order to prevent my Learning Coach and team mates to access the data in my Storage Account, as they all had access to the Cloud 13 virtual network:
