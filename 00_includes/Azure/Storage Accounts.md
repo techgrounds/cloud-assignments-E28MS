@@ -32,6 +32,18 @@
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/61f0bc99-b275-4d86-a1d6-74c1977c5ed9)
 
 
+7.  Added my IP Address to Firewall settings:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1c8bc1d5-1546-4433-affa-ccd5d3bcfd7c)
+
+
+8.  Accessed Data in my Storage Account from my computer through the Azure Storage Explorer:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9319a8b7-ad50-437a-8039-393eab316c1b)
+
+
+
+
 
 
 
