@@ -158,9 +158,13 @@ Here I turned the Static Web Hosting on:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1d239f9b-52d5-44b8-a42b-39a826bda6e9)
 
 
+Here I set public read access for blobs only, using Azure Explorer:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4f6670fa-c27b-4134-aa0e-b22761b9d567)
+
+
 This is the url:
 
-https://elmariesstorageaccount3.z33.web.core.windows.net/
 
 
 
@@ -168,9 +172,7 @@ https://elmariesstorageaccount3.z33.web.core.windows.net/
 
 
 
-Here is a screenshot of another setting, where I created private access only in order to prevent my Learning Coach and team mates to access the data in my Storage Account, as they all had access to the Cloud 13 virtual network:
 
-![Uploading image.png…]()
 
 
 
