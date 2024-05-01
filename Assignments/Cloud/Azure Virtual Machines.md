@@ -91,6 +91,21 @@ Note: After completing the task, don't forget to clean up everything. You can de
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/566a1c76-e282-41d8-8e11-83a577825733)
 
+###  And tested that Apache is running:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c3d89bd2-fc37-474c-b7b8-75b0b1b3976d)
+
+###  Tested access through web browser by entering IP Address and got confirmation in the form of the Apache landing page:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ff99a168-63e3-4c37-9e19-505926f6bb70)
+
+###  Tested Port 80 is accessable:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ed7a54d2-5233-413d-b625-d35215a12138)
+
+
+
+
 
 
 
