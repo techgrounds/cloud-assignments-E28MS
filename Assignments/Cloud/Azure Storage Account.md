@@ -162,6 +162,11 @@ Here I set public read access for blobs only, using Azure Explorer:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4f6670fa-c27b-4134-aa0e-b22761b9d567)
 
+This didn't work, even after I tried refreshing.  The error message details wasn't clear, so I tried to set the access from my Azure portal instead and this worked:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/781c98fb-b4bd-4278-94b7-a6dd3cf5eae8)
+
+
 
 This is the url:
 
