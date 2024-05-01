@@ -85,7 +85,7 @@ Note: After completing the task, don't forget to clean up everything. You can de
 
 ##  Verifying that VM is up and running, see Public IP Address:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f3fb930f-ee2a-4b56-8ee4-e29d0ae6e6fe
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f3fb930f-ee2a-4b56-8ee4-e29d0ae6e6fe)
 
 ###  Here I've logged into my VM:
 
