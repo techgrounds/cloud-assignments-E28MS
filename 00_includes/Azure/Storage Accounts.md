@@ -42,6 +42,14 @@
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9319a8b7-ad50-437a-8039-393eab316c1b)
 
 
+   Excercise 2:
+
+   Set public read access for blobs only:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3c890a4c-9006-4428-8110-4a91a59bcc7f)
+
+
+
 
 
 
