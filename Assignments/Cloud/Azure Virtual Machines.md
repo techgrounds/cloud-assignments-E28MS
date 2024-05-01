@@ -103,6 +103,12 @@ Note: After completing the task, don't forget to clean up everything. You can de
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ed7a54d2-5233-413d-b625-d35215a12138)
 
+###  Conclusion:  My server is working, assignment completed succesfully.
+
+##  Learning/Reflection
+
+This excercise coverered some aspects that I have already practised during the Linux section of my course.  It was extremely gratfiying to see how far I've come and that I a starting to understand how things fit together.  I am keen to learn more and I remain highly motivated to succeed as a Cloud Engineer.
+
 
 
 
