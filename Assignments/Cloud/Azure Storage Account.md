@@ -121,54 +121,61 @@ I tried many different ways to give only myself access to the data in my Storage
 
 ###  Excercise 1
 
-1.1  Screenshot of Create Storage Account :
+###  1.1  Screenshot of Create Storage Account :
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1e59ce72-048b-4f48-bae8-ac28e667ab20)
 
-Here my deployment of my Storage Account is complete:
+###  Here my deployment of my Storage Account is complete:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a6bbe76e-40fe-456a-8528-5d3512121ee8)
 
-I was still unable to get access for only me to the data in the account until I changed the network setting as below:
+###  I was still unable to get access for only me to the data in the account until I changed the network setting as below:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/758b107b-e383-4f1b-b46f-18f1786854f6)
 
-Here are the details of the Storage Account Set up:
+###  Here are the details of the Storage Account Set up:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e97f124f-5420-4c10-a6c7-425c6ef8e175)
 
-Here I added my IP address to the Firewall settings in my Storage Account:
+###  Here I added my IP address to the Firewall settings in my Storage Account:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b8c9317c-527f-4b7d-9fd0-cf8991a8f007)
 
 
-Here I accessed the data in my Storage Account to my computer from the Azure Storage Explorer app:
+###  Here I accessed the data in my Storage Account to my computer from the Azure Storage Explorer app:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e7e6ed4b-c0ad-4e3c-b883-25c04ecf4399)
 
 
 ### Excercise 2
 
-Here I created another container called awsdemowebsite:
+###  Here I created another container called awsdemowebsite:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/66d00caf-0b32-45e4-97cb-2312e6ac69de)
 
-Here I turned the Static Web Hosting on:
+###  Here I turned the Static Web Hosting on:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1d239f9b-52d5-44b8-a42b-39a826bda6e9)
 
 
-Here I set public read access for blobs only, using Azure Explorer:
+###  Here I set public read access for blobs only, using Azure Explorer:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4f6670fa-c27b-4134-aa0e-b22761b9d567)
 
-This didn't work, even after I tried refreshing.  The error message details wasn't clear, so I tried to set the access from my Azure portal instead and this worked:
+###  This didn't work, even after I tried refreshing.  The error message details wasn't clear, so I tried to set the access from my Azure portal instead and this worked:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/781c98fb-b4bd-4278-94b7-a6dd3cf5eae8)
 
 
 
-This is the url:
+###  This is the URL that finally lead to the static web page:
+
+[Amazon Static Webpage](https://elmariesstorageaccount3.blob.core.windows.net/awsdemowebsite/index.html)
+
+###  And here is a screenshot of the Amazon Static Webpage:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b3f1731a-620d-4dbc-aad5-a3e93e257f9d)
+
 
 
 
