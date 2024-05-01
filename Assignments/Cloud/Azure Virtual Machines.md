@@ -66,3 +66,34 @@ Note: After completing the task, don't forget to clean up everything. You can de
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1618cd3a-5ad0-403c-ac38-80c68335650e)
 
+###  Here are the networking default settings:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0caa930b-9f81-48f3-a42a-e889d70caee8)
+
+
+###  Boot diagnostics disabled:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/34959014-4a2e-41f8-bd26-492df82e57fb)
+
+###  Custom data provided in assignment added to the Custom Data section int he Advanced tab:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bc9631eb-1542-43c6-912b-d3fafd2c0b42)
+
+###  Deployment complete:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5ba82c8f-90c5-4dbc-9774-0cd078b428a6)
+
+##  Verifying that VM is up and running, see Public IP Address:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f3fb930f-ee2a-4b56-8ee4-e29d0ae6e6fe
+
+###  Here I've logged into my VM:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/566a1c76-e282-41d8-8e11-83a577825733)
+
+
+
+
+
+
+
