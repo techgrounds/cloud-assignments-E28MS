@@ -105,6 +105,14 @@ Note: After completing the task, don't forget to clean up everything. You can de
 
 ###  Conclusion:  My server is working, assignment completed succesfully.
 
+###  Deleted resources in the instance: 
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/deff3624-9af6-4bae-8e74-4ace1d084be1)
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/eae8107f-9a5a-424e-9d7e-403f6e242d87)
+
+
+
 ##  Learning/Reflection
 
 This excercise coverered some aspects that I have already practised during the Linux section of my course.  It was extremely gratfiying to see how far I've come and that I a starting to understand how things fit together.  I am keen to learn more and I remain highly motivated to succeed as a Cloud Engineer.
