@@ -28,7 +28,16 @@ Firewall Policy is a top-level resource that contains security and operational s
 
 ###  c)  That Azure Firewall is much more than just a firewall.
 
+Azure Firewall is a scalable, intelligent firewall service in Azure that provides east-west and north-south traffic inspection, filtering, and monitoring. 
+
+Azure Firewall inspects traffic on Layers 3 to 7 and can alert and deny traffic in real time from/to known malicious IP addresses and domains.
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6331ec6c-68f9-420a-b778-d6b4d56c430e)
+
+
 ###  d)  The difference between Azure Firewall and NSG.
+
+
 
 
 Requirements:
@@ -55,6 +64,8 @@ Azure documentation.
 [Neovera Azure Firewall Difference between Basic and Premioum](https://neovera.com/azure-firewall/#:~:text=The%20main%20difference%20between%20Azure,names%20(FQDNs)%20and%20URLs.)
 
 [Learn Microsoft Firewall Policy](https://learn.microsoft.com/en-us/azure/firewall/policy-rule-sets)
+
+[CoreStack Azure Security Tools: Firewall vs NSG](https://www.corestack.io/azure-security-tools/azure-firewall-vs-nsg/)
 
 
 
