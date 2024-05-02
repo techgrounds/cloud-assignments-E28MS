@@ -95,7 +95,12 @@ Chat GPT
 
 2.  The second VM was created with a Public IP, which means additional costs can be incurred.  I wanted to remove this as I didn't think it was needed for this excercise:
 
-   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/855e1d5e-c258-4425-8595-6addd85dd122)
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/855e1d5e-c258-4425-8595-6addd85dd122
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3e2a5ba6-8897-417b-aa3f-0be45ee084c6)
+
+   
+
 
 
 ##  Results
