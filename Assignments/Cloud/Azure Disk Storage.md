@@ -73,6 +73,12 @@ Offers the best performance for mission-critical applications, databases, and hi
 
 Generally more expensive than both Standard HDDs and Standard SSDs.
 
+
+###  *Diagram explaining different disk types*
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5085d2b6-3318-4250-abc5-8a024982a189)
+
+
 ##  Resources
 
 [Learn Microsoft Azure Disk Types](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types)
