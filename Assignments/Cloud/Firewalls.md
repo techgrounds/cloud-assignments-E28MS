@@ -18,8 +18,13 @@ Azure Firewall now supports *three different* versions to cater to a wide range 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/95dfc817-4cb5-4fc8-b593-c9f12763139d)
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d60c9dac-89ce-4f32-b997-375a3e4d1f80)
+
+
 
 ###  b)  The difference between a Firewall and a Firewall Policy.
+
+Firewall Policy is a top-level resource that contains security and operational settings for Azure Firewall. You can use Firewall Policy to manage rule sets that the Azure Firewall uses to filter traffic.
 
 ###  c)  That Azure Firewall is much more than just a firewall.
 
@@ -48,6 +53,10 @@ Azure documentation.
 ##  Resources
 
 [Neovera Azure Firewall Difference between Basic and Premioum](https://neovera.com/azure-firewall/#:~:text=The%20main%20difference%20between%20Azure,names%20(FQDNs)%20and%20URLs.)
+
+[Learn Microsoft Firewall Policy](https://learn.microsoft.com/en-us/azure/firewall/policy-rule-sets)
+
+
 
 [Microsoft Learn
 
