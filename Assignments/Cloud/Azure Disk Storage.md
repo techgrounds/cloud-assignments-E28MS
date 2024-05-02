@@ -156,15 +156,31 @@ Chat GPT
 
 
 
-###      *Second VM (Second attempt)*
+###      *Second VM created(Second attempt)*
 
-###  2.  * I selected a Standard SSD disk:*
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3d6b13be-25a0-4531-8715-b7b03c196786)
+
+
+###  2.  *I selected a Standard SSD disk:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d1fd584f-ad7e-4782-87da-29ba73734828)
 
-###  And very importantlay, I enabled the 'shared disk' option under the Advanced tab:
+###  *And very importantlay, I enabled the 'shared disk' option under the Advanced tab:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bea0388a-560a-4fd9-abf8-866df7a0655d)
+
+###  *Shared disk succesfully created:*
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/34e096d8-c0be-4a86-97ff-fb7bcb525324)
+
+
+###  3.  *I created a file on my first VM by first logging into my VM remotely and creating a directory to attach the file to.  Here I saved a .txt file in my disk:*
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4212e073-bf36-4b8a-bfc6-b75cb6fe9a05)
+
+
+
+
 
 
 
