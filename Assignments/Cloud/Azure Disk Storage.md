@@ -131,5 +131,11 @@ Chat GPT
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a0f2d269-1a82-4168-9e73-a23a7fc0c5a0)
 
+## Learning/Reflection
+
+I feel like I spent too much time on this excercise and in hindsight, it would have been better to learn more about disk sharing before I started the excercise so I wouldn't have gotten so stuck and unable to change the disk settings.  However, it was also a good learning experience to really dig deep and learn more about how the disks work and also explore more areas of the VM's.  I am also happy to have had more experience in creating the VM's multiple times as I'm feeling more familiar with the process and the considerations into creating VM's.  I'm starting to reaslise the amount of thought that needs to go into the architecture and how this needs to be considered in relation to the use of the VM's.
+
+I would like to become more familiar with the CLI in the VM's.  This is an area that I haven't practised recently and I think this is important to revisit.
+
 
 
