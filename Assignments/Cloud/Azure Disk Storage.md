@@ -1,6 +1,39 @@
 ## Subject
 
+Azure Disk Storage can be seen as a virtual hard drive in the cloud. 
+
+A disk can be an OS disk (where the OS is located) or a Data Disk (comparable to an external hard drive). 
+
+You have a choice between Managed Disks and Unmanaged Disks. 
+
+Unmanaged Disks are cheaper, but you need a Storage Account for them (and you have to manage the disk yourself). 
+
+Managed Data Disks can be shared among multiple VMs, but that is a relatively new feature and there are some complexities involved. 
+
+Backups of a Managed Disk can be made with Incremental Snapshots that only store the changes since the last snapshot. For an Unmanaged Disk, you can only take a 'regular' snapshot.
+
+There are 5 managed disk types. Generally, it can be said that higher performance leads to higher costs. 
+
+See https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types for an up-to-date overview of the available disk types.
+
+A disk can be encrypted for security. Disks can be made larger, but not smaller.
+
+If you want to use an external device (including a Data Disk) on Linux, you need to mount it first.
+
+
 ## Assignment
+
+1.  Start 2 Linux VMs. Ensure that you have SSH access to both.
+
+2.  Create an Azure Managed Disk and attach it to both VMs simultaneously.
+
+3.  On your first machine, create a file and place it on the Shared Disk.
+
+4.  Check on the second machine if you can read the file. (Note: you may need to remount the disk on your 2nd VM)
+
+5.  Take a snapshot of the disk and try to create a new Disk from it.
+
+6.  Mount this new Disk and view the file.
 
 ##  Key Terms
 
@@ -41,6 +74,8 @@ Offers the best performance for mission-critical applications, databases, and hi
 Generally more expensive than both Standard HDDs and Standard SSDs.
 
 ##  Resources
+
+[Learn Microsoft Azure Disk Types](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-types)
 
 [Learn Microsoft Azure Attach a Disk to a Linux VM](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal)
 
