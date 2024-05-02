@@ -95,6 +95,8 @@ Chat GPT
 
 [Learn Microsoft Azure Share a Disk](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-shared)
 
+[Learn Microsoft Linux Detach Disk](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/detach-disk?wt.mc_id=searchAPI_azureportal_inproduct_rmskilling&sessionId=c4d234a90d5b4ce7818c8def8240ff60)
+
 ##  Difficulties
 
 1.  I had to spend some time trying to figure out what I should choose when setting up the machines under the Disks tab, as I wasn't sure if this would affect trying to attach the disks later in the excercise.  I wanted to be as cost effective as possible but also ensure that I'm choosing the right performance metrics to get the assignment done.
@@ -110,7 +112,22 @@ Chat GPT
 
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3703c263-d54d-45ab-9219-2c05dbbf05a4)
 
-   So I tried to figure out if it was possible to do this another way or if I needed to detach the disk first.
+   So I tried to figure out if it was possible to do this another way or if I needed to detach the disk first.  I coudln't figure out a way to attach the disk to the second machine.  I also had the additional complication in that my first VM didn't have an IP address and would take additional time to troubleshoot how I would log into the VM without this information.  
+
+4.  I decided to delete my work so far (insert grinding teeth, followed by resignation and determination!) and start with a clean slate, employing all the knowlegde I've gained so far in this assignment.
+
+
+   First VM Deleted, including the attached data disk:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1dd88f38-97d3-44c5-8d01-abc2268e6d22)
+
+   Second VM deleted, including the IP address:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/550936c1-ecda-426a-8e62-18739d5e72d4)
+
+
+
+   
 
 
    
@@ -119,17 +136,37 @@ Chat GPT
 
 ##  Results
 
-### 1.  *Here is the first of my VM's:
+###  *Here is how far I got with my first attempt.  I decided to delete the VM's and disk after I got so stuck that I couldn't unstick myself without a further significant investment of time.  I did however learn a lot and my second effort was significantly improved*
+
+### 1.  *Here is the first of my VM's:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4be3ded3-8a0c-4c3f-8520-19942ba101b0
 
-###  *Here is the second of my VM's:
+###  *Here is the second of my VM's:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3f60773b-2646-47e7-9beb-bf895ea4c451)
 
-### 2.  I created a managed disk in first VM:
+### 2.  *I created a managed disk in first VM:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a0f2d269-1a82-4168-9e73-a23a7fc0c5a0)
+
+##  *This is where I started from scracth again:*
+
+###  1.  *First VM (second attempt):*
+
+
+
+###      *Second VM (Second attempt)*
+
+###  2.  * I selected a Standard SSD disk:*
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d1fd584f-ad7e-4782-87da-29ba73734828)
+
+###  And very importantlay, I enabled the 'shared disk' option under the Advanced tab:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bea0388a-560a-4fd9-abf8-866df7a0655d)
+
+
 
 ## Learning/Reflection
 
