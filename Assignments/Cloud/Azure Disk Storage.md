@@ -50,6 +50,6 @@ Chat GPT
 
 ##  Difficulties
 
-I had to spend some time trying to figure out what I should choose when setting up the machines under the Disks tab, as I wasn't sure if this would affect trying to attach the disks later in the excercise.
+I had to spend some time trying to figure out what I should choose when setting up the machines under the Disks tab, as I wasn't sure if this would affect trying to attach the disks later in the excercise.  I wanted to be as cost effective as possible but also ensure that I'm choosing the right performance metrics to get the assignment done.
 
 ##  Results
