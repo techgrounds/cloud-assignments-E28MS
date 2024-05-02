@@ -94,3 +94,13 @@ Chat GPT
 I had to spend some time trying to figure out what I should choose when setting up the machines under the Disks tab, as I wasn't sure if this would affect trying to attach the disks later in the excercise.  I wanted to be as cost effective as possible but also ensure that I'm choosing the right performance metrics to get the assignment done.
 
 ##  Results
+
+### *Here is the first of my VM's:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4be3ded3-8a0c-4c3f-8520-19942ba101b0
+
+###  *Here is the second of my VM's:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3f60773b-2646-47e7-9beb-bf895ea4c451)
+
+
