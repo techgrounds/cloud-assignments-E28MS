@@ -133,6 +133,9 @@ Chat GPT
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/550936c1-ecda-426a-8e62-18739d5e72d4)
 
 
+5.  I had difficulty trying to mount the disk in my second VM.  So much trouble...I kept on troubleshooting
+
+
 
    
 
@@ -184,6 +187,12 @@ Chat GPT
 ###  3.  *I created a file on my first VM by first logging into my VM remotely and creating a directory to attach the file to.  Here I saved a .txt file in my disk:*
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4212e073-bf36-4b8a-bfc6-b75cb6fe9a05)
+
+
+###  4.  *Troubleshhooting to see why I can't mount the disk in my second VM after sucsessfully creating a mountpoint:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3bff7b5a-1e8b-46fc-bc30-f5138cf2752c)
+
 
 
 
