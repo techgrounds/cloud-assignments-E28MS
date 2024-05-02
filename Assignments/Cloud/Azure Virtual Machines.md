@@ -58,7 +58,15 @@ Note: After completing the task, don't forget to clean up everything. You can de
 
 ##  Resources
 
+[Learn Azure Storage Explorer Blob Storage Access](https://learn.microsoft.com/en-us/azure/storage/storage-explorer/vs-azure-tools-storage-explorer-blobs?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&bc=%2Fazure%2Fstorage%2Fblobs%2Fbreadcrumb%2Ftoc.json)
+
+ChatGPT
+
+
+
 ##  Difficulties
+
+I didn't have significant difficulties with this assignment and it felt familiar from the work I've done in Linux with the VM's at the beginning of the course.
 
 ##  Results
 
