@@ -11,4 +11,9 @@
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cdc0d84f-056f-4a23-9bc8-f44b58e1c760)
 
+## 5. Difficulties:  Public IP created for second VM:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bf0c787d-35dd-496b-a01d-95923df3d795)
+
+
 
