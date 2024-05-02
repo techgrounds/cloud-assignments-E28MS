@@ -82,6 +82,13 @@ Generally more expensive than both Standard HDDs and Standard SSDs.
 
 Azure shared disks have property of maxShares value that signifies the maximum VMs that can be attached to a managed disk simultaneously. You need to enable the Azure shared disks feature on the disk using Azure portal or Azure command-line interface. When enabling the feature, set maxShares=2.
 
+### *partitioning*
+Partitioning is the process of dividing a physical disk into multiple logical sections called partitions. Each partition acts as a separate storage unit with its own file system and can be managed independently. Partitioning allows you to organize and manage your data more efficiently, and it can also provide benefits such as improved performance and easier data management.
+
+In the context of virtual disks in Azure, partitioning serves a similar purpose to physical disks, allowing you to logically organize and manage data within the virtual disk. Each partition within a virtual disk can function as an independent storage unit with its own file system.
+
+Partitioning virtual disks in Azure can still provide benefits such as improved data organization, easier management, and potentially better performance. However, the underlying implementation and management of virtual disks are handled by the cloud provider's infrastructure, so you may not have direct access to low-level disk management features.
+
 
 ##  Resources
 
