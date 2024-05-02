@@ -87,7 +87,9 @@ Generally more expensive than both Standard HDDs and Standard SSDs.
 
 Chat GPT
 
-[Learn Microsoft Azure Disks Performance](https://learn.microsoft.com/en-gb/azure/virtual-machines/disks-performance)
+[Learn Microsoft Azure Disks Performance](https://learn.microsoft.com/en-gb/azure/virtual-machines/disks-performance
+
+[Learn Microsoft Azure Share a Disk](https://learn.microsoft.com/en-us/azure/virtual-machines/disks-shared)
 
 ##  Difficulties
 
@@ -105,12 +107,17 @@ Chat GPT
 
 ##  Results
 
-### *Here is the first of my VM's:
+### 1.  *Here is the first of my VM's:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4be3ded3-8a0c-4c3f-8520-19942ba101b0
 
 ###  *Here is the second of my VM's:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3f60773b-2646-47e7-9beb-bf895ea4c451)
+
+### 2.  I created a managed disk in first VM:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a0f2d269-1a82-4168-9e73-a23a7fc0c5a0)
+
 
 
