@@ -78,6 +78,10 @@ Generally more expensive than both Standard HDDs and Standard SSDs.
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5085d2b6-3318-4250-abc5-8a024982a189)
 
+### *maxShares:  
+
+Azure shared disks have property of maxShares value that signifies the maximum VMs that can be attached to a managed disk simultaneously. You need to enable the Azure shared disks feature on the disk using Azure portal or Azure command-line interface. When enabling the feature, set maxShares=2.
+
 
 ##  Resources
 
@@ -100,6 +104,14 @@ Chat GPT
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/855e1d5e-c258-4425-8595-6addd85dd122
 
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3e2a5ba6-8897-417b-aa3f-0be45ee084c6)
+
+
+3.  I wanted to enable sharing so I could attach the disk to both VM's but didn't have the option, as apparrently the disk has to be detached for this to be enabled:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3703c263-d54d-45ab-9219-2c05dbbf05a4)
+
+   So I tried to figure out if it was possible to do this another way or if I needed to detach the disk first.
+
 
    
 
