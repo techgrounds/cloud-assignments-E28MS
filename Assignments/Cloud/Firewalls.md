@@ -123,6 +123,32 @@ These decisions apply to the traffic flow in and out of VNet subnets and network
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/87ed8ee3-b5a2-4e04-a133-94449faac555)
 
 
+### The inbound security rules indicated that SSH was still open, as well as HTTP:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cbc12e5a-0bd3-4e68-9b8f-366a31f0e69e)
+
+###   So I denied SSH access by adding a new Inbound Security Rule with a higher priority than the existing Inbound Security Rule that allows SSH access through port 22:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e4f6a258-14b0-4664-87c8-c75459d9e937)
+
+
+###  3.  In order to check if my NSG was working, I did the following:
+
+
+##  a)  I checked my NSG settings and confirmed that the Inbound Security Rule denying SSH access has been prioritised over the SSH Inbound Security Rule that was allowing SSH access:  
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2a2423af-db31-4088-bd6b-0bca640f34b2)
+
+##  b) I tried to use SSH to connect to my remote VM and got a timed out error message, indicating that the SSH connection was not availalbe:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bb5ecc6e-70d3-44ed-b504-9c820aac4fb3)
+
+
+
+
+
+
+
 
    
 
