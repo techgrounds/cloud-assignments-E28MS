@@ -102,15 +102,22 @@ These decisions apply to the traffic flow in and out of VNet subnets and network
 
 
 
-[Microsoft Learn
+[Learn Microsoft Linux Secure Web Server](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-secure-web-server)
 
 ##  Difficulties
 
 ##  Results
 
-1.  Here I created a new VM :
+###  1.  During the creation of my new VM for this excercise, I added a cloud-init script to install the nginx web server:
 
-   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b7faf1a9-d4d1-4861-aa3e-da9a02cd213e)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5ddad659-bbdc-451d-a050-a009db171b03)
+
+###  Here the web server is succesfully installed and working:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c3e930a9-75b3-403e-bc44-11ef29838e5b)
+
+
+   
 
 
 
