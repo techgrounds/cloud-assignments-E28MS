@@ -108,6 +108,8 @@ These decisions apply to the traffic flow in and out of VNet subnets and network
 
 ##  Difficulties
 
+I didn't encounter any major difficulties during this assignment, once I understood how to add the Inbound Security Rules.  
+
 ##  Results
 
 ###  1.  During the creation of my new VM for this excercise, I added a cloud-init script to install the nginx web server:
@@ -143,14 +145,13 @@ These decisions apply to the traffic flow in and out of VNet subnets and network
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bb5ecc6e-70d3-44ed-b504-9c820aac4fb3)
 
+##  c)  I accessed the web server again to check that I still had access via HTTP and this was succesful:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4bb0907c-479b-4007-acf1-5244495969a7)
 
 
 
 
-
-
-
-   
 
 
 
