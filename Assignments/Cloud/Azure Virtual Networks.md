@@ -94,6 +94,8 @@ route tables
 
 ##  Difficulties
 
+I found it troublesome to understand the subnet IP address ranges.  I need to spend some more time on this.
+
 ##  Results
 
 ###  Assignment 1:
@@ -105,7 +107,22 @@ route tables
 
 ###  Here are the details of Subnet-2:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a49e5137-05c8-43a4-9c2b-360fb67aa1b8)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a49e5137-05c8-43a4-9c2b-360fb67aa1b8
+
+
+###  Assignment 2:
+
+
+Here are the Networking settings on my VM:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e5b46c0b-ce3c-4fc8-8cda-63609585d4fb)
+
+My Apache web server was available on the first try! Success!
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d6b944e6-e9f4-4412-9816-c683f3ecfecb)
+
+
 
 
 
