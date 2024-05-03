@@ -100,6 +100,8 @@ These decisions apply to the traffic flow in and out of VNet subnets and network
 
 [CoreStack Azure Security Tools: Firewall vs NSG](https://www.corestack.io/azure-security-tools/azure-firewall-vs-nsg/)
 
+[Learn Microsoft Network Security Group](https://learn.microsoft.com/en-us/azure/virtual-network/manage-network-security-group?tabs=network-security-group-portal)
+
 
 
 [Learn Microsoft Linux Secure Web Server](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-secure-web-server)
