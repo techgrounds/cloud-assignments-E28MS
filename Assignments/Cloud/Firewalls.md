@@ -108,6 +108,11 @@ These decisions apply to the traffic flow in and out of VNet subnets and network
 
 ##  Results
 
+1.  Here I created a new VM :
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b7faf1a9-d4d1-4861-aa3e-da9a02cd213e)
+
+
 
 ###  Bonus Section: Best Practices
 
