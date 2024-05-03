@@ -118,6 +118,11 @@ These decisions apply to the traffic flow in and out of VNet subnets and network
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c3e930a9-75b3-403e-bc44-11ef29838e5b)
 
+###  2.  Here I succesfully associated the NSG with the V-net:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/87ed8ee3-b5a2-4e04-a133-94449faac555)
+
+
 
    
 
