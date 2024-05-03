@@ -118,7 +118,14 @@ Here are the Networking settings on my VM:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e5b46c0b-ce3c-4fc8-8cda-63609585d4fb)
 
+
+Here my VM is created:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/26193880-2892-4585-b1a4-032c830751d0)
+
+
 My Apache web server was available on the first try! Success!
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d6b944e6-e9f4-4412-9816-c683f3ecfecb)
 
