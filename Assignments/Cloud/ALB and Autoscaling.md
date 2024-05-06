@@ -69,10 +69,34 @@ Note: the Azure Load Testing service can be expensive. You can also log in to th
 
 ##  Key Terms
 
-endpoint - 
+*endpoint*
+
+
+*Orchestration modes*
 
 ##  Resources
+
+[Learn Microsoft VMSS](https://azure.microsoft.com/en-us/products/virtual-machine-scale-sets/)
+
+[Learn Microsoft VMSS Documentation](https://learn.microsoft.com/en-gb/azure/virtual-machine-scale-sets/)
 
 ##  Difficulties
 
 ##  Results
+
+###  Assignment 1:
+
+###  Here are the details of my VMSS, I couldn't find the settings for Autoscaling to add the last parameters but the Learn Microsoft Docs seemed to indicate that this will be an option once the VMSS is created:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9a763601-df50-417a-97b1-dc9f09f1b334)
+
+
+###  I selected Inbound Ports 80 and 22 by creating a Network Interface and allowing selected ports:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/97a16299-1a3d-4d4d-b078-6616fd976189)
+
+###  Here I adjusted the Scaling Conditions according to the assignment parameters:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c496e7e6-8712-4df9-942a-5b0ba980fd1b)
+
+
