@@ -20,6 +20,53 @@ Application Gateway: This load balancer operates at layer 7 of the OSI stack (HT
 
 ## Assignment
 
+###  Task 1:
+Create a Virtual Machine Scale Set with the following requirements:
+
+Ubuntu Server 20.04 LTS - Gen1
+
+Size: Standard_B1ls
+
+Allowed inbound ports:
+SSH (22)
+HTTP (80)
+
+OS Disk type: Standard SSD
+
+Networking: defaults
+
+Boot diagnostics are not required
+
+Custom data:
+
+```
+#!/bin/bash
+sudo su
+apt update
+apt install apache2 -y
+ufw allow 'Apache'
+systemctl enable apache2
+systemctl restart apache2
+```
+
+Initial Instance Count: 2
+
+Scaling Policy: Custom
+
+Number of VMs: minimum 1 and maximum 4
+
+Add a VM at 75% CPU usage
+
+Remove a VM at 30% CPU usage
+
+ Task 2:
+ 
+Check if you can access the web server via the endpoint of your load balancer.
+
+Perform a load test on your server(s) to trigger auto scaling. There may be a delay in creating new VMs depending on the settings in your VM Scale Set. 
+
+Note: the Azure Load Testing service can be expensive. You can also log in to the VM to perform a manual stress test.
+
 ##  Key Terms
 
 endpoint - 
