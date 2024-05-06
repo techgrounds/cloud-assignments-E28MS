@@ -70,15 +70,24 @@ Note: the Azure Load Testing service can be expensive. You can also log in to th
 ##  Key Terms
 
 *endpoint*
-
-
+=w21`
 *Orchestration modes*
+
+*Load tests vs Stress Tests*
+
+*  Load tests simulate normal traffic, stress tests simulate extreme traffic.
+
+*  Load tests might crash your test environment, stress tests must break your test environment.
+
+*  Load tests determine if you can handle an expected traffic volume, stress tests determine the upper limits of your system capacity.
 
 ##  Resources
 
 [Learn Microsoft VMSS](https://azure.microsoft.com/en-us/products/virtual-machine-scale-sets/)
 
 [Learn Microsoft VMSS Documentation](https://learn.microsoft.com/en-gb/azure/virtual-machine-scale-sets/)
+
+
 
 ##  Difficulties
 
