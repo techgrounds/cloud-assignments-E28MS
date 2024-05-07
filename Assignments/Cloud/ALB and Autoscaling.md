@@ -162,7 +162,14 @@ Here I added an Inbound Port Rule, specifying the Load Balancer IP address as th
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4d94d025-487d-4546-9ed6-6dc72dfca884)
 
-this didn't resolve the problem.  So I also created an Outbound Port Rule to allow data to be sent back to the client:
+this didn't resolve the problem.  
+
+I then associated the Load Balancer Backend Pool with the VMSS:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c7962fde-d8b2-46fc-ade0-ea00c8397172)
+
+
+So I also created an Outbound Port Rule to allow data to be sent back to the client:
 
 
 Next I reviewed the NSG to see if the HTTP Traffic was allowed 
