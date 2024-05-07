@@ -110,3 +110,9 @@ Note: the Azure Load Testing service can be expensive. You can also log in to th
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c496e7e6-8712-4df9-942a-5b0ba980fd1b)
 
 
+###  These are the settings of my VMSS:
+
+![Uploading image.png…]()
+
+
+
