@@ -61,9 +61,9 @@ Remove a VM at 30% CPU usage
 
 ### Task 2:
  
-Check if you can access the web server via the endpoint of your load balancer.
+a)  Check if you can access the web server via the endpoint of your load balancer.
 
-Perform a load test on your server(s) to trigger auto scaling. There may be a delay in creating new VMs depending on the settings in your VM Scale Set. 
+b)  Perform a load test on your server(s) to trigger auto scaling. There may be a delay in creating new VMs depending on the settings in your VM Scale Set. 
 
 Note: the Azure Load Testing service can be expensive. You can also log in to the VM to perform a manual stress test.
 
@@ -107,11 +107,25 @@ ChatGPT
 
 ##  Difficulties
 
-It took a while to figure out why I couldn't connect to the Apache web server landing page but once I re-configured the Frontend IP and associated the Backend Pool with the VMSS, this was succesful.
+*   It took a while to figure out why I couldn't connect to the Apache web server landing page but once I re-configured the Frontend IP and associated the Backend Pool with the VMSS, this was succesful.
 
-The second challenge I faced was how to manually run a stress test by logging in remotely to my VM.  I reviewed YouTube videos, searched online forums and then resorted to looking at a previous student's GitHub repository and discovered that there is a stress command! Genius! 
+*   The second challenge I faced was how to manually run a stress test by logging in remotely to my VM.  I reviewed YouTube videos, searched online forums and then resorted to looking at a previous student's GitHub repository and discovered that there is a CLI stress command! Genius! 
 
 I didn't look any further as I wabt  and asked ChatGPT to put together a tuturial as I know knew how to phrase my question correctly to get helpful input.
+
+*  The next difficulty I encountered was a peristent :Permission denied (publickey) error message that prevented me from connecting to the instance in my VMSS.  
+
+So the troubleshooting commenced.  First, I checkd the NSG on the VMSS and confirmed that SSH(port 22) was enabled:  (It was! It's never the first thing you try, right? :-))
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f0869f41-8cce-40ea-89f3-1d9f86807c68)
+
+*  Next I checked my username and...you've guessed it! I left out an underscore!  Problem resolved and I promptly SSH'd in succesfully! Yay me!  Also realised that it was maybe time to stop for the day! But not before I tried a few more things! 
+
+
+
+
+
 
 
 
@@ -145,7 +159,7 @@ I didn't look any further as I wabt  and asked ChatGPT to put together a tuturia
 
 ### Assignment 2:
 
-When I was setting up the VMSS, I noted that leaving the Network Settings to default as specified in Assignment 1 would mean that there was no load balancer associated with my VMSS.  I anticipated that this would mean that you counldn't progress with Assignment 2 until this was resolved.  
+*a)  When I was setting up the VMSS, I noted that leaving the Network Settings to default as specified in Assignment 1 would mean that there was no load balancer associated with my VMSS.  I anticipated that this would mean that you counldn't progress with Assignment 2 until this was resolved.*
 
 This is indeed the case, given that it specifies you need to connect via the Load Balancer (which isn't set up according to Assignment 2)
 
@@ -191,6 +205,57 @@ And then I reviewed the Frontend IP Configuration:
 Configuring the Frontend IP Confirugation and the Backend Pool resolved the issue and I was able to access the Apache landing page through my load balancer:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/064aa6e6-cab3-44e2-91ac-cddc9c9a2fc5)
+
+*b)  First, I checked the instances and established the IP address of the VM so that I could SSH in remotely to complete a stress test:*
+
+Here is the instance,up and running:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/141c377a-2ee5-4cb2-867d-9e07bcb2a652)
+
+
+Here are the details, including IP Address that I need to SSH in:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/809c277a-c9c8-4914-88d9-78ac59ce47ff)
+
+
+So next I SSH'd into my VM in my VMSS and installed the stress apt using the following command:
+
+```
+sudo apt update
+sudo apt install stress
+```
+
+Next I generated a load on my Linux VM using the following command, making use of the parameters I set for scaling out and scaling in during setting up VMSS:
+
+```
+stress --cpu 1 --timeout 300s
+```
+
+This didn't trigger autoscaling as there was still only instance :
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/690f55b7-17a5-4f72-8836-5c7b829c907b)
+
+So I repeated the command as below:
+
+```
+ stress --cpu 75 --timeout 300s
+```
+
+I again only saw once instance but when I ran the history in scaling, it seems like it was succesful and I realised that instead of shopping for books while my stress test was running I should be watching the Portal to see if it was autoscaling out:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d2348697-1c53-451a-93a5-3e4d7038e905)
+
+However, when I did this, I still couldn't see any additional instances being added.
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ad5c6b98-e95f-415c-8ebd-c4067f819b57)
+
+
+
+
+
+
+
+
 
 
 
