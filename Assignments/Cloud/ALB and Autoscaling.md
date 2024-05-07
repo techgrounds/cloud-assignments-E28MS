@@ -135,6 +135,25 @@ This is indeed the case, given that it specifies you need to connect via the Loa
 ###  In order to check if I could access the web server through the load balancer, I entered the load balancer's Front End IP address into my browser:
 
 
+And got an error message.
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9688d384-14e0-4769-86fd-9de244b78c1e)
+
+
+###  Troubleshooting:
+
+Here I added an Inbound Port Rule, specifying the Load Balancer IP address as the destination:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4d94d025-487d-4546-9ed6-6dc72dfca884)
+
+this didn't resolve the problem.  So I also created an Outbound Port Rule to allow data to be sent back to the client:
+
+
+Next I reviewed the NSG to see if the HTTP Traffic was allowed 
+
+
+
 
 
 
