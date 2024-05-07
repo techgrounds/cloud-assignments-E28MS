@@ -102,9 +102,14 @@ There are two ways of configuring a backend pool:
 
 ChatGPT
 
+[Loadview Testing Microsoft Autoscale](https://www.loadview-testing.com/blog/testing-microsoft-azure-autoscale/)
 
 
 ##  Difficulties
+
+It took a while to figure out why I couldn't connect to the Apache web server landing page but once I re-configured the Frontend IP and associated the Backend Pool with the VMSS, this was succesful.
+
+
 
 ##  Results
 
@@ -169,20 +174,17 @@ I then associated the Load Balancer Backend Pool with the VMSS:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c7962fde-d8b2-46fc-ade0-ea00c8397172)
 
 
-So I also created an Outbound Port Rule to allow data to be sent back to the client:
+And then I reviewed the Frontend IP Configuration:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c6996b04-89b7-4d69-864a-486ea87dbad8)
+
+Configuring the Frontend IP Confirugation and the Backend Pool resolved the issue and I was able to access the Apache landing page through my load balancer:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/064aa6e6-cab3-44e2-91ac-cddc9c9a2fc5)
 
 
-Next I reviewed the NSG to see if the HTTP Traffic was allowed 
 
-Then I reviewed the Frontend IP Settings
 
-And then I reviewed the Backend Pool settings
-
-And I also reviewed the Load Balancing Rules
-
-Also the Inbout NAT rules
-
-And Outbound Rules
 
 
 
