@@ -120,6 +120,12 @@ It took a while to figure out why I couldn't connect to the Apache web server la
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9a763601-df50-417a-97b1-dc9f09f1b334)
 
 
+###  Here I selected the Autoscaling settings after the VMSS was created and set it to Custom as per assignment parameters:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ef97d4e7-24aa-4078-bbaa-4f14a2c44c8e)
+
+
+
 ###  I selected Inbound Ports 80 and 22 by creating a Network Interface and allowing selected ports.  I also enabled Public IP address: 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0f911d8a-bc86-406b-9b90-6ef5198ef4af)
