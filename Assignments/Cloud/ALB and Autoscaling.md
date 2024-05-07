@@ -59,7 +59,7 @@ Add a VM at 75% CPU usage
 
 Remove a VM at 30% CPU usage
 
- Task 2:
+### Task 2:
  
 Check if you can access the web server via the endpoint of your load balancer.
 
@@ -109,6 +109,10 @@ ChatGPT
 
 It took a while to figure out why I couldn't connect to the Apache web server landing page but once I re-configured the Frontend IP and associated the Backend Pool with the VMSS, this was succesful.
 
+The second challenge I faced was how to manually run a stress test by logging in remotely to my VM.  I reviewed YouTube videos, searched online forums and then resorted to looking at a previous student's GitHub repository and discovered that there is a stress command! Genius! 
+
+I didn't look any further as I wabt  and asked ChatGPT to put together a tuturial as I know knew how to phrase my question correctly to get helpful input.
+
 
 
 ##  Results
@@ -119,7 +123,7 @@ It took a while to figure out why I couldn't connect to the Apache web server la
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9a763601-df50-417a-97b1-dc9f09f1b334)
 
-
+- +-
 ###  Here I selected the Autoscaling settings after the VMSS was created and set it to Custom as per assignment parameters:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ef97d4e7-24aa-4078-bbaa-4f14a2c44c8e)
