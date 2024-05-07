@@ -250,6 +250,12 @@ However, when I did this, I still couldn't see any additional instances being ad
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ad5c6b98-e95f-415c-8ebd-c4067f819b57)
 
 
+Here is the information in the cmd when I was completing the stress test:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/44b3cd60-d57b-4dbd-afa9-6e72fcaf9817)
+
+
+
 
 
 
