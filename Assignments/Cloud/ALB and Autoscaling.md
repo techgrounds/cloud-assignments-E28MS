@@ -69,8 +69,19 @@ Note: the Azure Load Testing service can be expensive. You can also log in to th
 
 ##  Key Terms
 
+*backend pool*
+
+The backend pool is a critical component of the load balancer. The backend pool defines the group of resources that will serve traffic for a given load-balancing rule.
+
+There are two ways of configuring a backend pool:
+
+*  Network Interface Card (NIC)
+
+*  IP address
+
 *endpoint*
-=w21`
+
+
 *Orchestration modes*
 
 *Load tests vs Stress Tests*
@@ -86,6 +97,10 @@ Note: the Azure Load Testing service can be expensive. You can also log in to th
 [Learn Microsoft VMSS](https://azure.microsoft.com/en-us/products/virtual-machine-scale-sets/)
 
 [Learn Microsoft VMSS Documentation](https://learn.microsoft.com/en-gb/azure/virtual-machine-scale-sets/)
+
+[Learn Microsoft Azure Load Balancer Backend Pool Management](https://learn.microsoft.com/en-gb/azure/load-balancer/backend-pool-management)
+
+ChatGPT
 
 
 
@@ -151,6 +166,16 @@ this didn't resolve the problem.  So I also created an Outbound Port Rule to all
 
 
 Next I reviewed the NSG to see if the HTTP Traffic was allowed 
+
+Then I reviewed the Frontend IP Settings
+
+And then I reviewed the Backend Pool settings
+
+And I also reviewed the Load Balancing Rules
+
+Also the Inbout NAT rules
+
+And Outbound Rules
 
 
 
