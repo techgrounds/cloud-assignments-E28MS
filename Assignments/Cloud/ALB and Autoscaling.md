@@ -112,7 +112,32 @@ Note: the Azure Load Testing service can be expensive. You can also log in to th
 
 ###  These are the settings of my VMSS:
 
-![Uploading image.png…]()
+
+### Assignment 2:
+
+When I was setting up the VMSS, I noted that leaving the Network Settings to default as specified in Assignment 1 would mean that there was no load balancer associated with my VMSS.  I anticipated that this would mean that you counldn't progress with Assignment 2 until this was resolved.  
+
+This is indeed the case, given that it specifies you need to connect via the Load Balancer (which isn't set up according to Assignment 2)
+
+
+###  Here are 2 screenshots confirming that Load Balancing is not set up:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2e52485c-3c2f-429f-a80e-0b574cbe96b4)
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f34e0a8e-1df5-4cd5-bd39-c5eb717a814b)
+
+
+
+###  Now my load balancer has been set up:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c7482fec-15de-4cf1-b893-a52a971264e8)
+
+###  In order to check if I could access the web server through the load balancer, I entered the load balancer's Front End IP address into my browser:
+
+
+
+
+
 
 
 
