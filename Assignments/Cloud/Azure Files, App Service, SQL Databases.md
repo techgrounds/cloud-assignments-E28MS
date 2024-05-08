@@ -27,6 +27,7 @@ Gain practical experience with:
 A)  Azure Files
 B)  SQL Databases in Azure
 C)  Azure App Service
+D)  CosmosDB
 
     Gain theoretical knowledge of:
     
@@ -69,7 +70,7 @@ Once you feel confident in your understanding and have gained practical experien
 
 ##  Key Terms
 
-### Files
+### A)  Files
 
 In the context of Azure Files, NFS, SMB, and FTP are protocols or technologies used for accessing and managing files stored in Azure file shares. Here's a brief explanation of each:
 
@@ -116,17 +117,23 @@ The above 3 protocols serve as communication channels between clients and Azure 
 
 These key terms provide a foundational understanding of Azure Files and its associated concepts, features, and functionalities.
 
+###  
+
 
 
 ## Resources
 
-###  Azure Files Resources
+###  A) Azure Files Resources
 
 [Microsoft Learn Introduction to Azure Files](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
 
 ChatGPT
 
 [Azure Files ](https://www.youtube.com/watch?v=BCzeb0IAy2k&ab_channel=AdamMarczak-AzureforEveryone)
+
+###  F) Azure DNS
+
+[Learn Microsoft DNS Overview](https://learn.microsoft.com/en-us/azure/dns/dns-overview)
 
 ###  
 
