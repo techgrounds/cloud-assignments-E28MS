@@ -104,6 +104,8 @@ ChatGPT
 
 [Loadview Testing Microsoft Autoscale](https://www.loadview-testing.com/blog/testing-microsoft-azure-autoscale/)
 
+[Geeks for Geeks Linux Stress Commands](https://www.geeksforgeeks.org/linux-stress-command-with-examples/)
+
 
 ##  Difficulties
 
