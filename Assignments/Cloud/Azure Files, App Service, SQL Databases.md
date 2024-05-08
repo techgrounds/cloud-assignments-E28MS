@@ -82,7 +82,39 @@ In the context of Azure Files, NFS, SMB, and FTP are protocols or technologies u
 3. **FTP (File Transfer Protocol)**:
    - FTP is a standard network protocol used for transferring files between a client and a server on a computer network. It provides a simple and efficient way to upload, download, and manage files across a network. While Azure Files does not support FTP natively, it's possible to use third-party FTP clients or solutions to access files stored in Azure file shares by mounting them as network drives or using Azure Blob Storage's FTP support in conjunction with Azure Files.
 
-These protocols serve as communication channels between clients and Azure Files, enabling users and applications to access and manipulate files stored in Azure file shares according to their specific requirements and compatibility with different operating systems and applications.
+The above 3 protocols serve as communication channels between clients and Azure Files, enabling users and applications to access and manipulate files stored in Azure file shares according to their specific requirements and compatibility with different operating systems and applications.
+
+4. **Azure Files**:
+   - Azure Files is a fully managed file share service in Microsoft Azure, providing shared file storage in the cloud.
+    
+5. **Storage Account**:
+   - A storage account is a Microsoft Azure resource that provides a unique namespace to store and access data objects in Azure Storage. Azure Files are stored within storage accounts.
+
+6. **File Share**:
+   - A file share is a container within a storage account that provides SMB (Server Message Block) access to files and folders. Azure Files are organized into file shares.
+
+7. **SMB (Server Message Block)**:
+   - SMB is a network protocol used for file and printer sharing in Windows-based environments. Azure Files support SMB, allowing access to file shares from Windows, macOS, and Linux operating systems.
+
+8. **Mounting**:
+   - Mounting refers to the process of connecting and making a file share accessible as a network drive on a local machine or virtual machine. Azure Files can be mounted on various platforms for easy access.
+
+9. **Access Control**:
+   - Access control involves defining permissions and security settings to regulate who can access Azure file shares and what actions they can perform (e.g., Read, Write, or both).
+
+10. **Storage Redundancy**:
+   - Storage redundancy refers to the replication and distribution of data across multiple storage nodes to ensure data durability and availability. Azure Files offer options for redundancy, including locally redundant storage (LRS) and zone-redundant storage (ZRS).
+
+11. **REST API**:
+   - The REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for building web services that allow clients to interact with cloud storage resources programmatically. Azure Files can be managed and accessed using the Azure Storage REST API.
+
+12. **Azure Active Directory (AAD) Integration**:
+   - Azure Active Directory integration enables authentication and authorization of users and applications accessing Azure Files. It allows organizations to leverage their existing identity management infrastructure for accessing file shares securely.
+
+13. **Storage Explorer**:
+    - Azure Storage Explorer is a standalone application that enables users to manage Azure Storage resources visually. It provides a user-friendly interface for browsing, uploading, downloading, and managing files and folders in Azure Files.
+
+These key terms provide a foundational understanding of Azure Files and its associated concepts, features, and functionalities.
 
 
 
