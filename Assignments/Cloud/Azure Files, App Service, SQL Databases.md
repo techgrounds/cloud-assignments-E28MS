@@ -135,6 +135,10 @@ ChatGPT
 
 [Learn Microsoft DNS Overview](https://learn.microsoft.com/en-us/azure/dns/dns-overview)
 
+ChatGPT
+
+
+
 ###  
 
 
@@ -147,7 +151,7 @@ It felt like a lot of information to try and replicate in a logical and tidy ord
 
 ##  Results
 
-###  Files
+###  A)  Files
 
 I decided to complete the following 2 excercises to familiarise myself with Azure Files:
 
@@ -209,7 +213,60 @@ Certainly! Here are two beginner-level exercises to complete with Azure Files, c
 5. **Verify Data Integrity:**
    - Validate that the restored file share contains the correct data and that files are accessible and intact.
 
-By completing these exercises, you'll gain hands-on experience with creating, accessing, and managing Azure file shares, as well as implementing backup and restore procedures to ensure data resilience and recoverability.
+###  F)  Azure DNS
+
+# Azure DNS: Empowering Your Domain Name System
+
+## Introduction
+Azure DNS is a scalable Domain Name System (DNS) hosting service provided by Microsoft Azure. It enables you to manage your DNS records using Microsoft’s global network of DNS servers. By leveraging Azure DNS, you can efficiently resolve DNS queries for your domains and provide reliable and high-performance access to your web applications, services, and resources hosted on Azure or elsewhere.
+
+## Key Terms
+To understand Azure DNS better, it's essential to be familiar with the following key terms:
+
+1. **Domain Name System (DNS):** A hierarchical decentralized naming system for computers, services, or other resources connected to the internet or a private network.
+
+2. **Domain Registrar:** An organization that manages the reservation of internet domain names.
+
+3. **DNS Zone:** A portion of the DNS namespace that is managed by an organization or administrator.
+
+4. **Resource Record (RR):** A data record in the DNS that specifies the mapping between domain names and IP addresses or other information.
+
+5. **Name Server:** A server that provides DNS services for a specific DNS zone.
+
+6. **TTL (Time to Live):** A value in a DNS record that determines how long a resolver is supposed to cache the DNS query before refreshing it.
+
+## Why use Azure DNS? (What problem does it solve?)
+
+Azure DNS solves several challenges related to managing DNS records and providing reliable DNS resolution:
+
+- **Scalability:** Azure DNS scales automatically to handle millions of queries per second, ensuring your applications remain accessible even under heavy loads.
+- **Global Availability:** With a distributed network of name servers across Azure data centers worldwide, Azure DNS offers low-latency DNS resolution from anywhere in the world.
+- **Simplified Management:** Azure DNS integrates seamlessly with other Azure services, allowing you to manage your DNS records alongside your other resources from a unified interface.
+- **High Availability:** Azure DNS provides built-in redundancy and fault tolerance, reducing the risk of DNS failures and ensuring continuous availability for your applications.
+
+## Integration with On-Premises Settings
+Azure DNS can be seamlessly integrated with on-premises environments in the following ways:
+
+- **DNS Forwarding:** You can configure your on-premises DNS servers to forward DNS queries for specific domains to Azure DNS, allowing you to leverage Azure's global network for DNS resolution.
+- **Hybrid Cloud Connectivity:** Azure Virtual Network (VNet) allows you to establish secure connections between your on-premises network and Azure, enabling DNS resolution between on-premises resources and Azure-hosted services via Azure DNS.
+
+## Combining with Other Services
+Azure DNS can be combined with various Azure services to enhance functionality and streamline operations:
+
+- **Azure Traffic Manager:** Integrate Azure DNS with Azure Traffic Manager to implement global load balancing and improve the availability and performance of your applications.
+- **Azure App Service:** Use Azure DNS to map custom domain names to your Azure App Service web apps, enabling users to access your applications using memorable domain names.
+- **Azure Private DNS:** Combine Azure DNS with Azure Private DNS to resolve DNS queries within your virtual networks and across Azure services without exposing DNS traffic to the public internet.
+
+## Comparison with Similar Services
+While Azure DNS shares similarities with other DNS hosting services, such as Amazon Route 53 and Google Cloud DNS, it offers several distinct advantages:
+
+- **Integration with Azure Ecosystem:** Azure DNS seamlessly integrates with other Azure services, simplifying management and enabling deeper integration with your Azure infrastructure.
+- **Global Network Backbone:** Azure DNS leverages Microsoft's global network infrastructure, ensuring low-latency DNS resolution and high availability for your applications worldwide.
+- **Enterprise-grade Security:** Azure DNS provides advanced security features, such as DNSSEC (DNS Security Extensions) support, to protect against DNS-related attacks and unauthorized DNS modifications.
+
+In conclusion, Azure DNS is a powerful DNS hosting service that offers scalability, reliability, and seamless integration with Azure services, making it an ideal choice for organizations looking to manage their DNS infrastructure effectively in the cloud.
+
+
 
 ##  Reflection/Learning
 
