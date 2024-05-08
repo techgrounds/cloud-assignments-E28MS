@@ -159,8 +159,6 @@ It felt like a lot of information to try and replicate in a logical and tidy ord
 
 I decided to complete the following 2 excercises to familiarise myself with Azure Files:
 
-Certainly! Here are two beginner-level exercises to complete with Azure Files, covering practical aspects that will help you understand the basics:
-
 ### Exercise 1: Setting Up and Accessing an Azure File Share
 
 **Objective:** Create an Azure file share, mount it on a virtual machine, and access it from your local machine.
