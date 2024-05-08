@@ -75,6 +75,7 @@ Once you feel confident in your understanding and have gained practical experien
 
 ChatGPT
 
+[Azure Files ](https://www.youtube.com/watch?v=BCzeb0IAy2k&ab_channel=AdamMarczak-AzureforEveryone)
 
 
 ##  Difficulties
