@@ -18,13 +18,13 @@ Study the Azure Shared Responsbility Model
 
 ##  Resources
 
+[Azure Security Shared Responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
+
 ##  Difficulties
 
 ##  Results
 
-Certainly! The Shared Responsibility Model is a fundamental concept in cloud computing, outlining the division of responsibilities between the cloud service provider (CSP) and the customer. For Azure specifically, understanding this model is crucial, especially for those preparing for the AZ-900 exam, as it forms the basis for ensuring the security and compliance of cloud deployments.
-
-Here's an overview of the Shared Responsibility Model in Azure along with some important points, questions, and examples:
+The Shared Responsibility Model is a fundamental concept in cloud computing, outlining the division of responsibilities between the cloud service provider (CSP) and the customer. For Azure specifically, understanding this model is crucial, especially for those preparing for the AZ-900 exam, as it forms the basis for ensuring the security and compliance of cloud deployments.
 
 ### Overview:
 
