@@ -106,6 +106,8 @@ ChatGPT
 
 [Geeks for Geeks Linux Stress Commands](https://www.geeksforgeeks.org/linux-stress-command-with-examples/)
 
+[K21 Academy](https://k21academy.com/microsoft-azure/architect/azure-load-balancer-step-by-step/)
+
 
 ##  Difficulties
 
