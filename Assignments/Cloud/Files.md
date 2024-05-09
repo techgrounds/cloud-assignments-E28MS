@@ -17,7 +17,13 @@ Useful questions to keep in mind during your research on the topics:
 8.  How do I turn on this service?
 9.  How can I connect this service to other resources?
 
-    
+
+##  Assignment:
+
+Gain practical experience with:
+
+A)  Azure Files
+
 
 First I created a Storage Account:
 
