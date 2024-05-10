@@ -1,6 +1,10 @@
 ##  Subject
 
-Azure App Service is a fully managed platform for building, deploying, and scaling web apps and APIs. Whether you're a seasoned developer or just starting your journey in cloud computing, Azure App Service offers a seamless experience to host your applications without worrying about infrastructure management. Let's dive into the basics to get you started.
+Azure App Service is a fully managed platform for building, deploying, and scaling web apps and APIs. 
+
+Whether you're a seasoned developer or just starting your journey in cloud computing, Azure App Service offers a seamless experience to host your applications without worrying about infrastructure management. 
+
+
 
 Key Terms and Definitions:
 
@@ -46,3 +50,11 @@ Keep the following questions in mind during this assignment:
 7.  Where can I find this service in the console?
 8.  How do I turn on this service?
 9.  How can I connect this service to other resources?
+
+##  Resources
+
+[Azure for Everyone - Video of Azure App Service Overview](https://www.youtube.com/watch?v=4BwyqmRTrx8&ab_channel=AdamMarczak-AzureforEveryone)
+
+ChatGPT
+
+
