@@ -79,6 +79,14 @@ It runs Server Message Block (SMB), which allows systems of the same network to 
 
 This port shouldn't be opened for external network. All microsoft devices mostly have port 445 open as the port is used for LAN communication.
 
+##  Resources:
+
+[Naming and Referencing Files, Shares, Directories](https://learn.microsoft.com/en-us/rest/api/storageservices/Naming-and-Referencing-Shares--Directories--Files--and-Metadata)
+
+ChatGPT
+
+
+
 
 ###  A)  Files
 
