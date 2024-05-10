@@ -121,6 +121,10 @@ Terminal window following my question about which ports need to be open to allow
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d1978c8b-802b-478a-9d68-c8adfc7e91a0)
 
+[](https://www.manageengine.com/products/eventlog/logging-guide/firewall/how-to-detect-and-prevent-tcp-445-exploit-and-attack.html#:~:text=What%20is%20the%20use%20of,and%20printers%20over%20TCP%2FIP.)
+
+
+
 
 
 
