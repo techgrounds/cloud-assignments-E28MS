@@ -12,36 +12,36 @@ Azure App Service:
 
 A platform-as-a-service (PaaS) offering from Microsoft Azure that enables developers to build, deploy, and scale web applications and APIs.
 
-Web App: 
+**Web App:**
 
 A type of application hosted on Azure App Service that is accessible over the internet via a web browser.
 
-API App: 
+**API App:**
 
 An application hosted on Azure App Service specifically designed to serve APIs, allowing other applications to interact with it programmatically.
 
-Deployment Slot: 
+**Deployment Slot:** 
 
 A separate instance of your web app or API app where you can deploy and test changes before swapping it with the production slot.
 
-Scale Up/Down: 
+**Scale Up/Down:** 
 
 Adjusting the resources allocated to your app, such as CPU and memory, to handle varying levels of traffic.
 
-Scale Out/In: 
+**Scale Out/In:** 
 
 Increasing or decreasing the number of instances running your app to distribute the load and improve performance.
 
-Continuous Deployment:
+**Continuous Deployment:**
 
 Automating the deployment process by linking your Azure App Service to a source control repository, such as GitHub, to deploy changes automatically whenever new code is pushed.
 
-Custom Domain: 
+**Custom Domain:** 
 
 Assigning a custom domain name to your Azure App Service instead of using the default azurewebsites.net domain.
 
 
-SSL Certificate: 
+**SSL Certificate:** 
 
 Secure Socket Layer certificate used to enable HTTPS for your custom domain, ensuring secure communication between the client and the server.
 
