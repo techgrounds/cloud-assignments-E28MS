@@ -113,7 +113,7 @@ This port shouldn't be opened for external network. All microsoft devices mostly
 
 [Learn Microsoft Storage Files Introduction](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
 
-
+[Learn Microsoft Mount SMB Azure File Share on Linux](https://learn.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-linux?tabs=Ubuntu%2Csmb311)
 
 ChatGPT
 
@@ -181,25 +181,49 @@ I decided to complete the following 2 excercises to familiarise myself with Azur
    - Validate that the restored file share contains the correct data and that files are accessible and intact.
 
 
+## Results
+
+## Excercise 1:
 
 
 First I created a Storage Account:
 
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/7447f148-9afa-4c5e-a145-949f207b06f5)
 
 
+
 Next I created an Azure File Share:
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/46fd9122-fe50-4850-80ca-ce25fd7042fc)
 
 
 Followed by creating a Directory and Uploading a file:
 
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cae1dbdb-3e40-4fab-b9cb-3ba69cc533d6)
+
 
 I then downloaded the file succesfully:
 
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/688592c3-d5ea-4da1-8fce-b6c390667283)
+
+
+
+
+## Excercise 2:
+
+First, I installed the prerequisite cifs-utils package, using the following code:
+
+```
+sudo apt update
+sudo apt install cifs-utils
+```
+
+
+
 
 
 
