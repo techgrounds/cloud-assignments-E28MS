@@ -115,7 +115,12 @@ This port shouldn't be opened for external network. All microsoft devices mostly
 
 [Learn Microsoft Mount SMB Azure File Share on Linux](https://learn.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-linux?tabs=Ubuntu%2Csmb311)
 
-ChatGPT
+##  ChatGPT 
+
+Terminal window following my question about which ports need to be open to allow me to complete excercise 1:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d1978c8b-802b-478a-9d68-c8adfc7e91a0)
+
 
 
 
@@ -181,6 +186,11 @@ I decided to complete the following 2 excercises to familiarise myself with Azur
    - Validate that the restored file share contains the correct data and that files are accessible and intact.
 
 
+##  Difficulties
+
+I couldn't find Port 443 in the drop down list and I understood that I would need this port open in order to connect to my FileShare.  So I added an Inbound Port Rule to allow this, see Results for details.
+
+
 ## Results
 
 ## Excercise 1:
@@ -215,12 +225,11 @@ I then downloaded the file succesfully:
 
 ## Excercise 2:
 
-First, I installed the prerequisite cifs-utils package, using the following code:
+First, I installed the prerequisite cifs-utils package, using the following code in the Custom Information during setting up my VM:
 
-```
-sudo apt update
-sudo apt install cifs-utils
-```
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0a3f4244-19ca-402d-bc17-2df30be2750a)
+
+
 
 
 
