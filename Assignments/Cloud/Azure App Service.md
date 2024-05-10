@@ -93,4 +93,17 @@ Keep the following questions in mind during this assignment:
 
 ChatGPT
 
+[Learn Microsoft Getting Started with App Service Python](https://learn.microsoft.com/en-us/azure/app-service/getting-started?pivots=stack-python)
+
+##  Difficulties
+
+##  Results
+
+I created a webb app:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cfbdf138-c9c8-4eb2-8cff-5c4c6e65624d)
+
+
+
+
 
