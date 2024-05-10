@@ -243,6 +243,16 @@ I couldn't find Port 443 in the drop down list and I understood that I would nee
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/10d80bb6-6936-4393-96f5-ae4bd4252465)
 
 
+###  Here I tried to mount the file share after installing the mount point but it was unscuccesful:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e0e24799-3c94-4399-a357-fce23617c5f4)
+
+
+
+After this, I needed to move on to the next excercise and I scheduled the rest of this in for completion the following day.
+
+
+
 
 
 
