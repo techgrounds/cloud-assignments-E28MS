@@ -1,4 +1,4 @@
-##  Subject
+##  Introduction:
 
 From this moment on, you will receive fewer concrete assignments. We will rely more on your independent learning skills. Don't worry, you're not alone. You have each other, and the established structure remains where you can still ask everyone for help.
 
@@ -13,9 +13,21 @@ Useful questions to keep in mind during your research on the topics:
 5.  What is the difference between X and other similar services?
 6.  A handy list of tasks you need to be able to perform practically:
 
-7.  Where can I find this service in the console?
-8.  How do I turn on this service?
-9.  How can I connect this service to other resources?
+    *  Where can I find this service in the console?
+    *  How do I turn on this service?
+    *  How can I connect this service to other resources?
+
+## Subject
+
+Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API. 
+
+Azure file shares can be mounted concurrently by cloud or on-premises deployments. 
+
+SMB Azure file shares are accessible from Windows, Linux, and macOS clients. 
+
+NFS Azure file shares are accessible from Linux clients. 
+
+Additionally, SMB Azure file shares can be cached on Windows servers with Azure File Sync for fast access near where the data is being used.
 
 
 ##  Assignment:
@@ -31,13 +43,27 @@ A)  Azure Files
 In the context of Azure Files, NFS, SMB, and FTP are protocols or technologies used for accessing and managing files stored in Azure file shares. Here's a brief explanation of each:
 
 1. **NFS (Network File System)**:
-   - NFS is a distributed file system protocol commonly used in Unix-like operating systems for sharing files and directories over a network. It allows multiple clients to access files stored on a remote server as if they were local files. While Azure Files primarily supports the SMB protocol, NFS 3.0 and NFS 4.1 support for Azure Files is available in preview. NFS access allows Unix-based clients to access Azure file shares directly using NFS protocols.
+   - NFS is a distributed file system protocol commonly used in Unix-like operating systems for sharing files and directories over a network.
+   
+   - It allows multiple clients to access files stored on a remote server as if they were local files.
+
+   - While Azure Files primarily supports the SMB protocol, NFS 3.0 and NFS 4.1 support for Azure Files is available in preview.
+   
+   - NFS access allows Unix-based clients to access Azure file shares directly using NFS protocols.
 
 2. **SMB (Server Message Block)**:
-   - SMB is a network file sharing protocol primarily used in Windows-based environments. It enables clients to access shared files, printers, and other resources on a network. Azure Files natively supports the SMB protocol, allowing Windows-based clients to mount Azure file shares as network drives and access files and folders stored in Azure Storage.
+   - SMB is a network file sharing protocol primarily used in Windows-based environments.
+   
+   - It enables clients to access shared files, printers, and other resources on a network.
+   
+   - Azure Files natively supports the SMB protocol, allowing Windows-based clients to mount Azure file shares as network drives and access files and folders stored in Azure Storage.
 
 3. **FTP (File Transfer Protocol)**:
-   - FTP is a standard network protocol used for transferring files between a client and a server on a computer network. It provides a simple and efficient way to upload, download, and manage files across a network. While Azure Files does not support FTP natively, it's possible to use third-party FTP clients or solutions to access files stored in Azure file shares by mounting them as network drives or using Azure Blob Storage's FTP support in conjunction with Azure Files.
+   - FTP is a standard network protocol used for transferring files between a client and a server on a computer network.
+   
+   - It provides a simple and efficient way to upload, download, and manage files across a network.
+   
+   - While Azure Files does not support FTP natively, it's possible to use third-party FTP clients or solutions to access files stored in Azure file shares by mounting them as network drives or using Azure Blob Storage's FTP support in conjunction with Azure Files.
 
 The above 3 protocols serve as communication channels between clients and Azure Files, enabling users and applications to access and manipulate files stored in Azure file shares according to their specific requirements and compatibility with different operating systems and applications.
 
@@ -81,7 +107,13 @@ This port shouldn't be opened for external network. All microsoft devices mostly
 
 ##  Resources:
 
+[Learn Microsoft Create and Use and Azure File Share](https://learn.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-portal?tabs=azure-portal)
+
 [Naming and Referencing Files, Shares, Directories](https://learn.microsoft.com/en-us/rest/api/storageservices/Naming-and-Referencing-Shares--Directories--Files--and-Metadata)
+
+[Learn Microsoft Storage Files Introduction](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
+
+
 
 ChatGPT
 
@@ -161,7 +193,15 @@ Next I created an Azure File Share:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/46fd9122-fe50-4850-80ca-ce25fd7042fc)
 
 
-Followed by creating a Directory:
+Followed by creating a Directory and Uploading a file:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cae1dbdb-3e40-4fab-b9cb-3ba69cc533d6)
+
+I then downloaded the file succesfully:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/688592c3-d5ea-4da1-8fce-b6c390667283)
+
+
 
 
 
