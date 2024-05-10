@@ -97,7 +97,7 @@ The above 3 protocols serve as communication channels between clients and Azure 
 13. **Storage Explorer**:
     - Azure Storage Explorer is a standalone application that enables users to manage Azure Storage resources visually. It provides a user-friendly interface for browsing, uploading, downloading, and managing files and folders in Azure Files.
 
-14.  ** Port 445**
+14. **Port 445**
 
 Port 445 is a Microsoft networking port which is also linked to the NetBIOS service present in earlier versions of Microsoft Operating Systems. 
 
@@ -196,26 +196,26 @@ I couldn't find Port 443 in the drop down list and I understood that I would nee
 ## Excercise 1:
 
 
-First I created a Storage Account:
+### First I created a Storage Account:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/7447f148-9afa-4c5e-a145-949f207b06f5)
 
 
 
-Next I created an Azure File Share:
+### Next I created an Azure File Share:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/46fd9122-fe50-4850-80ca-ce25fd7042fc)
 
 
-Followed by creating a Directory and Uploading a file:
+### Followed by creating a Directory and Uploading a file:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cae1dbdb-3e40-4fab-b9cb-3ba69cc533d6)
 
 
-I then downloaded the file succesfully:
+### I then downloaded the file succesfully:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/688592c3-d5ea-4da1-8fce-b6c390667283)
@@ -225,9 +225,24 @@ I then downloaded the file succesfully:
 
 ## Excercise 2:
 
-First, I installed the prerequisite cifs-utils package, using the following code in the Custom Information during setting up my VM:
+### First, I installed the prerequisite cifs-utils package, using the following code in the Custom Information during setting up my VM:
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0a3f4244-19ca-402d-bc17-2df30be2750a)
+
+
+### Next, I created a new Inbound Port Rule to allow Port 445(SMB over TCP) to allow me to access my Azure File Share from the VM
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6c33da1d-ddd4-48f5-afd4-2b5c17effabb)
+
+
+### When I created my VM, I got an erro message saying: filesharevm agent status not ready:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/10d80bb6-6936-4393-96f5-ae4bd4252465)
+
+
 
 
 
