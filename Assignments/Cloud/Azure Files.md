@@ -71,7 +71,13 @@ The above 3 protocols serve as communication channels between clients and Azure 
 13. **Storage Explorer**:
     - Azure Storage Explorer is a standalone application that enables users to manage Azure Storage resources visually. It provides a user-friendly interface for browsing, uploading, downloading, and managing files and folders in Azure Files.
 
-These key terms provide a foundational understanding of Azure Files and its associated concepts, features, and functionalities.
+14.  ** Port 445**
+
+Port 445 is a Microsoft networking port which is also linked to the NetBIOS service present in earlier versions of Microsoft Operating Systems. 
+
+It runs Server Message Block (SMB), which allows systems of the same network to share files and printers over TCP/IP.
+
+This port shouldn't be opened for external network. All microsoft devices mostly have port 445 open as the port is used for LAN communication.
 
 
 ###  A)  Files
@@ -140,6 +146,19 @@ I decided to complete the following 2 excercises to familiarise myself with Azur
 First I created a Storage Account:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/7447f148-9afa-4c5e-a145-949f207b06f5)
+
+
+Next I created an Azure File Share:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/46fd9122-fe50-4850-80ca-ce25fd7042fc)
+
+
+Followed by creating a Directory:
+
+
+
+
+
 
 
 
