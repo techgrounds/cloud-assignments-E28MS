@@ -97,11 +97,39 @@ ChatGPT
 
 ##  Difficulties
 
+It was very confusing in the beginning trying to follow along with Microsoft's Quickstart Guide for Azure App service as there was a lot of information presented for people already familiar with creating webb apps (or it certainly seemed that way to me).
+
+I first read through the guide, tried to identify the specific bits I was didn't understand how to do and then tried to phrase good questions for tutorial help from ChatGPT.
+
+When I tried to create a virtual environment as per the instructions, I got the following error message:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/dbb1553f-3ef2-43ed-919f-7c627976b887)
+
+I troubleshooted with ChatGPT, who suggested the following code instead to circumnavigate the PowerShell restrictions that were preventing me from creating the virtual environment:
+
+```
+.venv\Scripts\activate.bat
+```
+
+
+
+
 ##  Results
 
-I created a webb app:
+I created a webb app in Azure:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cfbdf138-c9c8-4eb2-8cff-5c4c6e65624d)
+
+Next I installed the Azure VS Code Extention, then I navigated to the VS Code Terminal and cloned the sample application repository:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f70b6ba4-a5da-44df-a364-c60bcc04018e)
+
+
+I could then see the folder with the Quickstart project:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/40043a83-0054-4646-8edc-76bcce230b81)
+
+
 
 
 
