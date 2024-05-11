@@ -46,3 +46,18 @@ Deployment completed:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/339d8c45-0c7b-4f98-b050-8019a3a94553)
 
 
+
+App deployed succesfully:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e91e94c6-8b16-48ec-94e1-d9b16a788160)
+
+
+
+Screenshot of where I added a name to the app and it works:
+
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2cb98d70-1d8f-4262-afd7-eb67c1e64eb1)
+
