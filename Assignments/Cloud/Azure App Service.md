@@ -152,7 +152,7 @@ I could then see the folder with the Quickstart project:
 
 
 
-Next I Cloned the Repository:
+Next I cloned the Repository:
 
 
 I opened a terminal within VS Code and ran the following command to clone the sample application repository:
@@ -167,7 +167,7 @@ Then I navigated to the Application Folder:
 cd msdocs-python-django-webapp-quickstart
 ```
 
-To rreate a Virtual Environment I ran this command in the VS Code terminal:
+To create a Virtual Environment I ran this command in the VS Code terminal:
 
 ```
 py -m venv .venv
@@ -180,17 +180,32 @@ But this triggered an Unauthorized Access error (see Difficulties) caused by Pow
 .venv\Scripts\activate.bat
 ```
 
-Install Dependencies:
+Next I needed to install dependencies, so I ran the code below:
 
-Run the following command to install the required dependencies:
-Copy code
+```
 pip install -r requirements.txt
+```
+
+
 Run the App Locally:
 
 Execute the command to start the local server:
 Copy code
 python manage.py runserver
-Open a web browser and navigate to http://localhost:8000 to view the sample application running locally.
+
+
+Next I opened a web browser and navigated to http://localhost:8000 to view the sample application running locally:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b8f5bf7b-a874-480b-b700-79299b237003)
+
+
+Then I entered my name and this happened:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/fb897dbd-ae78-41a2-b514-35377e46143d)
+
+
 
 
 
