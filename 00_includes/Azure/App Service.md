@@ -27,3 +27,22 @@ Screenshot of choosing Deploy to Web App in VS Code from Azure Extension:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6517b07b-b3ac-4bb6-8223-6846c515560f)
+
+
+
+
+Deployment of app to Azure in progress - screenshot of VS Code Terminal:
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/becd4854-cf3e-4c7e-baf8-2a344fc70a38)
+
+
+
+
+Deployment completed:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/339d8c45-0c7b-4f98-b050-8019a3a94553)
+
+
