@@ -90,3 +90,11 @@ Screenshot of where I added a name to the app and it works:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2cb98d70-1d8f-4262-afd7-eb67c1e64eb1)
 
+
+
+Screenshot of deleting app resource group:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ad6f397e-0715-4a67-8fa8-4f897cba31df)
+
+
