@@ -11,8 +11,6 @@
 
 ##  Key Terms
 
-**scripts** :lines of codes that can be executed to automate processes, like appending text to a textfile so it doesn't have to be done manually in every instance
-
 1. **bashrc file**:
    - The bashrc file, often named `.bashrc`, is a script file executed by the Bash shell when it starts in an interactive mode. It stands for "Bourne Again Shell run commands".
    
@@ -36,8 +34,11 @@
    
    - It is widely used across the internet to host websites and web applications on various platforms, including Linux, Unix, and Windows. The httpd package usually includes the core Apache server binaries, configuration files, documentation, and possibly additional modules or utilities.
 
-**apt** : 
-Advanced Package Tool is used to manage packages (like httpd) in Debian based Linux distrubutions like Ubuntu
+4.  **apt** :
+   -  Advanced Package Tool is used to manage packages (like httpd) in Debian based Linux distrubutions like Ubuntu
+
+5.  **scripts** :
+    -  lines of codes that can be executed to automate processes, like appending text to a textfile so it doesn't have to be done manually in every instance
 
 ##  Resources
 
