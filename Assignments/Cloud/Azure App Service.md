@@ -127,12 +127,19 @@ And this resolved the issue:
 
 ##  Results
 
-I created a webb app in Azure:
+
+First, I created a webb app in Azure:
+
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cfbdf138-c9c8-4eb2-8cff-5c4c6e65624d)
 
 
-Next I installed the Azure VS Code Extention, then I navigated to the VS Code Terminal and cloned the sample application repository:
+
+###  Step 1: Set Up the Sample Application
+
+
+I installed the Azure VS Code Extention, then I navigated to the VS Code Terminal and cloned the sample application repository:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f70b6ba4-a5da-44df-a364-c60bcc04018e)
@@ -147,7 +154,7 @@ I could then see the folder with the Quickstart project:
 I ran the following code:
 
 
-Step 1: Set Up the Sample Application
+
 
 Clone the Repository:
 
@@ -172,8 +179,9 @@ py -m venv .venv
 
 But this triggered an Unauthorized Access error (see Difficulties)  which I resolved by running a batch:
 
-
-
+```
+.venv\Scripts\activate.bat
+```
 
 Install Dependencies:
 
