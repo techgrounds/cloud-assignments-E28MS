@@ -58,6 +58,8 @@ Deploying a Simple Web App:
 1.  Create a new Azure App Service instance.
 2.  Deploy a simple HTML/CSS/JavaScript web application to the Azure App Service using Azure Portal or Azure CLI.
 3.  Access the deployed web app through the provided URL.
+
+
    Configuring Continuous Deployment:
 
 4.  Link your Azure App Service to a GitHub repository.
@@ -97,11 +99,15 @@ ChatGPT
 
 ##  Difficulties
 
-It was very confusing in the beginning trying to follow along with Microsoft's Quickstart Guide for Azure App service as there was a lot of information presented for people already familiar with creating webb apps (or it certainly seemed that way to me).
+1.  It was very confusing in the beginning trying to follow along with Microsoft's Quickstart Guide for Azure App service as there was a lot of information presented for people already familiar with creating webb apps (or it certainly seemed that way to me).
 
-I first read through the guide, tried to identify the specific bits I was didn't understand how to do and then tried to phrase good questions for tutorial help from ChatGPT.
+In order to work my through the Quickstart guide succesfully and familiarize myself with Azure App service, I did the following:
 
-When I tried to create a virtual environment as per the instructions, I got the following error message:
+*  I first read through the guide and tried to identify the specific bits I was didn't understand
+*  I then gave ChatGPT the instructions on the Quickstart guide but asked they be provided in a format appropriate for a beginner
+*  When I got stuck, I gave throught to asking good questions for tutorial help from ChatGPT.
+
+2.  When I tried to create a virtual environment as per the instructions, I got the following error message:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/dbb1553f-3ef2-43ed-919f-7c627976b887)
 
@@ -110,6 +116,11 @@ I troubleshooted with ChatGPT, who suggested the following code instead to circu
 ```
 .venv\Scripts\activate.bat
 ```
+
+And this resolved the issue:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5161b21a-e01e-40c9-bb6b-e5aca3c66da4)
+
 
 
 
@@ -120,14 +131,64 @@ I created a webb app in Azure:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/cfbdf138-c9c8-4eb2-8cff-5c4c6e65624d)
 
+
 Next I installed the Azure VS Code Extention, then I navigated to the VS Code Terminal and cloned the sample application repository:
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f70b6ba4-a5da-44df-a364-c60bcc04018e)
 
 
 I could then see the folder with the Quickstart project:
 
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/40043a83-0054-4646-8edc-76bcce230b81)
+
+
+I ran the following code:
+
+
+Step 1: Set Up the Sample Application
+
+Clone the Repository:
+
+I opened a terminal within VS Code and ran the following command to clone the sample application repository:
+
+```
+git clone https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart
+```
+
+Then I navigated to the Application Folder:
+
+```
+cd msdocs-python-django-webapp-quickstart
+```
+
+To rreate a Virtual Environment I ran this command in the VS Code terminal:
+
+```
+py -m venv .venv
+.venv\Scripts\activate
+```
+
+But this triggered an Unauthorized Access error (see Difficulties)  which I resolved by running a batch:
+
+
+
+
+Install Dependencies:
+
+Run the following command to install the required dependencies:
+Copy code
+pip install -r requirements.txt
+Run the App Locally:
+
+Execute the command to start the local server:
+Copy code
+python manage.py runserver
+Open a web browser and navigate to http://localhost:8000 to view the sample application running locally.
+
+
+
 
 
 
