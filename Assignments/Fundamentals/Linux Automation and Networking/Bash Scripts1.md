@@ -13,19 +13,37 @@
 
 **scripts** :lines of codes that can be executed to automate processes, like appending text to a textfile so it doesn't have to be done manually in every instance
 
-**bashrc file**
+1. **bashrc file**:
+   - The bashrc file, often named `.bashrc`, is a script file executed by the Bash shell when it starts in an interactive mode. It stands for "Bourne Again Shell run commands".
+   
+   - This file typically contains commands, aliases, functions, and other configurations that customize the behavior of the Bash shell for a particular user.
+   
+   - Users can edit their `.bashrc` file to set environment variables, define aliases, customize the prompt, and perform other tasks to tailor their shell environment to their preferences.
 
-**PATH variable**
+2. **PATH variable**:
+   - The PATH variable is an environment variable used by the operating system to determine the locations of executable files.
+   
+   - When a user types a command into the shell, the system searches through the directories listed in the PATH variable in order, looking for an executable file with a matching name.
+   
+   - If it finds one, it executes that file. The PATH variable is crucial for the functioning of the command-line interface, as it allows users to run commands without specifying the full path to the executable file.
+   
+   - Users can modify the PATH variable to include additional directories where their custom scripts or executables are located.
 
-**httpd package**
+3. **httpd package**:
+   - The httpd package typically refers to the Apache HTTP Server package, which is a popular open-source web server software used to serve web pages and applications over the internet.
+   
+   - Apache HTTP Server, often simply called Apache, is highly configurable and extensible, supporting various modules for additional functionalities such as handling dynamic content, authentication, URL rewriting, and more.
+   
+   - It is widely used across the internet to host websites and web applications on various platforms, including Linux, Unix, and Windows. The httpd package usually includes the core Apache server binaries, configuration files, documentation, and possibly additional modules or utilities.
 
-**apt** : Advanced Package Tool is used to manage packages (like httpd) in Debian based Linux distrubutions like Ubuntu
+**apt** : 
+Advanced Package Tool is used to manage packages (like httpd) in Debian based Linux distrubutions like Ubuntu
 
 ##  Resources
 
 [Tech Republic](https://www.techrepublic.com/article/linux-101-how-to-add-directories-to-your-linux-path/)
 
-[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable
+[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-view-and-update-the-linux-path-environment-variable)
 
 [IO Flood](https://ioflood.com/blog/bash-append-to-file/#Appending_Data_Within_a_Script)
 
