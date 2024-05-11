@@ -128,7 +128,10 @@ And this resolved the issue:
 ##  Results
 
 
-First, I created a webb app in Azure:
+###  Step 1: Create a webb app in Azure:
+
+
+Screenshot of where I created a webb app in Azure:
 
 
 
@@ -136,7 +139,7 @@ First, I created a webb app in Azure:
 
 
 
-###  Step 1: Set Up the Sample Application
+###  Step 2: Set Up the Sample Application
 
 
 I installed the Azure VS Code Extention, then I navigated to the VS Code Terminal and cloned the sample application repository:
@@ -204,6 +207,68 @@ Then I entered my name and this happened:
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/fb897dbd-ae78-41a2-b514-35377e46143d)
+
+
+Here is a screenshot of the VS Code Terminal capturing all the input and output for Step 1: Setting up Sample Application:
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/8ac4fef4-af15-442a-82f6-1b3ebc6ff91b)
+
+
+
+###  Step 3:  Deploy app 
+
+
+
+I selected Deploy to Webb App in VS Code throught the Azure Extention:
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c62db633-4f16-43d0-98ca-81be7db3366d)
+
+
+
+Here the deployment is in progress:
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/90b4215e-12e4-4561-9116-85ce5a8b7c5a)
+
+
+
+Deployment completed:
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d029fedb-5e8c-4eed-9907-8ee6bfbe46d7)
+
+
+
+
+
+###  Step 4: Browse to the App
+
+
+I navigated to the App :  elmariesapp.azurewebsites.net
+
+
+
+
+App deployed succesfully:
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/55fd0a56-0562-4024-a690-16b38e8babd9)
+
+
+
+Here I entered a name and the app works!:
+
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/573fc2e8-2088-4877-abbf-93cc3d7c2ab9)
+
 
 
 
