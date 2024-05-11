@@ -288,6 +288,18 @@ Here I entered a name and the app works!:
 
 
 
+###  Step 5:  Clean up resources
+
+
+Finally I deleted the app resource group to save costs:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1cf17bca-fc26-44e8-862e-230c00b7b7ad)
+
+
+
+
+
 
 
 
