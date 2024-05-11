@@ -111,7 +111,7 @@ In order to work my through the Quickstart guide succesfully and familiarize mys
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/dbb1553f-3ef2-43ed-919f-7c627976b887)
 
-I troubleshooted with ChatGPT, who suggested the following code instead to circumnavigate the PowerShell restrictions that were preventing me from creating the virtual environment:
+I troubleshooted with ChatGPT, who suggested the following code instead to circumnavigate the PowerShell security restrictions that were preventing me from creating the virtual environment:
 
 ```
 .venv\Scripts\activate.bat
@@ -151,12 +151,9 @@ I could then see the folder with the Quickstart project:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/40043a83-0054-4646-8edc-76bcce230b81)
 
 
-I ran the following code:
 
+Next I Cloned the Repository:
 
-
-
-Clone the Repository:
 
 I opened a terminal within VS Code and ran the following command to clone the sample application repository:
 
@@ -177,7 +174,7 @@ py -m venv .venv
 .venv\Scripts\activate
 ```
 
-But this triggered an Unauthorized Access error (see Difficulties)  which I resolved by running a batch:
+But this triggered an Unauthorized Access error (see Difficulties) caused by PowerShell security restrictions which I resolved by running a batch file:
 
 ```
 .venv\Scripts\activate.bat
