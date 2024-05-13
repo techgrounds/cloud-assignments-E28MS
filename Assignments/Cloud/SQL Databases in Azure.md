@@ -14,11 +14,9 @@ Useful questions to keep in mind during your research on the topics:
 3.  How does X fit into / replace X in an on-premises setting?
 4.  How can I combine X with other services?
 5.  What is the difference between X and other similar services?
-6.  A handy list of tasks you need to be able to perform practically:
-
-7.  Where can I find this service in the console?
-8.  How do I turn on this service?
-9.  How can I connect this service to other resources?
+6.  Where can I find this service in the console?
+7.  How do I turn on this service?
+8.  How can I connect this service to other resources?
     
 
 
@@ -28,7 +26,9 @@ Get some practical experience with Azure SQL Database.
 
 I decided to the Quickstart excercise as below:
 
-Create a single database in Azure SQL Database using either the Azure portal, a PowerShell script, or an Azure CLI script. You then query the database using Query editor in the Azure portal.
+1.  Create a single database in Azure SQL Database using either the Azure portal, a PowerShell script, or an Azure CLI script. 
+
+2.  You then query the database using Query editor in the Azure portal.
 
 ##  Key Terms
 
@@ -100,8 +100,86 @@ So, in simple terms, a relational database is like a structured way of organizin
 
 [Azure SQL for Beginners](https://learn.microsoft.com/en-us/shows/azure-sql-for-beginners/)
 
+[Azure SQL Database Connect](https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-content-reference-guide?view=azuresql#libraries)
+
 
 
 ##  Difficulties
 
+It was difficult to decide how much to do on this excercise, as there were several other things I would have liked to play around with including connecting the SQL DB to other resources like an Azure SQL Managed Instance.  
+
+I would also have liked to have queried the DB with Python.
+
+However, in the interest of time, I only completed the basic excercises in the Quickstart guide and I didn't have any difficulties with these.
+
 ##  Results
+
+1.  Creating a single SQL Databse:
+
+This is the Basic's Tab of creating my SQL Database
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1ceb29b8-ab3f-4fc3-a44d-13dd256ff9be)
+
+
+Here are the settings of the Configure option on the Basics Tab:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3d1fc418-961b-4543-bfee-965dc5ebe061)
+
+
+Networking Tab details:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/91c0a7f2-d97a-43c9-a7de-64ff01e9a5f0
+
+Additional Settings:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c7b1f3b6-892e-4da1-b1c2-61998706251b)
+
+2.  Query the Database using Query Editor (preview):
+
+I entered the following in the Query 1 screen:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0f6a0ffd-bab0-47f1-ab8b-84f0def426e3)
+
+
+And it returned the data below:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e4b208da-deb7-449f-aa06-ff400558c184)
+
+
+
+
+
+
+
+##  Additional information:
+
+The Azure portal provides a Workload environment option that helps to preset some configuration settings. 
+
+These settings can be overridden. This option applies to the Create SQL Database portal page only. 
+
+Otherwise, the Workload environment option has no impact on licensing or other database configuration settings.
+
+*Choosing the development workload environment sets a few options, including:*
+
+Backup storage redundancy option is locally redundant storage. 
+
+Locally redundant storage incurs less cost and is appropriate for pre-production environments that do not require the redundance of zone- or geo-replicated storage.
+
+Compute + storage is General Purpose, Serverless with a single vCore. By default, there is a one-hour auto-pause delay.
+
+*Choosing the Production workload environment sets:*
+
+Backup storage redundancy is geo-redundant storage, the default.
+Compute + storage is General Purpose, Provisioned with 2 vCores and 32 GB of storage. This can be further modified in the next step.
+
+##  Libraries
+
+You can use various libraries and frameworks to connect to Azure SQL Database or Azure SQL Managed Instance. 
+
+You can then build an app by using SQL Server on Linux or Windows, or a SQL Server container on Linux.
+
+The following table lists connectivity libraries or drivers that client applications can use from a variety of languages to connect to and use SQL Server running on-premises or in the cloud. 
+
+You can use them on Linux, Windows, or in containers, and use them to connect to Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics.
+
