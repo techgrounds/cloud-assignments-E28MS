@@ -10,5 +10,15 @@ Validation passed screenshot:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/14191d1f-d6dc-4c3b-b3d7-310e50e77ebd)
 
+Screenshot Deployment Completed:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b4566d8e-318f-40eb-88e6-076a7f8a279c)
+
+Screenshot of adding a New Container through the Data Explorer:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/279a55d1-3f92-44da-ab6b-919c45102124)
+
+
+
 
 
