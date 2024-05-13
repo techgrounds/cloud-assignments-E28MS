@@ -1,1 +1,3 @@
-## ![SoExcited~GIF](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/c4e56deb-30e3-47ac-ace1-17d9aa42d23a)
+## Resources
+
+[Cosmos DB Quickstart](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal)
