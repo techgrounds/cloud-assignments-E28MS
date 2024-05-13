@@ -74,6 +74,8 @@ In summary, a URI is a universal way to identify and locate resources on the int
 
 [Cosmos DB Quickstart](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/quickstart-portal)
 
+[Micrsoft Video: What is Cosmos DB?](https://youtu.be/Jvgh64rvdXU)
+
 
 ##  Difficulties
 
@@ -90,6 +92,35 @@ Backup Policy Tab:
 Validation passed:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/30b4de2d-e6e9-47e2-9777-26644ba32cd6)
+
+Deployment completed:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1951a1e1-8a04-4f85-877c-816954ec89ff)
+
+
+Next, I added a New Container through the Data Explorer :
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/36f7a419-0273-4e6e-b9cd-62abb6964f3d)
+
+
+Here, I expanded the ToDoList, then expanded Items, and added a structure to the pane on the right using the code below:
+
+```
+{
+    "id": "1",
+    "category": "personal",
+    "name": "groceries",
+    "description": "Pick up apples and strawberries.",
+    "isComplete": false
+}```
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6b553049-b056-4992-8139-0c13b92c941f)
+
+
+
+
+
 
 
 
