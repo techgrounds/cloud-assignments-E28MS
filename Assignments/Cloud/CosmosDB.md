@@ -118,6 +118,23 @@ Here, I expanded the ToDoList, then expanded Items, and added a structure to the
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6b553049-b056-4992-8139-0c13b92c941f)
 
 
+Next, I tried to another JSON file provided by ChatGPT by slecting New Item and then adding the code to the pane on the right, but this resulted in an error message:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f9df57a0-00ea-4c11-9f67-713b84055a1b)
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a52c5848-e2c0-458d-a4e5-727651e9c9ba)
+
+
+I then tried another JSON file supplied by ChatGPT and got the same error, meaning that my document could not be created:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2b93a27b-b101-4599-9dab-4b3186d31471)
+
+
+
+
+
 
 
 
