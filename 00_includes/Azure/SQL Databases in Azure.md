@@ -13,5 +13,18 @@ Configure settings on Basics Tab:
 
 Networking Tab of SQL Database:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2df80f6d-3c6a-4c1d-9984-de6246dfa9cc)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2df80f6d-3c6a-4c1d-9984-de6246dfa9cc
+
+
+
+Additional Settings:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0234a04f-260d-4639-94df-8fa91267ecfc)
+
+
+2.  Querying the Database:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4dadff5b-7a7b-4a27-843f-b26e152ff75b)
+
+
 
