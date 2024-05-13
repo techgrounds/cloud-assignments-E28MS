@@ -147,6 +147,12 @@ And it returned the data below:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e4b208da-deb7-449f-aa06-ff400558c184)
 
 
+3.  Lastly, I deleted the mySQLRescourceGroup to clean up resources and prevent unneccesary expenditure:
+
+   ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e5bf11bd-5d9f-4125-86b8-079c0fab7e4a)
+
+
+
 
 
 
