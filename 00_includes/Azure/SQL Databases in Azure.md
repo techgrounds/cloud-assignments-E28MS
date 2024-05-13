@@ -27,4 +27,10 @@ Additional Settings:
    ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4dadff5b-7a7b-4a27-843f-b26e152ff75b)
 
 
+3.  Clean up resources:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/01ae08f8-3209-4405-a1e4-6989f6d73734)
+
+
+
 
