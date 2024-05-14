@@ -30,13 +30,17 @@ In order to minimize time spent troubleshooting this issue, I conceived of a wor
 
 
 
-![Uploading image.png…]()
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3e8338ca-447a-4946-a6be-b9884c0567a3)
 
 
 
 This enabled me to upload a second file in order to move on to the next steps, querying the data:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a1b06439-dca0-4512-b53e-3340a7ff4676)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a1b06439-dca0-4512-b53e-3340a7ff4676
+
+
+![Uploading image.png…]()
+
 
 
 
