@@ -93,3 +93,35 @@ And I was able to navigate to my external tenant in the Microsoft Entra Admin Ce
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/dce2c5fc-3112-472d-9411-b4a74f159324)
 
+###  Next, I customized the Sign-In Experience:
+
+In Microsoft Entra Admin Centre, I browsed to Home>Tenant Overview>Start the Guide.
+
+Next, I specified how I would like my customers to sign in and I chose Email and password, and then customised the log in screen by adding a logo and changing the background colour:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6b426893-fc05-4368-bc51-f23f1fcbbaf6)
+
+
+###  I tried out the Sign-Up experience and created my first user:
+
+Here is a screenshot of my sign-in page:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/4b840faf-7e5c-47a4-9270-cfde6de0814f)
+
+I received an email with a verification code :
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0e1656cb-9830-4a54-81e1-d42602cb968a)
+
+
+
+And here I've entered my details:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bd4635c3-e8ed-4b27-bc71-3a26bbf952a7)
+
+
+
+
+
+
+
+
