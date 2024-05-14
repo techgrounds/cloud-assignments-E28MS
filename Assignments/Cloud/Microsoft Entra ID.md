@@ -156,6 +156,11 @@ Instead of the error message, I now got a warning when I navigated to  **https:/
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b05dd958-3ea6-4827-9857-31321eca9fc8)
 
+While the app was still building, I clicked through the Next button and got this message:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ee669fb5-9160-4f17-9eff-272376f5714b)
+
+
 
 
 
