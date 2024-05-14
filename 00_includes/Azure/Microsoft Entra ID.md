@@ -29,5 +29,15 @@ Verification email:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d16b3386-4b9a-4d08-8d22-0227239388ea)
 
 
+Choosing webb app and language:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d588e64a-4d08-4b9a-8726-87447bf6a444)
+
+Successfully set up example app:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/64895f52-2544-4ebb-b0fe-9ce020884b5b)
+
+
+
 
 
