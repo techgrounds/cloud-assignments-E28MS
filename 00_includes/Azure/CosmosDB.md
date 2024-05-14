@@ -39,11 +39,14 @@ This enabled me to upload a second file in order to move on to the next steps, q
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a1b06439-dca0-4512-b53e-3340a7ff4676
 
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/74f8c24d-6891-4ff9-8c67-0d724177e809)
+
+
+
+
+Deleting Resource Group:
+
 ![Uploading image.png…]()
-
-
-
-
 
 
 
