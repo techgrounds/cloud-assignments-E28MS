@@ -73,4 +73,6 @@ When I tried to Create the tenant, I got an error message:
 
 ![alt text](image-3.png)
 
-I was del
+I was delighted that for once the error was obvious and easy to find and fix: the fields that appeared to me to have default values in were blank:
+
+![alt text](image-4.png)
