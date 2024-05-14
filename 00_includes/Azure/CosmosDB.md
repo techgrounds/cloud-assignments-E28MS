@@ -26,6 +26,21 @@ Screenshot of failure when I added anther JSON document provided by ChatGPT:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/424754c6-c5fa-47c5-8c26-b6638046d04c)
 
 
+In order to minimize time spent troubleshooting this issue, I conceived of a workaround by changing the information in the JSON file provided in the Quickstart guide:
+
+
+
+![Uploading image.png…]()
+
+
+
+This enabled me to upload a second file in order to move on to the next steps, querying the data:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a1b06439-dca0-4512-b53e-3340a7ff4676)
+
+
+
+
 
 
 
