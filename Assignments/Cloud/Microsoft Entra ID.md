@@ -63,3 +63,12 @@ I logged into the Micrsoft Entra Admin center and then I browsed to Identity > O
 I changed the location on the Basics Tab and left the other options as default:
 
 ![alt text](image-1.png)
+
+
+Here I 
+
+![alt text](image-2.png)
+
+When I tried to Create the tenant, I got an error message:
+
+![alt text](image-3.png)
