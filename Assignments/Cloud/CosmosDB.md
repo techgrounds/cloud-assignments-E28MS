@@ -81,6 +81,10 @@ In summary, a URI is a universal way to identify and locate resources on the int
 
 ##  Results
 
+###  First, I created an Azure Cosmost DB Account for NoSQL:
+
+
+
 Basics Tab for creating my Azure Cosmos DB Account for NoSQL:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/73fcbd87-7f0d-4364-bf09-93abe296931f)
@@ -98,9 +102,14 @@ Deployment completed:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1951a1e1-8a04-4f85-877c-816954ec89ff)
 
 
-Next, I added a New Container through the Data Explorer :
+###  Next, I added a Database and New Container through the Data Explorer :
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/36f7a419-0273-4e6e-b9cd-62abb6964f3d)
+
+
+
+
+###  The third step was to add Data to my Database:
 
 
 Here, I expanded the ToDoList, then expanded Items, and added a structure to the pane on the right using the code below:
@@ -139,7 +148,16 @@ In order to minimize time spent troubleshooting this issue, I conceived of a wor
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3cd949f2-62f1-4a92-808d-f04509e1197b)
 
 
+###  Querying my Data:
+
 I then moved on to the next step, querying the data:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/32c35fe2-d6fe-41f0-9992-0d22d85b465c)
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/147f180c-fbcf-41c1-a68b-394c4120e198)
+
+
 
 
 
