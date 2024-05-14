@@ -50,6 +50,8 @@ SDKs are provided by software companies or platform owners to simplify and strea
 
 [Microsoft External ID Tenant Setup](https://learn.microsoft.com/en-us/entra/external-id/customers/quickstart-tenant-setup)
 
+[Microsoft Troubleshoot App Launch Failures](https://learn.microsoft.com/en-gb/dotnet/core/runtime-discovery/troubleshoot-app-launch?pivots=os-windows)
+
 ##  Difficulties
 
 I planned to do the Quickstart for Microsoft Entra ID but when I looked at this, I realizied that in order to follow the Quickstart Guide for this, I would first need to create an external tenant.  So I adjusted my time allocation for this task accordingly and started with this crucial prerequisite.
@@ -142,7 +144,20 @@ When I tried to navigate to the webb app, I received a **This site can't be reac
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1fdb6c68-0315-4886-98ac-4b0daaa3696e)
 
-So I followed the prompts on the 
+So I followed the prompts in the terminal and downloaded version 7 of .NET, unfortunately,this didn't resolve the issue:
+
+https://learn.microsoft.com/en-gb/dotnet/core/runtime-discovery/troubleshoot-app-launch?pivots=os-windows
+
+I had a look at the Microsoft Troubleshoot App Launch information and then decided to download Version 7 of .NET again and voila! It worked:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e105e610-816c-46f1-b0d8-2ee546332c0b)
+
+Instead of the error message, I now got a warning when I navigated to  **https://localhost:7274**  and on closer inspection I noted that the app still seemed to be building  :
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b05dd958-3ea6-4827-9857-31321eca9fc8)
+
+
+
 
 
 
