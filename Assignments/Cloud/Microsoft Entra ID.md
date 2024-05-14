@@ -54,6 +54,8 @@ SDKs are provided by software companies or platform owners to simplify and strea
 
 I planned to do the Quickstart for Microsoft Entra ID but when I looked at this, I realizied that in order to follow the Quickstart Guide for this, I would first need to create an external tenant.  So I adjusted my time allocation for this task accordingly and started with this crucial prerequisite.
 
+I had a lot of trouble installing .NET.  From checksum's that didn't match to missing frameworks when I tried to run the app.  I kept troubleshooting and didn't give up and I finally succeeded in running the app.  It took perseverance and determination as I kept having the feeling that I'm spending precious learning time troubleshooting something that should have been simple. However, I chalked it up to learning a lot of cool new stuff and kept going.
+
 ##  Results
 
 
@@ -132,9 +134,17 @@ I chose a Webb application in ASP.NET Core:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5545f480-df55-45c9-8f03-a4e7140202e9)
 
 
-Here I had downloaded .NET SDK, downloaded and unzipped the sample app and run the command **dotnet run** in my terminal:
+Here I had downloaded .NET SDK, downloaded and unzipped the sample app and run the command **dotnet run** in my terminal and the app was being built:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1bab0e19-26fd-4916-afa4-7f22c40b7da0)
+
+When I tried to navigate to the webb app, I received a **This site can't be reached** error messsage and on inspecting my terminal output, noted that I had to download a missing framework, the version 7 that I skipped over in favour of version 8:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1fdb6c68-0315-4886-98ac-4b0daaa3696e)
+
+So I followed the prompts on the 
+
+
 
 
 
