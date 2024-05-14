@@ -72,3 +72,5 @@ Here I
 When I tried to Create the tenant, I got an error message:
 
 ![alt text](image-3.png)
+
+I was del
