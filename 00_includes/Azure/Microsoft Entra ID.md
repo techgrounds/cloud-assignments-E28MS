@@ -17,7 +17,17 @@ Validation passed :
 
 Screenshot of external tenant in Microsoft Entra Admin Centre:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/296d949e-ed48-4c6d-833c-2abc510143d9)
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/296d949e-ed48-4c6d-833c-2abc510143d9
+
+Screenshot of customizing log in screen:
+
+Verification email:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5033d3d6-5709-4839-95e4-0fb84c570761)
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d16b3386-4b9a-4d08-8d22-0227239388ea)
+
 
 
 
