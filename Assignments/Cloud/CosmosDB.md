@@ -112,7 +112,8 @@ Here, I expanded the ToDoList, then expanded Items, and added a structure to the
     "name": "groceries",
     "description": "Pick up apples and strawberries.",
     "isComplete": false
-}```
+}
+```
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6b553049-b056-4992-8139-0c13b92c941f)
@@ -130,6 +131,18 @@ I then tried another JSON file supplied by ChatGPT and got the same error, meani
 
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2b93a27b-b101-4599-9dab-4b3186d31471)
+
+
+In order to minimize time spent troubleshooting this issue, I conceived of a workaround by changing the information in the JSON file provided in the Quickstart guide:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3cd949f2-62f1-4a92-808d-f04509e1197b)
+
+
+I then moved on to the next step, querying the data:
+
+
+
 
 
 
