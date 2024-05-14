@@ -39,6 +39,13 @@ Microsoft Entra ID
 
 ##  Key Terms
 
+SDK:
+
+A Software Development Kit (SDK) is a collection of tools, libraries, documentation, and samples that developers use to create software applications for a specific platform or framework. 
+
+
+SDKs are provided by software companies or platform owners to simplify and streamline the development process by providing essential resources and APIs.
+
 ##  Resources
 
 [Microsoft External ID Tenant Setup](https://learn.microsoft.com/en-us/entra/external-id/customers/quickstart-tenant-setup)
@@ -117,6 +124,19 @@ I received an email with a verification code :
 And here I've entered my details:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bd4635c3-e8ed-4b27-bc71-3a26bbf952a7)
+
+##  The following step was to Set Up a Sample App
+
+I chose a Webb application in ASP.NET Core:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5545f480-df55-45c9-8f03-a4e7140202e9)
+
+
+Here I had downloaded .NET SDK, downloaded and unzipped the sample app and run the command **dotnet run** in my terminal:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/1bab0e19-26fd-4916-afa4-7f22c40b7da0)
+
+
 
 
 
