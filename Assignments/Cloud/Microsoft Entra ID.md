@@ -49,6 +49,10 @@ I planned to do the Quickstart for Microsoft Entra ID but when I looked at this,
 
 ##  Results
 
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/32374905-6d40-47c9-86e8-d16a953b1c1c)
+
+
 ###  First, I created a new tenant with external configurations:
 
 I logged into the Micrsoft Entra Admin center and then I browsed to Identity > Overview > Manage tenants.  I selected the External option:
