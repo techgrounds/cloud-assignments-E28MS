@@ -19,6 +19,14 @@ Screenshot of adding a New Container through the Data Explorer:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/279a55d1-3f92-44da-ab6b-919c45102124)
 
 
+Screenshot of failure when I added anther JSON document provided by ChatGPT:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/ed0e33e5-533f-4371-9e92-435633bab423)
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/424754c6-c5fa-47c5-8c26-b6638046d04c)
+
+
+
 
 
 
