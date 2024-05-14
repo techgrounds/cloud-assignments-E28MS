@@ -150,12 +150,33 @@ In order to minimize time spent troubleshooting this issue, I conceived of a wor
 
 ###  Querying my Data:
 
-I then moved on to the next step, querying the data:
+
+
+I then moved on to the next step, querying the data by selecting Edit Filter and choosing  ORDER BY c._ts DESC to order the files in descending order by timestamp :
+
+
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/32c35fe2-d6fe-41f0-9992-0d22d85b465c)
 
 
+Here you can see that the most recently added file is at the top:
+
+
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/147f180c-fbcf-41c1-a68b-394c4120e198)
+
+
+
+###  Cleaning up Resources:
+
+
+Lastly, I deleted the Resource Group to prevent unnecessary costs:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f22f6da1-39fe-49d6-85cc-a3b6b4987a9a)
+
+
+
+
 
 
 
