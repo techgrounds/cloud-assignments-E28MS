@@ -57,22 +57,39 @@ I planned to do the Quickstart for Microsoft Entra ID but when I looked at this,
 
 I logged into the Micrsoft Entra Admin center and then I browsed to Identity > Overview > Manage tenants.  I selected the External option:
 
+
 ![alt text](image.png)
 
 
 I changed the location on the Basics Tab and left the other options as default:
 
+
 ![alt text](image-1.png)
 
 
-Here I 
+Here I changed the location:
+
 
 ![alt text](image-2.png)
 
+
 When I tried to Create the tenant, I got an error message:
+
 
 ![alt text](image-3.png)
 
+
 I was delighted that for once the error was obvious and easy to find and fix: the fields that appeared to me to have default values in were blank:
 
+
 ![alt text](image-4.png)
+
+Once I filled in the missing values, the tenant creation was succesfully validated:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6850213a-ed56-44dc-9321-688d91735dac)
+
+And I was able to navigate to my external tenant in the Microsoft Entra Admin Centre:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/dce2c5fc-3112-472d-9411-b4a74f159324)
+
