@@ -118,6 +118,11 @@ I decided to do the following:
 
 ##  Difficulties
 
+When I tried to call my function this first time, I had to re-download the Functions Core Tools as my first attempt wasn't succesful.
+
+This also took a very long time
+
+
 ##  Results
 
 ###  First, I needed to configure my environment to ensure I have all the requirements in place:
@@ -155,5 +160,12 @@ I decided to do the following:
 
 
 
+
+###  VS Code then used the information in the above table to generate an Azure Functions project with an HTTP trigger:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f84f1e4f-b484-4351-8eb5-27577f53a3ef)
+
+
+###  
 
 
