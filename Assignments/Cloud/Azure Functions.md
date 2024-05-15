@@ -184,7 +184,13 @@ This also took a very long time
 
 # Part 2:  Create the function app in Azure:
 
-### 
+### Firstly, I created the function app in Azure:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/83d78826-d21f-4978-b172-319496c0331d)
+
+
+
+
 
 
 
