@@ -17,9 +17,8 @@ Instaling screenshot:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/eeb32545-52e1-4e75-b648-7e91919ab3bb)
 
-App running locally in VS Code terminal:
 
-![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/09831363-aa49-4d13-9f9f-dc3f28976d41)
+
 
 Executing function:
 
@@ -31,4 +30,7 @@ Function executing locally: Notification raised in VS Code:
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f4d10a50-8271-4bcc-b737-7f92b38a3bb1)
 
 
+Core Tools and debugger stopped:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/934df6f3-70b0-4b45-ba71-a727b11ff8b1)
 
