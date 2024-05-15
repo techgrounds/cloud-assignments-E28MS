@@ -225,6 +225,16 @@ I selected Deploy when this warning popped up:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/25078b64-1d0e-4e3e-8faa-4bfea837493a)
 
+Success! Deployment succesful!
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/95d94d98-475e-4dbc-9d56-48946b6f8067)
+
+Here I navigated to the function app:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/07830cd2-45fc-4cd9-8dea-236089df7ac5)
+
+###  Part 4:  Run the Function in Azure
+
 
 
 ## Learning/Reflection:
