@@ -120,8 +120,19 @@ I decided to do the following:
 
 When I tried to call my function this first time, I had to re-download the Functions Core Tools as my first attempt wasn't succesful.
 
-This also took a very long time
+Part 3:
 
+When trying to Deploy to Function App, the operation was aborted:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9a2ae9b5-df80-4fac-bc2d-297f76e30456)
+
+And this error message was supplied:
+
+*Failed to detect running Functions host within "60" seconds. You may want to adjust the "azureFunctions.pickProcessTimeout" setting.*
+
+And so the inevitable troubleshooting began! :-) 
+
+[Troubleshooting](https://media.giphy.com/media/dyF6DUAHJ2sS1h1CMu/giphy.gif)
 
 ##  Results
 
@@ -189,10 +200,33 @@ This also took a very long time
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/83d78826-d21f-4978-b172-319496c0331d)
 
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a00321ab-d9df-44c5-81d6-ca173d0bee4b)
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3f114835-a22f-460d-a213-f69da67e9ca0)
 
 
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/8540a916-a9f4-4b53-9e44-d10f86f581b9)
+
+#  Part 3:  Deploy the Project to Azure:
+
+I located the Function App in my Resources and selected 
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/42d42545-041c-4fe0-9809-fc8cb821e6dc)
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/2a393fbf-5f9a-4d72-8cd4-bd28c545f019)
+
+I selected Deploy when this warning popped up:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9987b21c-6a23-4043-be83-5819b136c2cd)
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/25078b64-1d0e-4e3e-8faa-4bfea837493a)
 
 
 
+## Learning/Reflection:
 
+This was the first excercise where I completed a (for me!) complicated process in Azure via VS Code.  I really enjoyed it as it's so responsive and I learnt a lot more about VS Code and the interface with Azure.  
