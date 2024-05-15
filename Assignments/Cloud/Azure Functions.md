@@ -235,6 +235,27 @@ Here I navigated to the function app:
 
 ###  Part 4:  Run the Function in Azure
 
+I executed the function :
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/b280dae1-0e51-420b-8ed6-59fda5e01ce2)
+
+And received the notification that it has been succesfully executed:
+
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e6990ea5-4faf-4c30-81f2-656dd00cf4fd)
+
+
+###  Part 5:
+
+Delete resources to avoid unnecesary expenditure
+
+First, I naviagred to the Azure Portal and selected the relevant resource group to view all resources within Azure Portal:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/0b260089-b311-45d6-8c72-c2202fb1ccd0)
+
+Next, I deleted the Resource Group :
+
+
 
 
 ## Learning/Reflection:
