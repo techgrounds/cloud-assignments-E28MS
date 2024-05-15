@@ -125,6 +125,8 @@ This also took a very long time
 
 ##  Results
 
+#  Part 1:  Creating local project
+
 ###  First, I needed to configure my environment to ensure I have all the requirements in place:
 
 1.  *An Azure account with an active subscription.*  I have this 
@@ -175,6 +177,16 @@ This also took a very long time
 ###  Function executed locally as evidenced by  the noticaion raised in VS Code:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6c831193-298c-4d8d-9eab-b82cd8459cd4)
+
+###  I then stopped Core Tools and disconnected debugger by Pressing Ctrl + C 
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/fdbc370d-a7e5-409c-a265-d81b4372ceb1)
+
+# Part 2:  Create the function app in Azure:
+
+### 
+
+
 
 
 
