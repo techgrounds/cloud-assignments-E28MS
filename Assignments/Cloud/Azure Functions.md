@@ -166,6 +166,15 @@ This also took a very long time
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/f84f1e4f-b484-4351-8eb5-27577f53a3ef)
 
 
-###  
+
+###  Executing function:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/de33bda1-0a73-4341-84ad-36a11bd57f63)
+
+
+###  Function executed locally as evidenced by  the noticaion raised in VS Code:
+
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6c831193-298c-4d8d-9eab-b82cd8459cd4)
+
 
 
