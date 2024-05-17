@@ -10,6 +10,9 @@ The number of responsibilities that lie with the customer also depends on the ty
 
 The Cloud provider offers additional services to make it easier for you to manage your own responsibilities.
 
+![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/7c38817d-93bc-4cb2-b486-6c54e92c2bb8)
+
+
 ## Assignment
 
 Study the Azure Shared Responsbility Model
