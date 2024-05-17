@@ -103,7 +103,7 @@ An event hub trigger is invoked when new events are published to an Azure Event 
 
 Gain some practical experience with Azure Functions.  
 
-I decided to do the following:
+I decided to do the Quickstart Guide from Microsoft Learn: Create your First Function in VS Code.
 
 
 
