@@ -116,6 +116,8 @@ I decided to do the following:
 
 [Microsoft Learn : Create your First Function VS Code C#]](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-csharp)
 
+[Micrsoft Learn App Configuration references for App Service and Azure Functions](https://learn.microsoft.com/en-us/azure/app-service/app-service-configuration-references)
+
 ##  Difficulties
 
 When I tried to call my function this first time, I had to re-download the Functions Core Tools as my first attempt wasn't succesful.
@@ -261,3 +263,52 @@ Next, I deleted the Resource Group :
 ## Learning/Reflection:
 
 This was the first excercise where I completed a (for me!) complicated process in Azure via VS Code.  I really enjoyed it as it's so responsive and I learnt a lot more about VS Code and the interface with Azure.  
+
+After completing the Quickstart Guide for Azure App Service and the theoretical knowledge file for Azure App Configuration, I realised that these subjects are interrelated.  Here is a summary of what I've found.
+
+### Azure App Service
+
+**Overview**:  
+Azure App Service is a cloud platform that allows you to build, deploy, and scale web apps and APIs quickly and easily. Think of it as a managed environment where your web applications can live and run without you having to worry about the underlying infrastructure.
+
+**Key Points**:
+- **Host Web Apps**: You can host websites, RESTful APIs, and mobile backends.
+- **Scalable**: Easily scale your apps up or down based on demand.
+- **Managed Environment**: Azure handles the servers, networking, and storage, so you can focus on your app.
+
+**Relation to Other Services**:
+- **Azure App Configuration**: Use Azure App Configuration to manage and store configuration settings for your web apps, keeping configuration separate from your code.
+- **Azure Functions**: You can call Azure Functions from your web app to execute small pieces of code (functions) in response to events or HTTP requests, extending the capabilities of your web app without deploying additional infrastructure.
+
+### Azure App Configuration
+
+**Overview**:  
+Azure App Configuration is a service that helps you manage application settings and feature flags centrally. It allows you to keep your configuration settings separate from your code, making it easier to manage and update them.
+
+**Key Points**:
+- **Central Management**: Store all your application settings in one place.
+- **Dynamic Configuration**: Update settings without redeploying your application.
+- **Feature Flags**: Enable or disable features in your application easily.
+
+**Relation to Other Services**:
+- **Azure App Service**: Use Azure App Configuration to provide configuration settings for your web apps hosted on Azure App Service, ensuring that your apps can retrieve and use these settings dynamically.
+- **Azure Functions**: Azure Functions can also retrieve configuration settings from Azure App Configuration, allowing for consistent configuration management across different types of applications.
+
+### Azure Functions
+
+**Overview**:  
+Azure Functions is a serverless compute service that lets you run small pieces of code (called functions) without managing any infrastructure. You write the code, and Azure Functions takes care of running it when triggered by events like HTTP requests, timers, or messages.
+
+**Key Points**:
+- **Event-Driven**: Functions run in response to events.
+- **Scalable**: Automatically scales to handle the number of events.
+- **Cost-Effective**: Pay only for the compute resources you use.
+
+**Relation to Other Services**:
+- **Azure App Service**: Azure Functions can be used to extend web apps hosted on Azure App Service by adding serverless functionality. For example, a web app can trigger a function to process a form submission or handle background tasks.
+- **Azure App Configuration**: Store and manage settings for your functions in Azure App Configuration, allowing your functions to access these settings dynamically, ensuring consistency and ease of management.
+
+### Combined View
+
+When you use these services together, you get a powerful combination for building modern, scalable, and manageable applications. Azure App Service hosts your web apps, Azure Functions provides serverless compute for event-driven tasks, and Azure App Configuration manages and stores your app settings centrally. This separation of concerns makes your applications more flexible, easier to manage, and more resilient to changes.
+
