@@ -78,17 +78,26 @@ Microsoft manages the security *of* the cloud, while customers are responsible f
 
 ### Key Points:
 
-1. **Microsoft's Responsibilities:**
-   - Physical security of data centers.
-   - Network infrastructure security.
-   - Availability of services.
-   - Compliance certifications.
+1. When using a cloud provider, you’ll always be responsible for:
 
-2. **Customer's Responsibilities:**
-   - Data protection and encryption.
-   - Identity and access management.
-   - Application-level security.
-   - Compliance with regulatory requirements.
+*  The information and data stored in the cloud
+*  Devices that are allowed to connect to your cloud (cell phones, computers, and so on)
+*  The accounts and identities of the people, services, and devices within your organization
+
+  
+2. The cloud provider is always responsible for:
+
+*  The physical datacenter
+*  The physical network
+*  The physical hosts
+
+
+3.  Your service model will determine responsibility for things like:
+
+*  Operating systems
+*  Network controls
+*  Applications
+*  Identity and infrastructure
 
 ### Questions & Answers:
 
