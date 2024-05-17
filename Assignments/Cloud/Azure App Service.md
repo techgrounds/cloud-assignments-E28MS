@@ -112,6 +112,8 @@ ChatGPT
 
 [Learn Microsoft Getting Started with App Service Python](https://learn.microsoft.com/en-us/azure/app-service/getting-started?pivots=stack-python)
 
+[Micrsoft Learn App Configuration references for App Service and Azure Functions](https://learn.microsoft.com/en-us/azure/app-service/app-service-configuration-references)
+
 
 ##  Difficulties
 
