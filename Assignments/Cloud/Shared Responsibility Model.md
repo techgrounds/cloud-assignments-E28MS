@@ -58,6 +58,8 @@ By understanding these key terms, cloud customers can better grasp their respons
 
 [Azure Security Shared Responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
 
+[Describe Shared Responsbility Model](https://learn.microsoft.com/en-gb/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model)
+
 ChatGPT
 
 ##  Difficulties
