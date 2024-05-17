@@ -121,7 +121,7 @@ In order to work my through the Quickstart guide succesfully and familiarize mys
 
 *  I first read through the guide and tried to identify the specific bits I was didn't understand
 *  I then gave ChatGPT the instructions on the Quickstart guide but asked they be provided in a format appropriate for a beginner
-*  When I got stuck, I gave throught to asking good questions for tutorial help from ChatGPT.
+*  When I got stuck, I tried to ask specific, detailed questions for tutorial help from ChatGPT.
 
 2.  When I tried to create a virtual environment as per the instructions, I got the following error message:
 
