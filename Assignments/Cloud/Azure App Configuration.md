@@ -1,6 +1,25 @@
 ## Subject
 
-Azure App Configuration provides a service to centrally manage application settings and feature flags. Modern programs, especially programs running in a cloud, generally have many components that are distributed in nature. Spreading configuration settings across these components can lead to hard-to-troubleshoot errors during an application deployment. Use App Configuration to store all the settings for your application and secure their accesses in one place.
+Azure App Configuration provides a service to centrally manage application settings and feature flags. 
+
+Modern programs, especially programs running in a cloud, generally have many components that are distributed in nature. 
+
+Spreading configuration settings across these components can lead to hard-to-troubleshoot errors during an application deployment. 
+
+Use App Configuration to store all the settings for your application and secure their accesses in one place.
+
+App Configuration offers the following benefits:
+
+- A fully managed service that can be set up in minutes
+- Flexible key representations and mappings
+- Tagging with labels
+- Point-in-time replay of settings
+- Dedicated UI for feature flag management
+- Comparison of two sets of configurations on custom-defined dimensions
+- Enhanced security through Azure-managed identities
+- Encryption of sensitive information at rest and in transit
+- Native integration with popular frameworks
+
 
 ## Assignment
 
