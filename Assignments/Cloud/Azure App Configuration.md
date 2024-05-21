@@ -8,18 +8,6 @@ Spreading configuration settings across these components can lead to hard-to-tro
 
 Use App Configuration to store all the settings for your application and secure their accesses in one place.
 
-App Configuration offers the following benefits:
-
-- A fully managed service that can be set up in minutes
-- Flexible key representations and mappings
-- Tagging with labels
-- Point-in-time replay of settings
-- Dedicated UI for feature flag management
-- Comparison of two sets of configurations on custom-defined dimensions
-- Enhanced security through Azure-managed identities
-- Encryption of sensitive information at rest and in transit
-- Native integration with popular frameworks
-
 
 ## Assignment
 
@@ -66,14 +54,17 @@ Gain theoretical knowledge of Azure App Configuration.
 App Configuration offers the following benefits:
 
 A fully managed service that can be set up in minutes
-Flexible key representations and mappings
-Tagging with labels
-Point-in-time replay of settings
-Dedicated UI for feature flag management
-Comparison of two sets of configurations on custom-defined dimensions
-Enhanced security through Azure-managed identities
-Encryption of sensitive information at rest and in transit
-Native integration with popular frameworks
+- Flexible key representations and mappings
+- Tagging with labels
+- Point-in-time replay of settings
+- Dedicated UI for feature flag management
+- Comparison of two sets of configurations on custom-defined dimensions
+- Enhanced security through Azure-managed identities
+- Encryption of sensitive information at rest and in transit
+- Native integration with popular frameworks
+
+After completing the practical Quickstart Guide for Azure App Service and the Quickstart Guide for Azure Functions Apps earlier this week, I realized that these concepts/services are related. Here is a summary of how I see the relationship between these subjects:
+
 
 After completing the practical Quicsstart Guide for Azure App Service and the Quickstart Guide for Azure Functions Apps earlier in this week, I realised that these concepts/services are related.  Here is a summary of how I see the relationship between these subjects:
 
