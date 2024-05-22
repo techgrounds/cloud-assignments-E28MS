@@ -66,6 +66,9 @@ A fully managed service that can be set up in minutes
 After completing the practical Quickstart Guide for Azure App Service and the Quickstart Guide for Azure Functions Apps earlier this week, I realized that these concepts/services are related. Here is a summary of how I see the relationship between these subjects:
 
 
+After completing the practical Quickstart Guide for Azure App Service and the Quickstart Guide for Azure Functions Apps earlier this week, I realized that these concepts/services are related. Here is a summary of how I see the relationship between these subjects:
+
+
 After completing the practical Quicsstart Guide for Azure App Service and the Quickstart Guide for Azure Functions Apps earlier in this week, I realised that these concepts/services are related.  Here is a summary of how I see the relationship between these subjects:
 
 ### Azure App Service
