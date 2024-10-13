@@ -83,7 +83,7 @@ I didn't have significant difficulties with this assignment and it felt familiar
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/34959014-4a2e-41f8-bd26-492df82e57fb)
 
-###  Custom data provided in assignment added to the Custom Data section int he Advanced tab:
+###  Custom data provided in assignment added to the Custom Data section in the Advanced tab:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/bc9631eb-1542-43c6-912b-d3fafd2c0b42)
 
