@@ -103,7 +103,7 @@ I first tried authenticating with user Binky Pinky as I had that password at han
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/eb0c37b2-acff-4709-9aed-709ec69e0c24)
 
-So I started from scracth again:
+So I started from scratch again:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/6986eedc-8ba4-402c-95a0-810cbc06ebbb)
 
