@@ -115,7 +115,7 @@ ChatGPT
 
 *   The second challenge I faced was how to manually run a stress test by logging in remotely to my VM.  I reviewed YouTube videos, searched online forums and then resorted to looking at a previous student's GitHub repository and discovered that there is a CLI stress command! Genius! 
 
-I didn't look any further as I wabt  and asked ChatGPT to put together a tuturial as I know knew how to phrase my question correctly to get helpful input.
+I didn't look any further as I asked ChatGPT to put together a tuturial as I now knew how to phrase my question correctly to get helpful input.
 
 *  The next difficulty I encountered was a peristent :Permission denied (publickey) error message that prevented me from connecting to the instance in my VMSS.  
 
