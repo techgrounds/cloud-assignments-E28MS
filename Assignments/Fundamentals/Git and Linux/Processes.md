@@ -14,7 +14,7 @@ Stop or kill the telnet daemon process.
 
 *PID*: Process ID is a unique identifyer assigned when the process is created
 
-*inetd*: internet daemon, who as it turned out, manages the telnet daemon and was they key to doing this assignment
+*inetd*: internet daemon, who as it turned out, manages the telnet daemon and was the key to doing this assignment
 
 
 
