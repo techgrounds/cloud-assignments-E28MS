@@ -40,7 +40,7 @@ When I tried testing the connection as suggested by the instructions I found, I 
 
 I had difficulty finding a command to check what the telnet daemon was listed as in the system, as I thought maybe this was part of why I couldn't start it. I found *It's Foss* and they had clear information, explained well,  that seemed to be more appropriate to what I needed to do for this assignment.
 
-I went back and tried installing the telnet daemon again, as I still couldn't get it started and couldn't figure out why not.  This worked, but then I still couldn't start it.  So having confimred that it was now installed, I focussed my troubleshooting efforts on why I couldn't get it started.  As part of the process, I checked the status of inetd and this gave me an idea of what it would look like when I got the telnet daemon started.
+I went back and tried installing the telnet daemon again. This worked, but then I still couldn't start it.  So having confimred that it was now installed, I focussed my troubleshooting efforts on why I couldn't get it started.  As part of the process, I checked the status of inetd and this gave me an idea of what it would look like when I got the telnet daemon started.
 
 Somewhere along my process I lost track of the fact that I was using Ubuntu and started searching for the wrong information.  This was a huge mistake as it cost me a significant amount of time and frustration but I'm glad it happened in week 1 of my course as I will certainly not make this mistake again.
 
@@ -56,7 +56,7 @@ Several sources suggested that I first update my system so I used *sudo apt upda
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/033b0e11-e2bf-48c4-9dac-41127475ff9b)
 
-I then installed telnet and tried to test the connection.  The information I received stated that 'telnet is already the newest version', which I took to mean that telnet is already installed.
+I then installed telnet and tried to test the connection.  The information I received stated that 'telnet is already the newest version', which confirmed that telnet was already installed.
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/e0e82780-ddd4-45fb-b10f-1d70b59308a2)
 
@@ -84,7 +84,7 @@ But I still couldn't get the telnet daemon started so I checked the status of *i
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5d44a381-5ed9-4ba4-b897-bc557ffac68f)
 
-I then tried to see if I could find the file where the telnet daemon was stored, using the file information listted in the installation information, but this did not go well:
+I then tried to see if I could find the file where the telnet daemon was stored, using the file information listed in the installation information, but this did not go well:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/14ef4128-4342-42ad-8e3e-27dcaae3e02b)
 
@@ -99,7 +99,7 @@ And then I think I found the correct command as I finally had an option to start
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/fffad448-b417-490e-be8d-e2a93e0b84e7)
 
 
-I first tried authenticating with Binky Pinky as I had that password at hand and couldn't remember receiving or creating a password for elmarie_ but this didn't work, so I created a password for elmarie_ but again I couldn't start telnet as telnet-service.service not found
+I first tried authenticating with user Binky Pinky as I had that password at hand and couldn't remember receiving or creating a password for elmarie_ but this didn't work, so I created a password for elmarie_ but again I couldn't start telnet as telnet-service.service not found
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/eb0c37b2-acff-4709-9aed-709ec69e0c24)
 
