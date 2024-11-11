@@ -66,7 +66,7 @@ Next I tried starting telnet daemon but I kept getting error messages.  I then t
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/a88feaa9-21bb-4a46-8dac-10f80850a642)
 
-Which looked super interesting but didn't get me closer to goal (or at least not that I could understand)
+Which looked super interesting but didn't get me closer to my goal (or at least not that I could understand)
 
 So I kept on trying to trouble shoot on how to start telnet daemon.
 
@@ -80,7 +80,7 @@ So next I used *sudo apt install telnetd* and low and behold:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/9f526f0c-bb0e-4cea-8b24-88b16148f932)
 
-But I still couldn't get the telnet daemon started so I checked the status of *inetd*, which also gave me an idea of what I was looking for in establish the telnet daeomon's PID and memory usage:
+But I still couldn't get the telnet daemon started so I checked the status of *inetd*, which also gave me an idea of what I was looking for in establish the telnet daemon's PID and memory usage:
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/5d44a381-5ed9-4ba4-b897-bc557ffac68f)
 
