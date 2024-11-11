@@ -38,9 +38,6 @@ ChatGPT - I tried to only use this if I couldn't find my answer another way, as 
 ## Difficulties
 I didn't understand what 'make a listing'meant - just using the ls command?
 
-## Results
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
-
 ##  Learning and Reflection
 It was fun seeking out commands I haven't used before.  I have more learning to do about how the directory structure works and I need to practice to navigate between different directories and files.  I enjoyed adding text in Linux as I haven't done this before.
 
