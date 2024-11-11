@@ -14,7 +14,7 @@ Change the group ownership of the file to a different group.
 *Permissions*: Different users have different permissions to read, write and execute files.  This is key to managing systems safely.
 *Read* (r): Allows users to read files that they have permissions for
 *Write* (w): Allows users to write files in the directories they have permission for
-*Execute* (x): Allows authorised users to execture script files or in the case of directories, execute allows user to access subdirectores and files 
+*Execute* (x): Allows authorised users to execute script files or in the case of directories, execute allows user to access subdirectores and files 
 
 
 
