@@ -55,7 +55,7 @@ Team mates also shared resources which was useful as it containted different inf
 
 
 ##  Difficulties
-I didn't know which one to choose when presented with a choice and went for the suggested - easiest with a big arrow:
+I didn't know which one to choose when presented with a choice and went for the suggested - easiest with a big arrow::-)
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/d748cd85-813a-4992-92bc-75cd831cc2ae)
 
