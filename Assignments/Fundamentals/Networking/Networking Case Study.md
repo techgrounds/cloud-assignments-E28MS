@@ -60,8 +60,6 @@ Firewall - A network security system or shielding layer between your computer (o
 [Geeks for Geeks](https://www.geeksforgeeks.org/difference-between-hardware-firewall-and-software-firewall/?ref=header_search)
 
 
-##  Difficulties
-
 ##  Results
 
 Using the Bonus Video as a starting place made the proposed architecture easy and logical to understand.  
@@ -70,11 +68,12 @@ In summary, in order to set up a secure network as per the case study, it is imp
 
 This ensures that outside traffic does not have direct access into your network.  
 
-Instead, my proposed architecture seperates the e-commerce copmany's network into several subnets and a VLAN (for the part of the network dealing with outside traffic from customers) and makes use of various network devices like routers (incuding an edge router) and software like ACL's to add additional layers of security, both to control the traffic into the external server that has the client log in details and also internally by seperating the commercial assests from the user zone.
+Instead, my proposed architecture seperates the e-commerce company's network into several subnets and a VLAN (for the part of the network dealing with outside traffic from customers) and makes use of various network devices like routers (incuding an edge router) and software like ACL's to add additional layers of security, both to control the traffic into the external server that has the client 
+log-in details and also internally by seperating the commercial assests from the user zone.
 
 ![image](https://github.com/techgrounds/cloud-assignments-E28MS/assets/151161141/3679fcfe-5eaa-4333-a480-3f1f32a2282a)
 
 
 
 
-##  
+
