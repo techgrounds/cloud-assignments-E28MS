@@ -9,12 +9,12 @@ In this case study you take the role of a network administrator setting up a net
 The office contains the following devices:
 
 
-A web server where our webshop is hosted
-A database with login credentials for users on the webshop
-5 workstations for the office workers
-A printer
-An AD server
-A file server containing internal documents
+-  A web server where our webshop is hosted
+-  A database with login credentials for users on the webshop
+-  5 workstations for the office workers
+-  A printer
+-  An AD server
+-  A file server containing internal documents
 
 
 As a network administrator you get to choose which networking devices get used.
