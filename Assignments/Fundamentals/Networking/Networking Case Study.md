@@ -44,6 +44,10 @@ VLAN's - A Virtual Local Area Network is a way of logically seperating a group o
 
 Firewall - A network security system or shielding layer between your computer (or network) and the internet.  It can be a piece of hardware or software.
 
+Switch -  A network switch connects devices within a network (often a local area network, or LAN) and forwards data packets to and from those devices. Unlike a router, a switch only sends data to the single device it is intended for (which may be another switch, a router, or a user's computer), not to networks of multiple devices.
+
+
+
 
 ##  Resources
 
