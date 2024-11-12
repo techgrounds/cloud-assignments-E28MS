@@ -108,9 +108,6 @@ ChatGPT
 [Geeks for Geeks DHCP](https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/?ref=header_search)
 
 
-##  Difficulties
-I had to consider the reasons the Public IP of my phone and laptop were not the same, despite being on the same home network. As I use a VPN at home, the devices seemed to be connected to different servers, so their IP addresses differed.
-
 ##  Results
 
 1.   In order to find the public IP adress for my tablet, I just googled : What is my IP address? and found several websites that shows this information:
@@ -125,10 +122,7 @@ To get my phone's public IP, I opened my browser and googled the same: What is M
 
 
 
-My phone and tablet's public IP addresses are different, most likely because of I use a VPN at home, the devices seemed to be connected to different servers, so their IP addresses differed. 
-
-
-If they were connected to the same server provided by IPS, their IP addresses should be the same when they're on the same WiFi network.  
+My phone and tablet's public IP addresses are different, because each device on network has a different IP address.
 
 
 2.  I located my phone's private IP address by opening the Settings menu, and from there opening the WiFi settings.  It displayed the IP adress with some other information like Security and Network Speed.
@@ -140,7 +134,7 @@ In order to locate my tablet's private IP address, I used the terminal and the *
 
 3.  I changed my phone's private IPv4 address to the same IPv4 address as my laptop by first changing my phone's private IP address to 'Static' and then changing the last few digits of the IP address on my phone.  Consequently, even though my phone showed that it was connected to the WiFi network, it couldn't access the internet.  Once I reverted the settings back from Static to DHCP, the IP address changed to another one and my phone then connected to the internet as normal.
 
-4.  I changed my phone's IP address to 203.0.113.1, which is outside my network and it wouldn't connect to the internet.  Once I revered back to DHCP, it re-connected and started working as normal.
+4.  I changed my phone's IP address to 203.0.113.1, which is outside my network and it wouldn't connect to the internet.  Once I reverted back to DHCP, it re-connected and started working as normal.
   
 
 ##  Learning/Reflection
